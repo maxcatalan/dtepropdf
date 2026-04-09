@@ -13,7 +13,14 @@ function formatLabel(key) {
 }
 
 export default function AggregatesPanel({ aggregates }) {
-  const entries = Object.entries(aggregates);
+  // Monto Total always goes last
+  const ORDER = ['montoNeto', 'montoExento', 'iva', 'ivaTerc'];
+  const sorted = [
+    ...ORDER.filter(k => k in aggregates).map(k => [k, aggregates[k]]),
+    ...Object.entries(aggregates).filter(([k]) => k.startsWith('imptoReten')),
+    ...Object.entries(aggregates).filter(([k]) => k === 'montoTotal'),
+  ];
+  const entries = sorted;
 
   return (
     <div className="aggregates-panel">

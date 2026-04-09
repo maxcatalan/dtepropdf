@@ -96,7 +96,9 @@ function extractDocumentMetadata(documento) {
     const tipo  = getElementText(el, 'TipoImp');
     const tasa  = getElementText(el, 'TasaImp');
     const monto = getElementText(el, 'MontoImp');
-    const labelParts = [`Tipo ${tipo || (i + 1)}`, tasa && `Tasa ${tasa}%`].filter(Boolean);
+    // Normalize rate to avoid duplicates: "18.0%", "18.00%", "18%" → "18%"
+    const tasaNorm = tasa ? String(parseFloat(tasa)) : null;
+    const labelParts = [`Tipo ${tipo || (i + 1)}`, tasaNorm && `Tasa ${tasaNorm}%`].filter(Boolean);
     const label = `imptoReten (${labelParts.join(' | ')})`;
     if (monto) imptoRetenEntries[label] = monto;
   });
