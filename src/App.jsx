@@ -8,6 +8,7 @@ function App() {
   const [error, setError] = useState('');
   const [selectedIdx, setSelectedIdx] = useState(0);
   const [showAggregates, setShowAggregates] = useState(true);
+  const [viewMode, setViewMode] = useState('detail'); // 'detail' or 'table'
 
   const handleFilesSelected = async (files) => {
     setError('');
@@ -30,16 +31,35 @@ function App() {
   };
 
   const calculateAggregates = () => {
+    // Only aggregate these financial amount fields (not rates or identifiers)
+    const fieldsToAggregate = [
+      'montoNeto',
+      'montoExento',
+      'iva',
+      'ivaTerc',
+      'montoTotal'
+    ];
+
     const aggregates = {};
 
     for (const invoice of invoices) {
-      for (const [key, value] of Object.entries(invoice.metadata)) {
+      for (const key of fieldsToAggregate) {
+        const value = invoice.metadata[key];
         if (!value || value === '') continue;
 
-        // Only aggregate numeric fields (exclude RUT, names, etc)
         const numVal = parseInt(value);
         if (!isNaN(numVal) && numVal > 0) {
           aggregates[key] = (aggregates[key] || 0) + numVal;
+        }
+      }
+
+      // Also aggregate all imptoReten entries (taxes)
+      for (const [key, value] of Object.entries(invoice.metadata)) {
+        if (key.startsWith('imptoReten')) {
+          const numVal = parseInt(value);
+          if (!isNaN(numVal) && numVal > 0) {
+            aggregates[key] = (aggregates[key] || 0) + numVal;
+          }
         }
       }
     }
@@ -108,30 +128,51 @@ function App() {
 
   return (
     <div className="page-container">
-      {/* Batch Progress Bar */}
-      <div className="batch-progress-bar">
-        <span className="batch-progress-label">Batch invoice {selectedIdx + 1} of {invoices.length}</span>
-        <div className="batch-nav-arrows">
-          <button
-            className="batch-arrow-btn"
-            onClick={() => setSelectedIdx(Math.max(0, selectedIdx - 1))}
-            disabled={selectedIdx === 0}
-          >
-            ←
-          </button>
-          <button
-            className="batch-arrow-btn"
-            onClick={() => setSelectedIdx(Math.min(invoices.length - 1, selectedIdx + 1))}
-            disabled={selectedIdx === invoices.length - 1}
-          >
-            →
-          </button>
+      {/* View Mode Tabs */}
+      <div className="view-mode-tabs">
+        <button
+          className={`view-tab ${viewMode === 'detail' ? 'active' : ''}`}
+          onClick={() => setViewMode('detail')}
+        >
+          Detail
+        </button>
+        <button
+          className={`view-tab ${viewMode === 'table' ? 'active' : ''}`}
+          onClick={() => setViewMode('table')}
+        >
+          Table
+        </button>
+        <div className="tab-actions">
+          <button onClick={downloadCSV} className="btn-primary">⬇ CSV</button>
+          <button onClick={() => setInvoices([])} className="btn-secondary">Reset</button>
         </div>
-        <button onClick={downloadCSV} className="btn-primary">⬇ Download CSV</button>
-        <button onClick={() => setInvoices([])} className="btn-secondary">Reset</button>
       </div>
 
-      {/* Two-column layout */}
+      {/* Batch Progress Bar (Detail View Only) */}
+      {viewMode === 'detail' && (
+        <div className="batch-progress-bar">
+          <span className="batch-progress-label">Invoice {selectedIdx + 1} of {invoices.length}</span>
+          <div className="batch-nav-arrows">
+            <button
+              className="batch-arrow-btn"
+              onClick={() => setSelectedIdx(Math.max(0, selectedIdx - 1))}
+              disabled={selectedIdx === 0}
+            >
+              ←
+            </button>
+            <button
+              className="batch-arrow-btn"
+              onClick={() => setSelectedIdx(Math.min(invoices.length - 1, selectedIdx + 1))}
+              disabled={selectedIdx === invoices.length - 1}
+            >
+              →
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Detail View */}
+      {viewMode === 'detail' && (
       <div className="content-layout">
         {/* Left sidebar - Metadata */}
         <div className="sidebar">
@@ -237,6 +278,45 @@ function App() {
           </div>
         </div>
       </div>
+      )}
+
+      {/* Table View - All Invoices */}
+      {viewMode === 'table' && (
+        <div className="table-view-wrapper">
+          <div className="table-wrapper">
+            <table className="data-table full-width">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Folio</th>
+                  <th>Date</th>
+                  <th>Vendor</th>
+                  <th>Vendor RUT</th>
+                  <th>Net</th>
+                  <th>IVA</th>
+                  <th>Total</th>
+                  <th>Items</th>
+                </tr>
+              </thead>
+              <tbody>
+                {invoices.map((inv, idx) => (
+                  <tr key={idx} onClick={() => { setViewMode('detail'); setSelectedIdx(idx); }} style={{ cursor: 'pointer' }}>
+                    <td>{idx + 1}</td>
+                    <td>{inv.metadata.folio || '—'}</td>
+                    <td>{inv.metadata.fechaEmision || '—'}</td>
+                    <td>{(inv.metadata.razonSocialEmisor || '—').substring(0, 30)}</td>
+                    <td>{inv.metadata.rutEmisor || '—'}</td>
+                    <td>${parseInt(inv.metadata.montoNeto || 0).toLocaleString()}</td>
+                    <td>${parseInt(inv.metadata.iva || 0).toLocaleString()}</td>
+                    <td style={{ fontWeight: 600 }}>${parseInt(inv.metadata.montoTotal || 0).toLocaleString()}</td>
+                    <td>{inv.items.length}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
