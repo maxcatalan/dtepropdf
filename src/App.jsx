@@ -261,7 +261,13 @@ function App() {
       )}
 
       {/* Table View - All Invoices */}
-      {viewMode === 'table' && (
+      {viewMode === 'table' && (() => {
+        // Collect all unique imptoReten keys across all invoices (preserving first-seen order)
+        const taxKeys = [...new Set(
+          invoices.flatMap(inv => Object.keys(inv.metadata).filter(k => k.startsWith('imptoReten')))
+        )];
+
+        return (
         <div className="table-view-wrapper">
           <div className="table-wrapper">
             <table className="data-table full-width">
@@ -269,13 +275,16 @@ function App() {
                 <tr>
                   <th>#</th>
                   <th>Folio</th>
-                  <th>Date</th>
-                  <th>Vendor</th>
-                  <th>Vendor RUT</th>
-                  <th>Net</th>
+                  <th>Fecha</th>
+                  <th>Proveedor</th>
+                  <th>RUT</th>
+                  <th>Neto</th>
                   <th>IVA</th>
+                  {taxKeys.map(k => (
+                    <th key={k}>{k.replace('imptoReten ', '')}</th>
+                  ))}
                   <th>Total</th>
-                  <th>Items</th>
+                  <th>Ítems</th>
                 </tr>
               </thead>
               <tbody>
@@ -288,6 +297,9 @@ function App() {
                     <td>{inv.metadata.rutEmisor || '—'}</td>
                     <td>${parseInt(inv.metadata.montoNeto || 0).toLocaleString()}</td>
                     <td>${parseInt(inv.metadata.iva || 0).toLocaleString()}</td>
+                    {taxKeys.map(k => (
+                      <td key={k}>{inv.metadata[k] ? '$' + parseInt(inv.metadata[k]).toLocaleString() : '—'}</td>
+                    ))}
                     <td style={{ fontWeight: 600 }}>${parseInt(inv.metadata.montoTotal || 0).toLocaleString()}</td>
                     <td>{inv.items.length}</td>
                   </tr>
@@ -296,7 +308,8 @@ function App() {
             </table>
           </div>
         </div>
-      )}
+        );
+      })()}
     </div>
   );
 }
