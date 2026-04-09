@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { parseSIISetDTE } from './services/dteParser';
+import AggregatesPanel from './components/AggregatesPanel';
 import './App.css';
 
 function App() {
@@ -148,6 +149,13 @@ function App() {
         </div>
       </div>
 
+      {/* Aggregates Panel - Shows across both views */}
+      <AggregatesPanel
+        aggregates={calculateAggregates()}
+        showAggregates={showAggregates}
+        onToggle={() => setShowAggregates(!showAggregates)}
+      />
+
       {/* Batch Progress Bar (Detail View Only) */}
       {viewMode === 'detail' && (
         <div className="batch-progress-bar">
@@ -176,37 +184,6 @@ function App() {
       <div className="content-layout">
         {/* Left sidebar - Metadata */}
         <div className="sidebar">
-          {/* Aggregates Section */}
-          <div className="sidebar-section">
-            <div className="sidebar-section-header">
-              <h3>Totals</h3>
-              <button
-                className="toggle-btn"
-                onClick={() => setShowAggregates(!showAggregates)}
-                title={showAggregates ? 'Hide' : 'Show'}
-              >
-                {showAggregates ? '−' : '+'}
-              </button>
-            </div>
-            {showAggregates && (
-              <div className="metadata-list">
-                {Object.entries(calculateAggregates()).map(([key, value]) => {
-                  const label = key
-                    .replace(/([A-Z])/g, ' $1')
-                    .replace(/^./, str => str.toUpperCase())
-                    .trim();
-
-                  return (
-                    <div key={key} className="metadata-row aggregate">
-                      <span className="meta-label">{label}</span>
-                      <span className="meta-value">{value.toLocaleString()}</span>
-                    </div>
-                  );
-                })}
-              </div>
-            )}
-          </div>
-
           {/* Invoice Metadata Section */}
           <div className="sidebar-section">
             <div className="sidebar-section-header">

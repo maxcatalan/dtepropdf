@@ -1,0 +1,2894 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SetDTE>
+<DTE version="1.0" >        <Documento ID="F993673T33">
+            <Encabezado>
+                <IdDoc>
+                   <TipoDTE>33</TipoDTE>
+                   <Folio>993673</Folio>
+                   <FchEmis>2026-03-05</FchEmis>
+                </IdDoc>
+                <Emisor>
+                   <RUTEmisor>76971160-0</RUTEmisor>
+                   <RznSoc>COMERC. Y DISTRIB. DE PROD. ALIMENTICIOS</RznSoc>
+                   <GiroEmis>DISTRIBUIDORA DE CONFITES</GiroEmis>
+                   <Acteco>51225</Acteco>
+                   <DirOrigen>ARAUS 172</DirOrigen>
+                   <CmnaOrigen>QUILPUE</CmnaOrigen>
+                   <CiudadOrigen>VALPARAISO</CiudadOrigen>
+                </Emisor>
+                <Receptor>
+                   <RUTRecep>18799561-2</RUTRecep>
+                   <RznSocRecep>MAXIMILIANO ANTONIO CATALAN SANDOVAL</RznSocRecep>
+                   <GiroRecep>MINIMARKET</GiroRecep>      
+                   <DirRecep>3 NORTE N?60  LOCAL 3</DirRecep>     
+                   <CmnaRecep>VINA DEL MAR</CmnaRecep>       
+                   <CiudadRecep>VALPARAISO</CiudadRecep>     
+                </Receptor>
+                <Totales>
+                   <MntNeto>38371</MntNeto>
+                   <TasaIVA>19</TasaIVA>
+                   <IVA>7290</IVA>
+                   <MntTotal>45661</MntTotal>
+                </Totales>
+            </Encabezado>
+            <Detalle>
+                <NroLinDet>1</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INTERNA</TpoCodigo>
+                    <VlrCodigo>5151288</VlrCodigo>
+                </CdgItem>
+                <NmbItem>BON O BON LECHE 12X30X15 GR.</NmbItem>
+                <DscItem></DscItem>
+                <QtyItem>1</QtyItem>
+                <UnmdItem>DP</UnmdItem>
+                <PrcItem>5979</PrcItem>
+                <MontoItem>5979</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>2</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INTERNA</TpoCodigo>
+                    <VlrCodigo>5115331</VlrCodigo>
+                </CdgItem>
+                <NmbItem>BIGTIME ULTRA CITRUS BLUEBERRY 12X12X26.</NmbItem>
+                <DscItem></DscItem>
+                <QtyItem>1</QtyItem>
+                <UnmdItem>DP</UnmdItem>
+                <PrcItem>10472</PrcItem>
+                <MontoItem>10472</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>3</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INTERNA</TpoCodigo>
+                    <VlrCodigo>5115316</VlrCodigo>
+                </CdgItem>
+                <NmbItem>BIGTIME STRONG 12X20X220GRS.</NmbItem>
+                <DscItem></DscItem>
+                <QtyItem>1</QtyItem>
+                <UnmdItem>DP</UnmdItem>
+                <PrcItem>5505</PrcItem>
+                <MontoItem>5505</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>4</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INTERNA</TpoCodigo>
+                    <VlrCodigo>5115315</VlrCodigo>
+                </CdgItem>
+                <NmbItem>BIGTIME MENTA  12X20X220GRS.</NmbItem>
+                <DscItem></DscItem>
+                <QtyItem>1</QtyItem>
+                <UnmdItem>DP</UnmdItem>
+                <PrcItem>5505</PrcItem>
+                <MontoItem>5505</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>5</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INTERNA</TpoCodigo>
+                    <VlrCodigo>5141863</VlrCodigo>
+                </CdgItem>
+                <NmbItem>ALKA 2 MENTOL 12X12X28GRS</NmbItem>
+                <DscItem></DscItem>
+                <QtyItem>1</QtyItem>
+                <UnmdItem>DP</UnmdItem>
+                <PrcItem>3617</PrcItem>
+                <MontoItem>3617</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>6</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INTERNA</TpoCodigo>
+                    <VlrCodigo>5141790</VlrCodigo>
+                </CdgItem>
+                <NmbItem>ALKA 2 CEREZA 12X12X28GRS</NmbItem>
+                <DscItem></DscItem>
+                <QtyItem>1</QtyItem>
+                <UnmdItem>DP</UnmdItem>
+                <PrcItem>3617</PrcItem>
+                <MontoItem>3617</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>7</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INTERNA</TpoCodigo>
+                    <VlrCodigo>5168986</VlrCodigo>
+                </CdgItem>
+                <NmbItem>SALVADO CHIA TRIPACK 1x12x519g</NmbItem>
+                <DscItem></DscItem>
+                <QtyItem>1</QtyItem>
+                <UnmdItem>UN</UnmdItem>
+                <PrcItem>1838</PrcItem>
+                <MontoItem>1838</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>8</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INTERNA</TpoCodigo>
+                    <VlrCodigo>5169024</VlrCodigo>
+                </CdgItem>
+                <NmbItem>SALVADO LINAZA 1X12X519 GR</NmbItem>
+                <DscItem></DscItem>
+                <QtyItem>1</QtyItem>
+                <UnmdItem>UN</UnmdItem>
+                <PrcItem>1838</PrcItem>
+                <MontoItem>1838</MontoItem>
+            </Detalle>
+            <TED version="1.0">
+                <DD>
+                   <RE>76971160-0</RE>
+                   <TD>33</TD>
+                   <F>993673</F>
+                   <FE>2026-03-05</FE>
+                   <RR>18799561-2</RR>
+                   <RSR>MAXIMILIANO ANTONIO CATALAN SANDOVAL</RSR>
+                   <MNT>45661</MNT>
+                   <IT1>BON O BON LECHE 12X30X15 GR.</IT1>
+                   <CAF version="1.0">
+                      <DA>
+                         <RE>76971160-0</RE>   
+                         <RS>DISTRIBUIDORA COMCELL LIMITADA</RS>
+                         <TD>33</TD>
+                         <RNG>
+                            <D>990320</D>
+                            <H>1013315</H>
+                         </RNG>
+                         <FA>2026-02-10</FA>
+                         <RSAPK>
+                            <M>3SGdtGlvz4p4DaC/kiAyxAnpdQBvLTeNaSI2ZFY8p/MV9jP8oM1b4OHl28IdDA5uBTKRS9TYlDVZg0fhaopqqw==</M> 
+                            <E>Aw==</E>
+                         </RSAPK>
+                         <IDK>300</IDK>
+                      </DA>
+                      <FRMA algoritmo="SHA1withRSA">ixpa7CVfaV4m7Mx1YxDKXtxTcGsEucE4AKDyzecPIMtv8B5dLCRiyWlb+8XlaCxv84jq4X7g919ND8hxy9XQug==</FRMA>
+                   </CAF>
+                   <TSTED>2026-03-05T16:34:56</TSTED>
+                </DD>
+                <FRMT algoritmo="SHA1withRSA">lGBuTSQDTtcNGmauxLCKn0Yf7XWQ7wEVBS1I/kCWs+BWa8/+12JWPtp0e9DRn4Yz
+8riYbM65GsLCFB5I1WPAhg==</FRMT>
+            </TED>
+            <TmstFirma>2026-03-05T16:34:57</TmstFirma>
+        </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+<Reference URI="#F993673T33">
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>9IukAa/hC2nWen5dCkNWv564tSo=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+ZMLeY3xithi1ot6OSoNojeKljm+lyjkydT35a2SRhRi3AFGcE4Fa/PP1GUlR0BoVZjfdQ88m2fsG
+wHSTtUFqN/Bi0xNdy63FlFPzWLD81pWziJ1wH7Jxsp2Nw9EatUlvDrHGTNSVtjZRuv8mmrPBW6RF
+24KCVVrPF3KKddsaEfFeQZbhzn+runkF7eua98INenqos23b6KA/2auWVCxK6pMdC99Xr7gB27La
+AxxpGFO7sNXyPP8yEkO0hASuSl7dQYUSnWVnwnc3xwe8HfUVASxZvzZF1gKo83MgUIJSAiTQPPel
+leY1CO1DPpJPeIwQeB5qfrsLRpm009ZKHUqGEg==
+</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+mZ21U8Vk5SuquxH1026SX6t7LkMu5xdPrjWWg4yegE/JmqP6q85U8wx/qxJWbbR37ehZzcOvbdJx
+O36OPmQurbm6R04rOUOnsy4I3F5E3MGYIOkeeIjj/nzxhcaXQsp126moNqUpMdCueaEFiXjsYINp
+gIs9YfZYX3VlHcZ9LbWf1LIaZXjJ8cZLu7PjgyxQwjeinhSzDppj9ZnS8B3EbAKV6Jofh/QOM4O2
+xBYvgF/AOIRIZfQqjRPRmPbBt5fKy0hGgTjzO5SwPYgK18hC61qRPpn1JMW9vQ8KzgOI1zVcnm+t
+DIsq1aIeLS9eGSTS7DYNhrjrKcRTSrMHh2qpLQ==
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>
+MIIHxjCCBa6gAwIBAgIKZdLOqQABAAeTBjANBgkqhkiG9w0BAQsFADCBvzELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQD
+ExVFLUNFUlRDSElMRSBDQSBGRVMgMDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNo
+aWxlLmNsMB4XDTIzMTAwMzE5MjEwNVoXDTI2MTAwMjE5MjEwNVowgcIxCzAJBgNVBAYTAkNMMRMw
+EQYDVQQIEwpWQUxQQVJBSVNPMRQwEgYDVQQHEwtNQVJHQSBNQVJHQTEnMCUGA1UEChMeRElTVFJJ
+QlVJRE9SQSBDT01DRUxMIExJTUlUQURBMQowCAYDVQQLDAEqMSQwIgYDVQQDExtDUklTVElBTiBF
+U1RFQkFOICBMT09TIExFT04xLTArBgkqhkiG9w0BCQEWHkpFQU5FVFRFLkFUQ0FTRVNPUkVTQEdN
+QUlMLkNPTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJmdtVPFZOUrqrsR9dNukl+r
+ey5DLucXT641loOMnoBPyZqj+qvOVPMMf6sSVm20d+3oWc3Dr23ScTt+jj5kLq25ukdOKzlDp7Mu
+CNxeRNzBmCDpHniI4/588YXGl0LKddupqDalKTHQrnmhBYl47GCDaYCLPWH2WF91ZR3GfS21n9Sy
+GmV4yfHGS7uz44MsUMI3op4Usw6aY/WZ0vAdxGwCleiaH4f0DjODtsQWL4BfwDiESGX0Ko0T0Zj2
+wbeXystIRoE48zuUsD2ICtfIQutakT6Z9STFvb0PCs4DiNc1XJ5vrQyLKtWiHi0vXhkk0uw2DYa4
+6ynEU0qzB4dqqS0CAwEAAaOCAr0wggK5MIIBXwYDVR0gBIIBVjCCAVIwggFOBggrBgEEAcNSBTCC
+AUAwPQYIKwYBBQUHAgEWMWh0dHBzOi8vd3d3LmUtY2VydGNoaWxlLmNsL3BvbGl0aWNhcy15LXBy
+YWN0aWNhcy8wgf4GCCsGAQUFBwICMIHxHoHuAEUAbAAgAHIAZQBzAHAAbwBuAGQAZQByACAAZQBz
+AHQAZQAgAGYAbwByAG0AdQBsAGEAcgBpAG8AIABlAHMAIAB1AG4AIAByAGUAcQB1AGkAcwBpAHQA
+bwAgAGkAbgBkAGkAcwBwAGUAbgBzAGEAYgBsAGUAIABwAGEAcgBhACAAZABhAHIAIABpAG4AaQBj
+AGkAbwAgAGEAbAAgAHAAcgBvAGMAZQBzAG8AIABkAGUAIABjAGUAcgB0AGkAZgBpAGMAYQBjAGkA
+8wBuAC4AIABQAG8AcwB0AGUAcgBpAG8AcgBtAGUAbgB0AGUALDAdBgNVHQ4EFgQU7T7Mlyqslbh2
+MhKUDf5msM0TzdwwCwYDVR0PBAQDAgTwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMTAyMjM3
+MzEtNTAfBgNVHSMEGDAWgBR01iGz9FroLXy7WQZjQ+9ptDqTBDBABgNVHR8EOTA3MDWgM6Axhi9o
+dHRwOi8vY3JsLmVjZXJ0Y2hpbGUuY2wvRS1DRVJUQ0hJTEVDQUZFUzAyLmNybDA9BggrBgEFBQcB
+AQQxMC8wLQYIKwYBBQUHMAGGIWh0dHA6Ly9vY3NwZmVzLmVjZXJ0Y2hpbGUuY2wvb2NzcDA8Bgkr
+BgEEAYI3FQcELzAtBiUrBgEEAYI3FQiB3dJNl9Q6homdBoeIzm+Dr8xgRYbS7AiGx8p9AgFkAgEH
+MCMGA1UdEgQcMBqgGAYIKwYBBAHBAQKgDBYKOTY5MjgxODAtNTANBgkqhkiG9w0BAQsFAAOCAgEA
+HfBCGh9Exn7Q3CJRdAxmVcEENrjLb4xRvLzXCdhMOjWAaY/ggpICecvcsS32FZ14IlGPeh+HCTWr
+a3r2UeM2tMixGkkvdG/cXS9+EDHhlwHEoJ6VznM0K9n4XF1TubU/LN/ihAjYcC+gvayDOdq1ZvnE
+CQMVD7saVsKX7bS3csJulmjhMZvze6n5mIxAtFHbbTemcbxn50q/2eCxQahIaBBZ8vM5VULJTgZ2
+2b6diHrJoQ6azCvIxMVBmGYDFu0/KrgUz7zOBmoEyKopfsc71N8eDpW1t5Oy0wWpS1oDG23QL063
+gR0jd1P1jZ1+WlSh07zqiAeV92a09J8VJoOziOXHwxN8/c2DXYrJsFIdXUEBNyNFGBjIv6pRbjq8
+Rxy1Cw1AlXit2FW0xvAZHEBxXQduNg3Mypm2d/lYoMLrW9REDXPSP437Hqc7KGF2Rh3GXAzTXLzI
+W+n11pol4d6UxDoqFv2mQvoBUnELwFneP83TXZIGvDVob5AvWhImp46TI6YhDTqFqyKUh0NFPaxg
+X/QQ0gSw+7Raf6TamVPtSEoQZMZdzDmQelSJnKwsrc+JPey+RIzwBIfle+1owqei0unjS/fSDjjn
+J3Rfs3/l/BchCZlDd45C1yIWt6yC+DSVXPm1/ZviN+sXjGQLA78sWIynQFdpE1fKIewI35jIFA4=
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></DTE>
+<DTE version="1.0" >
+	<Documento ID="DOCT33F6333610P4">
+		<Encabezado>
+			<IdDoc>
+				<TipoDTE>33</TipoDTE>
+				<Folio>6333610</Folio>
+				<FchEmis>2026-03-05</FchEmis>
+				<FchVenc>2026-03-05</FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUTEmisor>76232647-7</RUTEmisor>
+				<RznSoc>WALMART CHILE MAYORISTA LIMITADA</RznSoc>
+				<GiroEmis>IMPORT. - EXPORT. PROD. ALIM., ARTS HOGAR,PERFUM.,ARR. COMPRA/VTA MAQ./HERRAM.</GiroEmis>
+				<Acteco>521</Acteco>
+				<Sucursal>959</Sucursal>
+				<DirOrigen>Av. Lib. Bdo. O higgins #1280</DirOrigen>
+				<CmnaOrigen>Rancagua</CmnaOrigen>
+				<CiudadOrigen>Rancagua</CiudadOrigen>
+				<CdgVendedor>37</CdgVendedor>
+			</Emisor>
+			<Receptor>
+				<RUTRecep>18799561-2</RUTRecep>
+				<CdgIntRecep>001879956102</CdgIntRecep>
+				<RznSocRecep>SANDOVAL CATALAN MAXIMILIANO ANTONIO</RznSocRecep>
+				<Extranjero>
+					<NumId>0</NumId>
+				</Extranjero>
+				<GiroRecep>MINIMARKET</GiroRecep>
+				<DirRecep>3 NORTE60 LOCAL 3 PLAN</DirRecep>
+				<CmnaRecep>Vina del Mar</CmnaRecep>
+				<CiudadRecep>Valparaiso</CiudadRecep>
+			</Receptor>
+			<Totales>
+				<MntNeto>77342</MntNeto>
+				<MntExe>0</MntExe>
+				<TasaIVA>19.0</TasaIVA>
+				<IVA>14695</IVA>
+				<IVATerc>14695</IVATerc>
+		<ImptoReten>
+			<TipoImp>271</TipoImp>
+			<TasaImp>18.0</TasaImp>
+			<MontoImp>2113</MontoImp>
+		</ImptoReten>
+		<ImptoReten>
+			<TipoImp>27</TipoImp>
+			<TasaImp>10.0</TasaImp>
+			<MontoImp>3572</MontoImp>
+		</ImptoReten>
+				<MntTotal>97720</MntTotal>
+				<VlrPagar>0</VlrPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07806500506829</VlrCodigo>
+			</CdgItem>
+			<NmbItem>CONFORT22X4</NmbItem>
+			<DscItem>UN 0000</DscItem>
+			<QtyItem>12.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>831.933</PrcItem>
+			<MontoItem>9983</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>2</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07801610305560</VlrCodigo>
+			</CdgItem>
+			<NmbItem>COCAZERO 3LT</NmbItem>
+			<DscItem>UN 0000</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>1875.969</PrcItem>
+			<CodImpAdic>27</CodImpAdic>
+			<MontoItem>11256</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>3</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07801620006600</VlrCodigo>
+			</CdgItem>
+			<NmbItem>MAS.CITRUS.</NmbItem>
+			<DscItem>UN 0000@@Precio Antes Ahora#D#930</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>922.481</PrcItem>
+			<CodImpAdic>27</CodImpAdic>
+			<MontoItem>5535</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>4</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07801620006631</VlrCodigo>
+			</CdgItem>
+			<NmbItem>MAS GRANA</NmbItem>
+			<DscItem>UN 0000@@Precio Antes Ahora#D#930</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>922.481</PrcItem>
+			<CodImpAdic>27</CodImpAdic>
+			<MontoItem>5535</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>5</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07801620006655</VlrCodigo>
+			</CdgItem>
+			<NmbItem>CACHANTUN</NmbItem>
+			<DscItem>UN 0000@@Precio Antes Ahora#D#651</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>844.961</PrcItem>
+			<CodImpAdic>27</CodImpAdic>
+			<MontoItem>5070</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>6</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07802820452365</VlrCodigo>
+			</CdgItem>
+			<NmbItem>MILILITRO</NmbItem>
+			<DscItem>UN 0000</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>767.442</PrcItem>
+			<CodImpAdic>27</CodImpAdic>
+			<MontoItem>4605</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>7</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07802820651157</VlrCodigo>
+			</CdgItem>
+			<NmbItem>POWERADE 600</NmbItem>
+			<DscItem>UN 0000</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>655.462</PrcItem>
+			<MontoItem>3933</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>8</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07803600031275</VlrCodigo>
+			</CdgItem>
+			<NmbItem>SAL MESA LOB</NmbItem>
+			<DscItem>UN 0000</DscItem>
+			<QtyItem>10.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>361.345</PrcItem>
+			<MontoItem>3613</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>9</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07801620853396</VlrCodigo>
+			</CdgItem>
+			<NmbItem>NECTAR NAR/L</NmbItem>
+			<DscItem>UN 0000@@Precio Antes Ahora#D#279</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>1085.271</PrcItem>
+			<CodImpAdic>27</CodImpAdic>
+			<MontoItem>6512</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>10</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07801620005160</VlrCodigo>
+			</CdgItem>
+			<NmbItem>GATCBL1.0</NmbItem>
+			<DscItem>UN 0000@@Precio Antes Ahora#D#857</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>1025.21</PrcItem>
+			<MontoItem>6151</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>11</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07801620011611</VlrCodigo>
+			</CdgItem>
+			<NmbItem>NECTAR DURAZ</NmbItem>
+			<DscItem>UN 0000@@Precio Antes Ahora#D#263</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>1021.898</PrcItem>
+			<CodImpAdic>271</CodImpAdic>
+			<MontoItem>6131</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>12</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07801620011604</VlrCodigo>
+			</CdgItem>
+			<NmbItem>NECTAR NARAN</NmbItem>
+			<DscItem>UN 0000@@Precio Antes Ahora#D#263</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>1021.898</PrcItem>
+			<CodImpAdic>271</CodImpAdic>
+			<MontoItem>6131</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>13</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07801620000738</VlrCodigo>
+			</CdgItem>
+			<NmbItem>NECTAR DURAZ</NmbItem>
+			<DscItem>UN 0000</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>1176.471</PrcItem>
+			<MontoItem>7059</MontoItem>
+		</Detalle>
+		<DscRcgGlobal>
+			<NroLinDR>1</NroLinDR>
+			<TpoMov>D</TpoMov>
+			<GlosaDR>@@Descuento Global</GlosaDR>
+			<TpoValor>$</TpoValor>
+			<ValorDR>4173</ValorDR>
+		</DscRcgGlobal>
+		<TED version="1.0"><DD><RE>76232647-7</RE><TD>33</TD><F>6333610</F><FE>2026-03-05</FE><RR>18799561-2</RR><RSR>SANDOVAL CATALAN MAXIMILIANO ANTONIO</RSR><MNT>97720</MNT><IT1>CONFORT22X4</IT1><CAF version="1.0"><DA><RE>76232647-7</RE><RS>WALMART CHILE MAYORISTA LIMITADA</RS><TD>33</TD><RNG><D>6306443</D><H>6356442</H></RNG><FA>2026-02-13</FA><RSAPK><M>st73cszPN0ZxlhQlD1aG3SomIYOedoicJcjCLEPrIOE4LfiQsb4rgfF2T/v3z/xHmBMtcYPbJwTRSXoO6DGWlQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">li2goXCLiw/mXA83PfgRlsvuJIUVOMFLdDNX4bwDLTyc8iGqWAf0kRBcUcj6QxfvO2dc6wWDxTE71mfSUrChyg==</FRMA></CAF><TSTED>2026-03-05T09:01:06</TSTED></DD><FRMT algoritmo="SHA1withRSA">FhA1UBIS0UG/7txZxqp2U8J9KLQ8RcUC5QWv+BIi/D0o2wTJKOsS8lJzkPdhmvYVUfwQgDqJ+cLw
+X8nsKgWeLw==</FRMT></TED>
+		<TmstFirma>2026-03-05T09:01:06</TmstFirma>
+	</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#DOCT33F6333610P4"><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>4PE3CHXmECt6VaN4OXIXTXJCeCA=</DigestValue></Reference></SignedInfo><SignatureValue>o0gBtDiFIxSXPOYJKTHpT876ds2bJvzsnxMAJPUUslTy3nNtqCqRq+48QR12oAjs1hAaQwLfJ3yd
+TMPgl2dTaCCzIqMKDcKek2njbPFp3nY9EP8G6vkjAATzBr08VfYNIMfHZvcfTTwnpsZqNnA+LBRO
+781dkwYsJBMsgad+i8djf8uhje0lO4VUEb8kQPkGBYRNu5nTWA6LncAXJ5Q/jdImoE6erwpKngpU
+vKmXS3RqyjD9Bw+Q3rw6aeN6hh+JjYjqq+YVwsLueza1YMgvx2ZCZhUKRkIQIXtEUv3fogwW9InF
+rldel211FHfUOd8bZnltkRbq6LMRTjXW+rOd1A==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ruWRusq1JUldhC5oocl9h9P0sRA7qeVh+JRpmm7ZM881Wo/EiWh6596VPudXNsHGAAU9ub1M95Jq
+vlXhkWlDaq1a/DEPZvVJscBGg/7KUP2muSZYo9Wr66/52yf5NuJ6Sgs27V9Ga9shmnhsh+c/Ejaq
+PGyrUHoWTlcjy3GMtBwltzU09fUY0+KDHnutrrY7peaTy4o0tzSVw2lgxAVUbkS6gpotiIsgofW3
+V7L9BIK3W77iN1CiOwjkaiTN2HN5NpZd28lMG/Kcdb/NhBnRNhdWcARBenwIv2OMaOONwo74Gmu2
+wHOAA0epjwytGfW9AIn8uipW2+7tG26lW2iLdQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIHyzCCBbOgAwIBAgIKMB5phQABAA9j1DANBgkqhkiG9w0BAQsFADCBvzELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQD
+ExVFLUNFUlRDSElMRSBDQSBGRVMgMDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNo
+aWxlLmNsMB4XDTI1MDgxMzE3NDAxNloXDTI4MDgxMjE3NDAxNlowgccxCzAJBgNVBAYTAkNMMSIw
+IAYDVQQIExlNRVRST1BPTElUQU5BIERFIFNBTlRJQUdPMREwDwYDVQQHEwhTQU5USUFHTzEbMBkG
+A1UEChMSV0FMTUFSVCBDSElMRSBTLkEuMQowCAYDVQQLDAEqMSswKQYDVQQDEyJDQVJMT1MgQUxG
+T05TTyBTRVBVTFZFREEgQUxNRU5EUkFTMSswKQYJKoZIhvcNAQkBFhxDQVJMT1MuU0VQVUxWRURB
+QFdBTE1BUlQuQ09NMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAruWRusq1JUldhC5o
+ocl9h9P0sRA7qeVh+JRpmm7ZM881Wo/EiWh6596VPudXNsHGAAU9ub1M95JqvlXhkWlDaq1a/DEP
+ZvVJscBGg/7KUP2muSZYo9Wr66/52yf5NuJ6Sgs27V9Ga9shmnhsh+c/EjaqPGyrUHoWTlcjy3GM
+tBwltzU09fUY0+KDHnutrrY7peaTy4o0tzSVw2lgxAVUbkS6gpotiIsgofW3V7L9BIK3W77iN1Ci
+OwjkaiTN2HN5NpZd28lMG/Kcdb/NhBnRNhdWcARBenwIv2OMaOONwo74Gmu2wHOAA0epjwytGfW9
+AIn8uipW2+7tG26lW2iLdQIDAQABo4ICvTCCArkwggFfBgNVHSAEggFWMIIBUjCCAU4GCCsGAQQB
+w1IFMIIBQDA9BggrBgEFBQcCARYxaHR0cHM6Ly93d3cuZS1jZXJ0Y2hpbGUuY2wvcG9saXRpY2Fz
+LXktcHJhY3RpY2FzLzCB/gYIKwYBBQUHAgIwgfEege4ARQBsACAAcgBlAHMAcABvAG4AZABlAHIA
+IABlAHMAdABlACAAZgBvAHIAbQB1AGwAYQByAGkAbwAgAGUAcwAgAHUAbgAgAHIAZQBxAHUAaQBz
+AGkAdABvACAAaQBuAGQAaQBzAHAAZQBuAHMAYQBiAGwAZQAgAHAAYQByAGEAIABkAGEAcgAgAGkA
+bgBpAGMAaQBvACAAYQBsACAAcAByAG8AYwBlAHMAbwAgAGQAZQAgAGMAZQByAHQAaQBmAGkAYwBh
+AGMAaQDzAG4ALgAgAFAAbwBzAHQAZQByAGkAbwByAG0AZQBuAHQAZQAsMB0GA1UdDgQWBBQpY6HO
+9mtBp66ZPjAScxg3PAASzjALBgNVHQ8EBAMCBPAwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgox
+MjQ2MTczOC0zMB8GA1UdIwQYMBaAFHTWIbP0WugtfLtZBmND72m0OpMEMEAGA1UdHwQ5MDcwNaAz
+oDGGL2h0dHA6Ly9jcmwuZWNlcnRjaGlsZS5jbC9FLUNFUlRDSElMRUNBRkVTMDIuY3JsMD0GCCsG
+AQUFBwEBBDEwLzAtBggrBgEFBQcwAYYhaHR0cDovL29jc3BmZXMuZWNlcnRjaGlsZS5jbC9vY3Nw
+MDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIHd0k2X1DqGiZ0Gh4jOb4OvzGBFhtLsCIbHyn0C
+AWQCAQcwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MA0GCSqGSIb3DQEBCwUA
+A4ICAQCYloxRjnjb0HKBcFRPAYotYTCoMrKttSa9Az+0p4bwNnMrq1W49HjI7El9Aq9mcE/0NVqB
+Y6NOEAS5UbyJyovhHEgVJ7KuCANBuzBpZnKXKD2BuH7sCY091UCmhuLocTogW5gMqgY8piwSHY1g
+PKeAglpSPpKtzE2UFXE+gALg0S6JRm/ToDky4El4c0RQHE/HM6a4t/FTUbH/Ad7/5cuNxK3i5hog
+TkNwzWJGeiYo826qzc5X0zNWhnuv+0vqY1vA1B1kAq4XLbCFw9wWwcX74lXv34fzN1Lhocg+Rg3A
+omo+PJwUpEKKp7DJ05tthdYfFMK+qRx7zEaANtCMxVCqxFFXPxshGKZlXqFTmFFlbVNouajKvUwp
+3+7df0oiyCG+il6ny05dMxEM8UiaIYEw4ESUka/OWrpsn2sKrXM3YtU5wr/xEUZCnEK0iwNGFY5D
+xc1SRaZkItFosQUusUVwKYEr8iCzhHQv8ounUgkiqya70EJh1y4zxeiWCTY5Lz5my8JtVcKOw+La
+YwkySN1J5HESN2Njls9UgdSUoMVmXnSwkWCX4DaUq0AWi1TZQnIZ+jYIh2zHs412DwO9WuVRO8Bn
+N9XJtrdsSl+1G0VgM5umr1SF3c/kFBuA0R949ZW3vy6Ec9mYdskKx4SQVOi8lw5nLUODvfadzoWm
+P87h7g==</X509Certificate></X509Data></KeyInfo></Signature>
+	
+
+</DTE>
+<DTE version="1.0" >
+  <Documento ID="F9836021T33">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>9836021</Folio>
+        <FchEmis>2026-03-05</FchEmis>
+        <FchVenc>2026-03-05</FchVenc>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>96565260-4</RUTEmisor>
+        <RznSoc>TRESMONTES LUCCHETTI SERVICIOS S.A.</RznSoc>
+        <GiroEmis>COMER.PROD.ALIMENTICIOS INV-ARR EXPL.BS.IN.C/S A-</GiroEmis>
+        <Acteco>512290</Acteco>
+        <DirOrigen>LOS CONQUISTADORES 2345</DirOrigen>
+        <CmnaOrigen>PROVIDENCIA</CmnaOrigen>
+        <CdgVendedor>OPERADOR 7 VAL. OPERADOR 7 VAL. OPERADOR 7 VAL.</CdgVendedor>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>18799561-2</RUTRecep>
+        <CdgIntRecep>0000103719</CdgIntRecep>
+        <RznSocRecep>CATALAN SANDOVAL MAXIMILIANO A.</RznSocRecep>
+        <GiroRecep>MINIMARKET/AUTO</GiroRecep>
+        <DirRecep>ECUADOR 118</DirRecep>
+        <CmnaRecep>VI?A DEL MAR</CmnaRecep>
+        <CiudadRecep>VALPARAISO</CiudadRecep>
+      </Receptor>
+      <Transporte>
+        <DirDest>3 NORTE 60 LOCAL 3</DirDest>
+        <CmnaDest>VI?A DEL MAR</CmnaDest>
+      </Transporte>
+      <Totales>
+        <MntNeto>18830</MntNeto>
+        <TasaIVA>19.00</TasaIVA>
+        <IVA>3578</IVA>
+        <ImptoReten>
+          <TipoImp>271</TipoImp>
+          <TasaImp>18.00</TasaImp>
+          <MontoImp>2618</MontoImp>
+        </ImptoReten>
+        <MntTotal>25026</MntTotal>
+        <VlrPagar>0</VlrPagar>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT1</TpoCodigo>
+        <VlrCodigo>1076548</VlrCodigo>
+      </CdgItem>
+      <NmbItem>GOLD NAC CAPPUCCINO LACT 24X8X14G (DIS)</NmbItem>
+      <DscItem>000000000000002143.00</DscItem>
+      <PrcRef>857.000000</PrcRef>
+      <QtyItem>1.000000</QtyItem>
+      <PrcItem>3000.000000</PrcItem>
+      <DescuentoMonto>857</DescuentoMonto>
+      <MontoItem>2143</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT1</TpoCodigo>
+        <VlrCodigo>1077480</VlrCodigo>
+      </CdgItem>
+      <NmbItem>GOLD NAC MOKA LATTE 24X8X14G (DIS)</NmbItem>
+      <DscItem>000000000000002143.00</DscItem>
+      <PrcRef>857.000000</PrcRef>
+      <QtyItem>1.000000</QtyItem>
+      <PrcItem>3000.000000</PrcItem>
+      <DescuentoMonto>857</DescuentoMonto>
+      <MontoItem>2143</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>3</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>INT1</TpoCodigo>
+        <VlrCodigo>2037227</VlrCodigo>
+      </CdgItem>
+      <NmbItem>ENERGETICA SCORE GORILLA 473 cc (PCKV)</NmbItem>
+      <DscItem>000000000000000606.00</DscItem>
+      <PrcRef>144.000000</PrcRef>
+      <QtyItem>24.000000</QtyItem>
+      <PrcItem>750.000000</PrcItem>
+      <DescuentoMonto>3456</DescuentoMonto>
+      <CodImpAdic>271</CodImpAdic>
+      <MontoItem>14544</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>802</TpoDocRef>
+      <FolioRef>902036482</FolioRef>
+      <FchRef>2026-03-05</FchRef>
+    </Referencia>
+    <Referencia>
+      <NroLinRef>2</NroLinRef>
+      <TpoDocRef>801</TpoDocRef>
+      <FolioRef>0001442</FolioRef>
+      <FchRef>2026-03-05</FchRef>
+    </Referencia>
+    <TED version="1.0">
+      <DD>
+        <RE>96565260-4</RE>
+        <TD>33</TD>
+        <F>9836021</F>
+        <FE>2026-03-05</FE>
+        <RR>18799561-2</RR>
+        <RSR>CATALAN SANDOVAL MAXIMILIANO A.</RSR>
+        <MNT>25026</MNT>
+        <IT1>GOLD NAC CAPPUCCINO LACT 24X8X14G (DIS)</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>96565260-4</RE>
+            <RS>TRESMONTES LUCCHETTI SERVICIOS S.A.</RS>
+            <TD>33</TD>
+            <RNG>
+              <D>9710001</D>
+              <H>9960000</H>
+            </RNG>
+            <FA>2025-12-19</FA>
+            <RSAPK>
+              <M>teb+v1lc++/bTO8MN/cjMGupitD5waKMimIvj9UVtogx1soS9aHggT2FETLZW2O4EZskn4Vx3K2I5qesj8t/ZQ==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>300</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">d4casYPFfjmlg+s46HVVh0u+OwwmVSBKEPxzrHu6c1O0IZzr8kXrSY+D1w6dbUaRvBNvlGxXyjn3ys4+tiFH4g==</FRMA>
+        </CAF>
+        <TSTED>2026-03-05T00:37:09</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">qheMYXMpSIsRAZZ/4gpDvTcvQoxnUEvc87AXleuu3OQ+FRK/dJ1Y3VrxAxVRincqX3Lr0mWffPeMLSUg0wnQdQ==</FRMT>
+    </TED>
+    <TmstFirma>2026-03-05T00:37:09</TmstFirma>
+  </Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#F9836021T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>N4jX2bqvN2ngXklUJO0yyie8r9s=</DigestValue></Reference></SignedInfo><SignatureValue>JOvr8rpvvNwFsRqdMmabu0FIuJPwXT/CSO2k9KdKXG5HogwxyA/TOAgsUbF532PxPyjd4Xp8WbIl
+WuQx1rdrkdAuo35xWeRrlNPG3nXnO0lfTk8cBw1M050GZIHVq77BPjwPTE15hF7nH8DVWtnbEOMc
+2Xx7Lx2X8aVWjtKoqcZXKEb138qS3rSUhwRTvubpueEDMjLwKG0T3D6Dcb32YsICk1Th8oLSsLYh
+IRQUDbEmcgHAFE90LfrTvUpMGqK8naTo0xlV2vlT9t5+Nym/reYefv9dj0eNcpFMlG50JgFnvbXv
+fQY+idHhr28hqbFXplbnWXGLsT2lfL5NajRjeQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>08mnRvzQtYualtNXW0COgFWwZU1L78WSCrMHwU/sOTaPTxy6gqAUSQltF4au7griMftU0ul+I6fm
+P07TeL9x/X9/133NjCzi5byL95CulcpM850l1ZmRrMTe2mKvFiDmmdqGhYc/PeGKz2AxhZXBQqo0
+t3g0Hwe/aXcP9E9w3NSMluWpj7ny2Ula2PYwginkS8RLSZY2G0r1g0zROlecDdOb7GWnWSGsvcgW
+wTjGiNeHkbeZKBb4Ki73+6kxo5jkUU7l++rMk+HKOZVozRqpZp+v6s0slpTpqDe3pFnSz72kMmRr
+REmiG1EpjyEFmCKc6HKUHP0jYOyk3WImsWAMvw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIHuTCCBaGgAwIBAgIKZrebLAABAAnU/DANBgkqhkiG9w0BAQsFADCBvzELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQD
+ExVFLUNFUlRDSElMRSBDQSBGRVMgMDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNo
+aWxlLmNsMB4XDTI0MDQxMTE4Mjg1M1oXDTI3MDQxMTE4Mjg1M1owgbUxCzAJBgNVBAYTAkNMMSIw
+IAYDVQQIExlNRVRST1BPTElUQU5BIERFIFNBTlRJQUdPMREwDwYDVQQHEwhTQU5USUFHTzEiMCAG
+A1UEChMZVFJFU01PTlRFUyBMVUNDSEVUVEkgUy5BLjEKMAgGA1UECwwBKjEcMBoGA1UEAxMTSlVT
+VE8gR0FSQ0lBIEdBTUJPQTEhMB8GCSqGSIb3DQEJARYSU0NBUlJFTk9AVE1MVUMuQ09NMIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA08mnRvzQtYualtNXW0COgFWwZU1L78WSCrMHwU/s
+OTaPTxy6gqAUSQltF4au7griMftU0ul+I6fmP07TeL9x/X9/133NjCzi5byL95CulcpM850l1ZmR
+rMTe2mKvFiDmmdqGhYc/PeGKz2AxhZXBQqo0t3g0Hwe/aXcP9E9w3NSMluWpj7ny2Ula2PYwgink
+S8RLSZY2G0r1g0zROlecDdOb7GWnWSGsvcgWwTjGiNeHkbeZKBb4Ki73+6kxo5jkUU7l++rMk+HK
+OZVozRqpZp+v6s0slpTpqDe3pFnSz72kMmRrREmiG1EpjyEFmCKc6HKUHP0jYOyk3WImsWAMvwID
+AQABo4ICvTCCArkwggFfBgNVHSAEggFWMIIBUjCCAU4GCCsGAQQBw1IFMIIBQDA9BggrBgEFBQcC
+ARYxaHR0cHM6Ly93d3cuZS1jZXJ0Y2hpbGUuY2wvcG9saXRpY2FzLXktcHJhY3RpY2FzLzCB/gYI
+KwYBBQUHAgIwgfEege4ARQBsACAAcgBlAHMAcABvAG4AZABlAHIAIABlAHMAdABlACAAZgBvAHIA
+bQB1AGwAYQByAGkAbwAgAGUAcwAgAHUAbgAgAHIAZQBxAHUAaQBzAGkAdABvACAAaQBuAGQAaQBz
+AHAAZQBuAHMAYQBiAGwAZQAgAHAAYQByAGEAIABkAGEAcgAgAGkAbgBpAGMAaQBvACAAYQBsACAA
+cAByAG8AYwBlAHMAbwAgAGQAZQAgAGMAZQByAHQAaQBmAGkAYwBhAGMAaQDzAG4ALgAgAFAAbwBz
+AHQAZQByAGkAbwByAG0AZQBuAHQAZQAsMB0GA1UdDgQWBBRoxX0BtDZZJyk/kqRargAGI5NqijAL
+BgNVHQ8EBAMCBPAwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgowODAzNDM3OC03MB8GA1UdIwQY
+MBaAFHTWIbP0WugtfLtZBmND72m0OpMEMEAGA1UdHwQ5MDcwNaAzoDGGL2h0dHA6Ly9jcmwuZWNl
+cnRjaGlsZS5jbC9FLUNFUlRDSElMRUNBRkVTMDIuY3JsMD0GCCsGAQUFBwEBBDEwLzAtBggrBgEF
+BQcwAYYhaHR0cDovL29jc3BmZXMuZWNlcnRjaGlsZS5jbC9vY3NwMDwGCSsGAQQBgjcVBwQvMC0G
+JSsGAQQBgjcVCIHd0k2X1DqGiZ0Gh4jOb4OvzGBFhtLsCIbHyn0CAWQCAQcwIwYDVR0SBBwwGqAY
+BggrBgEEAcEBAqAMFgo5NjkyODE4MC01MA0GCSqGSIb3DQEBCwUAA4ICAQCiJ7+Of+rXqaEIL11K
+JS7hun9Df5QLAqwvIOAooF2U7oaM1XieDvqmmZW3CN/9KjBX2DynvCIGqhtiDvxo8/bkCg/us5b+
+6ErHCtld2ecXNQE7PZJRXQlymtfQYardGIM2CPUZgUqxQgupb/GKIoKopFvGh2wi2pdEzJAOrZTw
+Mi4jtSwFAX+gLf7jyg1Rm1gSk4g/OAv4EvXXXH0I5MbIMEYPb6IHTRSZO1V9ano4oschTmBroDym
+MKeNNwFJbU8iSMWRtLZh3BTKa/40pm1jeiCHSGE8GvYxIt1702hfKrc/8I4u4ddveXryBvXeiOwR
+qhjL0MVWNygh2ZBSrS93teA2a8TjTeOHsZyZ0hHpM0H6vM3aPgbpwMd0dRnQITKVTm5QvRAE2YL1
+AZLXIvJDmtI38KwFzFyIypafA2VMiLrLtaDqpqbssVX2xFxMPy6S2K8TacSWviEQ6uKJ6ycf7gos
+F5URCylwYD+m3Fp3E39K4KDL3jbr7KCc9uSrhiQFT3E5963USiXtXgMoSpsW5GRrySoE+OchhzBJ
+9UTnpcmzgArNweYn76kV9J50FjDkut/b+jLjdDs9xs9cJ7wv/RhOBqIG6WXeU0gl/IVZdhq6QDOe
+uRNLI7LOwvQRyDPNuuOMwXIRF36nWmR+4wm697Q83c+KqatGnBmGvruhzg==</X509Certificate></X509Data></KeyInfo></Signature></DTE>
+<DTE version="1.0" >
+	<Documento ID="F1518714T33">
+          <Encabezado>
+            <IdDoc>
+              <TipoDTE>33</TipoDTE>
+              <Folio>1518714</Folio>
+              <FchEmis>2026-03-04</FchEmis>
+              <FmaPago>2</FmaPago>
+              <FchVenc>2026-03-04</FchVenc>
+            </IdDoc>
+            <Emisor>
+              <RUTEmisor>77564110-K</RUTEmisor>
+              <RznSoc>INVERSIONES VIA K SPA</RznSoc>
+              <GiroEmis>DISTRIBUIDORA DE ALIMENTOS ABARROTE Y CONFITES PROD DEL MAR BEBIDAS ALCOHOLICAS</GiroEmis>
+              <Acteco>463019</Acteco>
+              <DirOrigen>LEON PRADO 770</DirOrigen>
+              <CmnaOrigen>SAN MIGUEL</CmnaOrigen>
+              <CiudadOrigen>SANTIAGO</CiudadOrigen>
+            </Emisor>
+            <Receptor>
+              <RUTRecep>18799561-2</RUTRecep>
+              <RznSocRecep>MAXIMILIANO ANTONIO CATALAN SANDOVAL</RznSocRecep>
+              <GiroRecep>ALMACEN</GiroRecep>
+              <DirRecep>3 NORTE 60 3</DirRecep>
+              <CmnaRecep>VINA DEL MAR</CmnaRecep>
+              <CiudadRecep>V REGION DE VALPARA</CiudadRecep>
+            </Receptor>
+            <Totales>
+              <MntNeto>41645</MntNeto>
+              <MntExe>0</MntExe>
+              <TasaIVA>19</TasaIVA>
+              <IVA>7912</IVA>
+              <MntTotal>49557</MntTotal>
+            </Totales>
+          </Encabezado>
+          <Detalle>
+            <NroLinDet>1</NroLinDet>
+            <CdgItem>
+              <TpoCodigo>INT1</TpoCodigo>
+              <VlrCodigo>10001</VlrCodigo>
+            </CdgItem>
+            <NmbItem>10001 - 672447 - POLVOS ROYAL 30 GR DP 16 UN</NmbItem>
+            <DscItem>10001 - 672447 - POLVOS ROYAL 30 GR DP 16 UN</DscItem>
+            <QtyItem>1.000000</QtyItem>
+            <UnmdItem>UN</UnmdItem>
+            <PrcItem>5026.0</PrcItem>
+            <MontoItem>5026</MontoItem>
+          </Detalle>
+          <Detalle>
+            <NroLinDet>2</NroLinDet>
+            <CdgItem>
+              <TpoCodigo>INT1</TpoCodigo>
+              <VlrCodigo>10007</VlrCodigo>
+            </CdgItem>
+            <NmbItem>10007 - 41456 - HALLS  EXTRA STRONG DP 12 UN</NmbItem>
+            <DscItem>10007 - 41456 - HALLS  EXTRA STRONG DP 12 UN</DscItem>
+            <QtyItem>2.000000</QtyItem>
+            <UnmdItem>UN</UnmdItem>
+            <PrcItem>2871.0</PrcItem>
+            <MontoItem>5742</MontoItem>
+          </Detalle>
+          <Detalle>
+            <NroLinDet>3</NroLinDet>
+            <CdgItem>
+              <TpoCodigo>INT1</TpoCodigo>
+              <VlrCodigo>10026</VlrCodigo>
+            </CdgItem>
+            <NmbItem>10026 - 972260 - GALLETA OREO ROLLO REGULAR 108 GR 1 UN</NmbItem>
+            <DscItem>10026 - 972260 - GALLETA OREO ROLLO REGULAR 108 GR 1 UN</DscItem>
+            <QtyItem>10.000000</QtyItem>
+            <UnmdItem>UN</UnmdItem>
+            <PrcItem>601.0</PrcItem>
+            <MontoItem>6010</MontoItem>
+          </Detalle>
+          <Detalle>
+            <NroLinDet>4</NroLinDet>
+            <CdgItem>
+              <TpoCodigo>INT1</TpoCodigo>
+              <VlrCodigo>10178</VlrCodigo>
+            </CdgItem>
+            <NmbItem>10178 - BONIFKHN000129 - PROMO OREO ROLLO REGULAR</NmbItem>
+            <DscItem>10178 - BONIFKHN000129 - PROMO OREO ROLLO REGULAR</DscItem>
+            <QtyItem>1.000000</QtyItem>
+            <UnmdItem>UN</UnmdItem>
+            <PrcItem>1.0</PrcItem>
+            <MontoItem>1</MontoItem>
+          </Detalle>
+          <Detalle>
+            <NroLinDet>5</NroLinDet>
+            <CdgItem>
+              <TpoCodigo>INT1</TpoCodigo>
+              <VlrCodigo>50002</VlrCodigo>
+            </CdgItem>
+            <NmbItem>50002 - 787718 - MAYONESA KRAFT REGULAR 394 GR 1 UN (CON UN 10.0 % DESCUENTO)</NmbItem>
+            <DscItem>50002 - 787718 - MAYONESA KRAFT REGULAR 394 GR 1 UN (CON UN 10.0 % DESCUENTO)</DscItem>
+            <QtyItem>3.000000</QtyItem>
+            <UnmdItem>UN</UnmdItem>
+            <PrcItem>3268.91</PrcItem>
+            <DescuentoPct>10.0</DescuentoPct>
+            <DescuentoMonto>981</DescuentoMonto>
+            <MontoItem>8826</MontoItem>
+          </Detalle>
+          <Detalle>
+            <NroLinDet>6</NroLinDet>
+            <CdgItem>
+              <TpoCodigo>INT1</TpoCodigo>
+              <VlrCodigo>710001</VlrCodigo>
+            </CdgItem>
+            <NmbItem>710001 - 1SUEROXTROFRU - SUEROX FRUTILLA-KIWI 630ML</NmbItem>
+            <DscItem>710001 - 1SUEROXTROFRU - SUEROX FRUTILLA-KIWI 630ML</DscItem>
+            <QtyItem>3.000000</QtyItem>
+            <UnmdItem>UN</UnmdItem>
+            <PrcItem>1336.537</PrcItem>
+            <MontoItem>4010</MontoItem>
+          </Detalle>
+          <Detalle>
+            <NroLinDet>7</NroLinDet>
+            <CdgItem>
+              <TpoCodigo>INT1</TpoCodigo>
+              <VlrCodigo>710004</VlrCodigo>
+            </CdgItem>
+            <NmbItem>710004 - 1SUEROXTROBLUF - SUEROX ARANDANO-POMELO 630ML</NmbItem>
+            <DscItem>710004 - 1SUEROXTROBLUF - SUEROX ARANDANO-POMELO 630ML</DscItem>
+            <QtyItem>3.000000</QtyItem>
+            <UnmdItem>UN</UnmdItem>
+            <PrcItem>1336.537</PrcItem>
+            <MontoItem>4010</MontoItem>
+          </Detalle>
+          <Detalle>
+            <NroLinDet>8</NroLinDet>
+            <CdgItem>
+              <TpoCodigo>INT1</TpoCodigo>
+              <VlrCodigo>710005</VlrCodigo>
+            </CdgItem>
+            <NmbItem>710005 - 1SUEROXTRLIMO - SUEROX LIMON 630ML</NmbItem>
+            <DscItem>710005 - 1SUEROXTRLIMO - SUEROX LIMON 630ML</DscItem>
+            <QtyItem>3.000000</QtyItem>
+            <UnmdItem>UN</UnmdItem>
+            <PrcItem>1336.537</PrcItem>
+            <MontoItem>4010</MontoItem>
+          </Detalle>
+          <Detalle>
+            <NroLinDet>9</NroLinDet>
+            <CdgItem>
+              <TpoCodigo>INT1</TpoCodigo>
+              <VlrCodigo>710006</VlrCodigo>
+            </CdgItem>
+            <NmbItem>710006 - 1SUEROXTRPI#A - SUEROX PINA 630ML</NmbItem>
+            <DscItem>710006 - 1SUEROXTRPI#A - SUEROX PINA 630ML</DscItem>
+            <QtyItem>3.000000</QtyItem>
+            <UnmdItem>UN</UnmdItem>
+            <PrcItem>1336.537</PrcItem>
+            <MontoItem>4010</MontoItem>
+          </Detalle>
+        		<TED version="1.0"><DD><RE>77564110-K</RE><TD>33</TD><F>1518714</F><FE>2026-03-04</FE><RR>18799561-2</RR><RSR>MAXIMILIANO ANTONIO CATALAN SANDOVAL</RSR><MNT>49557</MNT><IT1>10001 - 672447 - POLVOS ROYAL 30 GR DP </IT1><CAF version="1.0"><DA><RE>77564110-K</RE><RS>INVERSIONES VIA K SPA</RS><TD>33</TD><RNG><D>1494425</D><H>1615990</H></RNG><FA>2026-01-19</FA><RSAPK><M>wDRk1Tw4lcK44CbqjdY70rBw/oJ6zG2aFiaUriM1oQkZ4ZUaIWnVxKwMYkVkI4bWohptnTQhRsUvWMSM8Y3aXw==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">NnVMj/02gI4tWLf+KvpPuSPCVANFEUwYKX+jCLwPMy0QZybQjceVhN0yrRvR+fVKYts08VCw9w9kiJoMCn5cUQ==</FRMA></CAF><TSTED>2026-03-04T22:32:58</TSTED></DD><FRMT algoritmo="SHA1withRSA">PRla6qXui1W6fajrWqkaJc4VtCZhRcwP4afXXMjYSVZidOPMr8A/Pt94/Vy/1/PofPH/KtdrjDkQbhe5QGENkw==</FRMT></TED>
+			<TmstFirma>2026-03-04T22:32:58</TmstFirma>
+	</Documento>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<SignedInfo>
+	<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+	<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+	<Reference URI="#F1518714T33">
+	<Transforms>
+	<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+	</Transforms>
+	<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+	<DigestValue>fNvb7m4ZjKGLUYb2AxPPKAHzBrM=</DigestValue>
+	</Reference>
+	</SignedInfo>
+	<SignatureValue>hHn8lepSD7cZwARJSSHjgUczDYvz/BPCiMBFl4W+rMNVpaTAovN33Yl1SdlKo7hA
+qw79LUIGsQyfypf/VB9TKgCPUm9WA7XYJD3/HRl8yhXpdnurBJ6m5NnFxXUoQUnv
+YUi4Th/F2gLZ5kPzYXDJFPWxACr2LzIHf1YtsidWd83wOokbynen761xRbg2QzKG
+HaD57BuBaGNc/2PJQZQTNu4VShjORITzJDDxP11ba43NUbMO83IHQ899WgcFz8E/
+B++x9hvvmsneu/63MDAJN//IlrTlXDUQQHAXmuS0vbVpKGHotlZkPpiIYHly6EUj
+2bn0J/Hy9PgOdVVgycqwJg==</SignatureValue>
+	<KeyInfo>
+	<KeyValue>
+<RSAKeyValue>
+<Modulus>
+sjN6q8EdTX2LXZNZ5TZbVn+4ovttAu+9YIGjp8UTZa0+6gBe3E5Sv6f5aelhEe9T
+SRhHnEDlyX3U/4SyZn6G6fIQ9ITFycxSumR+dl44JGrqKaz5U06mibHneTjYvvud
+gP6T3GncAEW4G8pMuN0BO81ZfcNk7QRutG2Mc5xkilMMMlhv7x46i7uq0AjSeS9z
+3kfsvkQqb2a8x577vvQFe/nbPf0VXMnAZYYBFPfJN93NP6y9bKOcsUeSeGJnrMyE
+Vt5OjkGwUkoFrasmraaTwHt0M7mGyYBjrsQiiXYxhrmjWHxmxQjmVQnC12VTubeB
+m6b8h+9V232MuJxcWyyrcQ==
+</Modulus>
+<Exponent>
+AQAB
+</Exponent>
+</RSAKeyValue>
+</KeyValue>
+	<X509Data><X509Certificate>MIIHwDCCBaigAwIBAgIKSHS8mgABABCSljANBgkqhkiG9w0BAQsFADCBvzELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQDExVFLUNFUlRDSElMRSBDQSBGRVMg
+MDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNoaWxlLmNsMB4XDTI1
+MTEyNTIxMTQyN1oXDTI4MTEyNDIxMTQyN1owgbwxCzAJBgNVBAYTAkNMMSIwIAYD
+VQQIExlNRVRST1BPTElUQU5BIERFIFNBTlRJQUdPMREwDwYDVQQHEwhTQU5USUFH
+TzEdMBsGA1UEChMUQ09NRVJDSUFMIEtIQVRBUiBTUEExCjAIBgNVBAsMASoxJjAk
+BgNVBAMTHVJPRFJJR08gQUxPTlNPIENBQkVaQVMgT1JPWkNPMSMwIQYJKoZIhvcN
+AQkBFhRMTUFMRE9OQURPQEtIQVRBUi5DTDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBALIzeqvBHU19i12TWeU2W1Z/uKL7bQLvvWCBo6fFE2WtPuoAXtxO
+Ur+n+WnpYRHvU0kYR5xA5cl91P+EsmZ+hunyEPSExcnMUrpkfnZeOCRq6ims+VNO
+pomx53k42L77nYD+k9xp3ABFuBvKTLjdATvNWX3DZO0EbrRtjHOcZIpTDDJYb+8e
+Oou7qtAI0nkvc95H7L5EKm9mvMee+770BXv52z39FVzJwGWGART3yTfdzT+svWyj
+nLFHknhiZ6zMhFbeTo5BsFJKBa2rJq2mk8B7dDO5hsmAY67EIol2MYa5o1h8ZsUI
+5lUJwtdlU7m3gZum/IfvVdt9jLicXFssq3ECAwEAAaOCAr0wggK5MIIBXwYDVR0g
+BIIBVjCCAVIwggFOBggrBgEEAcNSBTCCAUAwPQYIKwYBBQUHAgEWMWh0dHBzOi8v
+d3d3LmUtY2VydGNoaWxlLmNsL3BvbGl0aWNhcy15LXByYWN0aWNhcy8wgf4GCCsG
+AQUFBwICMIHxHoHuAEUAbAAgAHIAZQBzAHAAbwBuAGQAZQByACAAZQBzAHQAZQAg
+AGYAbwByAG0AdQBsAGEAcgBpAG8AIABlAHMAIAB1AG4AIAByAGUAcQB1AGkAcwBp
+AHQAbwAgAGkAbgBkAGkAcwBwAGUAbgBzAGEAYgBsAGUAIABwAGEAcgBhACAAZABh
+AHIAIABpAG4AaQBjAGkAbwAgAGEAbAAgAHAAcgBvAGMAZQBzAG8AIABkAGUAIABj
+AGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBuAC4AIABQAG8AcwB0AGUAcgBpAG8AcgBt
+AGUAbgB0AGUALDAdBgNVHQ4EFgQU8gQ5rOFccVjM9UdelwkTD2nuSJkwCwYDVR0P
+BAQDAgTwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMTA4OTMwMDItMDAfBgNV
+HSMEGDAWgBR01iGz9FroLXy7WQZjQ+9ptDqTBDBABgNVHR8EOTA3MDWgM6Axhi9o
+dHRwOi8vY3JsLmVjZXJ0Y2hpbGUuY2wvRS1DRVJUQ0hJTEVDQUZFUzAyLmNybDA9
+BggrBgEFBQcBAQQxMC8wLQYIKwYBBQUHMAGGIWh0dHA6Ly9vY3NwZmVzLmVjZXJ0
+Y2hpbGUuY2wvb2NzcDA8BgkrBgEEAYI3FQcELzAtBiUrBgEEAYI3FQiB3dJNl9Q6
+homdBoeIzm+Dr8xgRYbS7AiGx8p9AgFkAgEHMCMGA1UdEgQcMBqgGAYIKwYBBAHB
+AQKgDBYKOTY5MjgxODAtNTANBgkqhkiG9w0BAQsFAAOCAgEASQoe+cdyTk7OO7LN
+yIWWLKDIW8z39+/eGc14epD2JUSaCVePwHp6uprvHXZAV0xYxvI0GQZCf60VuXnP
+93E2px8STXpMN5R99MkfiM+6gchh3fMUdT6/1pZZO4IzwX8uFQedF66N3MHdft3r
+oEJnbsfJaLf23qHzokkY1PVMoW6C8fCckmhtPP2hq0jJobQYmNOgyR1kf5KVY4pw
+kcT0QP43oAXmwsbRNMs8L1HU+pa7pVsRvu+xuOpc+qCOnQFdc0zaUr9X04MoM2q8
+Xrin1WxhwcrkGoCUtsNxAsyDTslz8f6xoQ+E5ceoOr5ACi8JKGRmBBHiM4uVHbSP
+/2DNOOjsjPjTGAYSkj/gF8Vmd487ezH+lebftDPdnBn/jOtn8anKvnfDk+8aZswH
+ud4p0MvmH8TlvCxreHiPcXIYkmPUMwCzAWyC5aSciX4fWNX2qnOJSbK16BXhHxyf
+C4aR7uQL6r5ZFOXXPnrjchvKW2MFfcPat0tt4lYdHsLMIv5GT7VDPGbe0ZSxrhu7
+51cJWgJRM9CuI3ClxbFe+y6EIHwf3jjvHbfDRFGfzPoGcuSH8hkfvXnFpqBmpecL
+2vsbvpN8ErBJYvLcGAkKP88YBehgXM8vk+9X+7mkVhbVxaIt2R0m2Q7cF43QN9Md
+YB47VsA+s28S803lA9iFkkSQWVo=</X509Certificate></X509Data>
+	</KeyInfo>
+	</Signature>
+	</DTE>
+<DTE version="1.0" >
+<Documento ID="S20260304T033F0005720230">
+		<Encabezado>
+			<IdDoc>
+				<TipoDTE>33</TipoDTE>
+				<Folio>5720230</Folio>
+				<FchEmis>2026-03-04</FchEmis>
+				<MntPagos>
+					<FchPago>2026-03-04</FchPago>
+					<MntPago>69701</MntPago>
+					<GlosaPagos>C/ENTREGA EFECTIVO</GlosaPagos>
+				</MntPagos>
+				<FchVenc>2026-03-04</FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUTEmisor>92423000-2</RUTEmisor>
+				<RznSoc>CASO Y CIA. S.A.C.</RznSoc>
+				<GiroEmis>COM. MAYORISTA, PRODUCTOS ALIM</GiroEmis>
+				<Acteco>463019</Acteco>
+				<Sucursal>CENTRO DIST. LOS PIN</Sucursal>
+				<DirOrigen>CAMINO INTERNACIONAL 4370</DirOrigen>
+				<CmnaOrigen>VINA DEL MAR</CmnaOrigen>
+				<CiudadOrigen>RENACA</CiudadOrigen>
+				<CdgVendedor>00600248</CdgVendedor>
+				<IdAdicEmisor>1102</IdAdicEmisor>
+			</Emisor>
+			<Receptor>
+				<RUTRecep>18799561-2</RUTRecep>
+				<CdgIntRecep>0000216210</CdgIntRecep>
+				<RznSocRecep>CATALAN SANDOVAL MAXIMILIANO ANTONI</RznSocRecep>
+				<GiroRecep>Almac.Tradicionales</GiroRecep>
+				<DirRecep>ECUADOR 119</DirRecep>
+				<CmnaRecep>VINA DEL MAR(CM)</CmnaRecep>
+				<CiudadRecep>VALPARAISO</CiudadRecep>
+				<DirPostal>3 NORTE 60 LOCAL 3</DirPostal>
+				<CmnaPostal>VINA DEL MAR</CmnaPostal>
+				<CiudadPostal>VALPARAISO</CiudadPostal>
+			</Receptor>
+			<Totales>
+				<MntNeto>58572</MntNeto>
+				<TasaIVA>19</TasaIVA>
+				<IVA>11129</IVA>
+				<MntTotal>69701</MntTotal>
+				<VlrPagar>69701</VlrPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>710118</VlrCodigo>
+			</CdgItem>
+			<NmbItem>JUMEX NECTAR COCO PINA 24 X 335 CC</NmbItem>
+			<DscItem>3.00@@60.15</DscItem>
+			<QtyRef>2.22</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>9000</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>579.833333</PrcItem>
+			<MontoItem>3479</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>2</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>710030</VlrCodigo>
+			</CdgItem>
+			<NmbItem>JUMEX NECTAR MANZANA 24X335 ML.</NmbItem>
+			<DscItem>3.00@@60.15</DscItem>
+			<QtyRef>2.257</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>9000</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>579.833333</PrcItem>
+			<MontoItem>3479</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>3</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>710029</VlrCodigo>
+			</CdgItem>
+			<NmbItem>JUMEX NECTAR PERA 24X335 ML.</NmbItem>
+			<DscItem>3.00@@60.15</DscItem>
+			<QtyRef>2.257</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>9000</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>579.833333</PrcItem>
+			<MontoItem>3479</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>4</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>710315</VlrCodigo>
+			</CdgItem>
+			<NmbItem>JUMEX NECTAR PINA 24 X 335 ML.</NmbItem>
+			<DscItem>3.00@@60.15</DscItem>
+			<QtyRef>2.257</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>9000</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>579.833333</PrcItem>
+			<MontoItem>3479</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>5</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>710027</VlrCodigo>
+			</CdgItem>
+			<NmbItem>JUMEX NECTAR MANGO 24X335 ML.</NmbItem>
+			<DscItem>3.00@@60.15</DscItem>
+			<QtyRef>2.257</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>9000</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>579.833333</PrcItem>
+			<MontoItem>3479</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>6</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>250852</VlrCodigo>
+			</CdgItem>
+			<NmbItem>DONUTS LECHE 24X100 GR</NmbItem>
+			<DscItem>3.00@@10.00@@23.72</DscItem>
+			<QtyRef>1.131</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>11998</PrcRef>
+			<QtyItem>10</QtyItem>
+			<UnmdItem>PAQ</UnmdItem>
+			<PrcItem>798.9</PrcItem>
+			<MontoItem>7989</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>7</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>251236</VlrCodigo>
+			</CdgItem>
+			<NmbItem>FRAC BI CAPUCCINO 36X110 GR.</NmbItem>
+			<DscItem>3.00@@10.00@@27.80</DscItem>
+			<QtyRef>0.672</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>4246</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>PAQ</UnmdItem>
+			<PrcItem>446.166667</PrcItem>
+			<MontoItem>2677</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>8</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>251237</VlrCodigo>
+			</CdgItem>
+			<NmbItem>FRAC BI FRUTILLA 36X110GR</NmbItem>
+			<DscItem>3.00@@10.00@@27.80</DscItem>
+			<QtyRef>0.672</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>4246</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>PAQ</UnmdItem>
+			<PrcItem>446.166667</PrcItem>
+			<MontoItem>2677</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>9</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>251238</VlrCodigo>
+			</CdgItem>
+			<NmbItem>FRAC CHOCOLATE 36X110GR</NmbItem>
+			<DscItem>3.00@@10.00@@27.80</DscItem>
+			<QtyRef>0.672</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>4246</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>PAQ</UnmdItem>
+			<PrcItem>446.166667</PrcItem>
+			<MontoItem>2677</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>10</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>251239</VlrCodigo>
+			</CdgItem>
+			<NmbItem>FRAC CLASICA 36X110 GR.</NmbItem>
+			<DscItem>3.00@@10.00@@27.80</DscItem>
+			<QtyRef>0.672</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>4246</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>PAQ</UnmdItem>
+			<PrcItem>446.166667</PrcItem>
+			<MontoItem>2677</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>11</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>251242</VlrCodigo>
+			</CdgItem>
+			<NmbItem>FRAC VAINILLA 36X110 GR.</NmbItem>
+			<DscItem>3.00@@10.00@@27.80</DscItem>
+			<QtyRef>0.672</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>4246</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>PAQ</UnmdItem>
+			<PrcItem>446.166667</PrcItem>
+			<MontoItem>2677</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>12</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>251241</VlrCodigo>
+			</CdgItem>
+			<NmbItem>FRAC NARANJA 36X110 GR.</NmbItem>
+			<DscItem>3.00@@10.00@@27.80</DscItem>
+			<QtyRef>0.672</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>4246</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>PAQ</UnmdItem>
+			<PrcItem>446.166667</PrcItem>
+			<MontoItem>2677</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>13</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>122052</VlrCodigo>
+			</CdgItem>
+			<NmbItem>NECTAR VIVO MANZANA TRIPACK 8X3X190 ML</NmbItem>
+			<DscItem>3.00@@48.60</DscItem>
+			<QtyRef>1.364</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>2810</PrcRef>
+			<QtyItem>2</QtyItem>
+			<UnmdItem>PAQ</UnmdItem>
+			<PrcItem>700.5</PrcItem>
+			<MontoItem>1401</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>14</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>122054</VlrCodigo>
+			</CdgItem>
+			<NmbItem>NECTAR VIVO DURAZNO TRIPACK 8X3X190 ML</NmbItem>
+			<DscItem>3.00@@48.60</DscItem>
+			<QtyRef>1.364</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>2810</PrcRef>
+			<QtyItem>2</QtyItem>
+			<UnmdItem>PAQ</UnmdItem>
+			<PrcItem>700.5</PrcItem>
+			<MontoItem>1401</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>15</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>135304</VlrCodigo>
+			</CdgItem>
+			<NmbItem>POMAROLA SACHET ITALIANA 24X200 GR</NmbItem>
+			<DscItem>3.00@@10.00@@38.90</DscItem>
+			<QtyRef>4.92</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>17027</PrcRef>
+			<QtyItem>24</QtyItem>
+			<UnmdItem>SCH</UnmdItem>
+			<PrcItem>378.333333</PrcItem>
+			<MontoItem>9080</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>16</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>153174</VlrCodigo>
+			</CdgItem>
+			<NmbItem>M.CAT TROCITOS JUGOSOS SALMON 20X85 GR.</NmbItem>
+			<DscItem>3.00@@35.80</DscItem>
+			<QtyRef>0.54</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>4210</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>SOB</UnmdItem>
+			<PrcItem>437</PrcItem>
+			<MontoItem>2622</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>17</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>153266</VlrCodigo>
+			</CdgItem>
+			<NmbItem>M.DOGTROCITOS JUGOSOS CACHORROS 20X85G</NmbItem>
+			<DscItem>3.00@@35.80</DscItem>
+			<QtyRef>0.54</QtyRef>
+			<UnmdRef>KG</UnmdRef>
+			<PrcRef>4210</PrcRef>
+			<QtyItem>6</QtyItem>
+			<UnmdItem>SOB</UnmdItem>
+			<PrcItem>437</PrcItem>
+			<MontoItem>2622</MontoItem>
+		</Detalle>
+		<Referencia>
+			<NroLinRef>1</NroLinRef>
+			<TpoDocRef>801</TpoDocRef>
+			<FolioRef>26621433052</FolioRef>
+			<FchRef>2026-03-03</FchRef>
+			<CodRef>1</CodRef>
+		</Referencia>
+<TED version="1.0"><DD><RE>92423000-2</RE><TD>33</TD><F>5720230</F><FE>2026-03-04</FE><RR>18799561-2</RR><RSR>CATALAN SANDOVAL MAXIMILIANO ANTONI</RSR><MNT>69701</MNT><IT1>JUMEX NECTAR COCO PINA 24 X 335 CC</IT1><CAF version="1.0"><DA><RE>92423000-2</RE><RS>CASO Y CIA SAC</RS><TD>33</TD><RNG><D>5615686</D><H>5785685</H></RNG><FA>2025-10-30</FA><RSAPK><M>n2LsltnSwUHsnCNOgE9KOUJLpO3dD6vmzz3l33KgSDD8iKwhlCVAAcx5+3OOeokyyDQCzcDaBR/tXKWWWttJdQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">aLPfmI/6ZKZA7g8/IGQB0zJYxL5JgDNRtS3A9uAtH8qNs56Fl+b90e/IhcyzigJcfyi0jK8NZ+YcbG3VxAiCqg==</FRMA></CAF><TSTED>2026-03-04T05:35:33</TSTED></DD><FRMT algoritmo="SHA1withRSA">bMY5nIrskkCUon2lAse5YprHTsVG7l/5bj8npdhQH+DqkcHtUZz5sD2qouVbHEmzTq2vNgR5SvIx
+JVHDsTr+6Q==
+</FRMT></TED>
+<TmstFirma>2026-03-04T05:35:33</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+  <SignedInfo>
+    <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+    <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+    <Reference URI="#S20260304T033F0005720230">
+      <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <DigestValue>UuMIMspMo4uDOoTJAWjHtxTLVC8=</DigestValue>
+    </Reference>
+  </SignedInfo>
+  <SignatureValue>
+    nuOvPWThT9qD2accbHZGJro6GudlMuj43/qBNBL3m1WjLdBeByXGyqZkzo944/pC
+    HY7OqswiZZNrcIcBnmErWGhYCVEFRsfb8XepmF8GDjZsCQrkmxkf3Z2JWWIfArQQ
+    cUcdi/AqyV41+zz0VCd3Zbd8xQpjS6G/Xc4JozIeNKUWlMujUYv6C2u9oo++BAdc
+    B2lhsQj6kEORgh47PozyKK7XU0CQu1AXNvweK73usJBhG6B2Ylrf6qO1ZcVzlEpg
+    dOLsb57DMsLIVQZ+/w66IQ2YCtI5sgJGFgKS+JfC0MrYRpfSP5D8EOlL3iJjnBgW
+    uXo+gfEOtmrlmzFVaQnqNA==
+  </SignatureValue>
+  <KeyInfo>
+    <KeyValue>
+      <RSAKeyValue>
+        <Modulus>
+          1+whY62k+B66/LHHbEQUAmomGMaqsGdB/nWDoJyo1566WL3SLiAxlJpro5L94OJN
+          73lrdWkRbI8BFnTut8HXzIH847a6s0cJZZIOqKDAImJP5ItsjtIdrgMzQyAbXpDw
+          gLysvGHBE2jjc92bpBtwba/1iq/stzsK7BjQeI9cjsAtGowMTaxEosFwca0IYWOJ
+          oI/ZlmwCuCRacBHWRxHLFpHXD28RBMvNmyjqQh5l4czgzukfbifewM7ohA78UpVD
+          fzlepqNFNYQfZBuZRvN8Q7quDGeMatl7W6DvpZuGhUqGVXAQRSAQI93sK81WQLM4
+          HyFpujxhJR4UNQ1eacFG7w==
+        </Modulus>
+        <Exponent>AQAB</Exponent>
+      </RSAKeyValue>
+    </KeyValue>
+    <X509Data>
+      
+      <X509Certificate>
+        MIIGSjCCBTKgAwIBAgIIYy+eGiXfjzwwDQYJKoZIhvcNAQELBQAwga8xCzAJBgNV
+        BAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5MDcGA1UECwwwVGVybXMgb2Yg
+        dXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJkb3RlcmNlcm9zMSswKQYDVQQD
+        DCJFLVNpZ24gQ2xhc3MgMiBGaXJtYSBUcmlidXRhcmlhIENBMSIwIAYJKoZIhvcN
+        AQkBFhNlLXNpZ25AZXNpZ24tbGEuY29tMB4XDTI0MDUwMzE1MjcwMFoXDTI3MDUw
+        MzE1MjcwMFowgakxCzAJBgNVBAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5
+        MDcGA1UECwwwVGVybXMgb2YgdXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJk
+        b3RlcmNlcm9zMSYwJAYDVQQDDB1SYWltdW5kbyBDYXJ2YWxsbyBTY2lhY2NhbHVn
+        YTEhMB8GCSqGSIb3DQEJARYScmNhcnZhbGxvc0BjYXNvLmNsMIIBIjANBgkqhkiG
+        9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1+whY62k+B66/LHHbEQUAmomGMaqsGdB/nWD
+        oJyo1566WL3SLiAxlJpro5L94OJN73lrdWkRbI8BFnTut8HXzIH847a6s0cJZZIO
+        qKDAImJP5ItsjtIdrgMzQyAbXpDwgLysvGHBE2jjc92bpBtwba/1iq/stzsK7BjQ
+        eI9cjsAtGowMTaxEosFwca0IYWOJoI/ZlmwCuCRacBHWRxHLFpHXD28RBMvNmyjq
+        Qh5l4czgzukfbifewM7ohA78UpVDfzlepqNFNYQfZBuZRvN8Q7quDGeMatl7W6Dv
+        pZuGhUqGVXAQRSAQI93sK81WQLM4HyFpujxhJR4UNQ1eacFG7wIDAQABo4ICbDCC
+        AmgwgYAGCCsGAQUFBwEBBHQwcjBKBggrBgEFBQcwAoY+aHR0cDovL3BraS5lc2ln
+        bi1sYS5jb20vY2FjZXJ0cy9wa2lDbGFzczJGaXJtYVRyaWJ1dGFyaWFDQS5jcnQw
+        JAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmVzaWduLWxhLmNvbTAdBgNVHQ4EFgQU
+        81B8oA5sFsdt5dz/OqYD/3eGT50wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT5
+        SvrCx27C5xKcV0U1hBptKOlKpDCByAYDVR0gBIHAMIG9MIG6BgwrBgEEAYLKagEE
+        AQIwgakwfgYIKwYBBQUHAgIwch5wAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAHAA
+        YQByAGEAIAB1AHMAbwAgAFQAcgBpAGIAdQB0AGEAcgBpAG8ALAAgAEMAbwBtAGUA
+        cgBjAGkAbwAsACAAUABhAGcAbwBzACAAeQAgAE8AdAByAG8AczAnBggrBgEFBQcC
+        ARYbaHR0cDovL3d3dy5lc2lnbi1sYS5jb20vY3BzMFEGA1UdHwRKMEgwRqBEoEKG
+        QGh0dHA6Ly9wa2kuZXNpZ24tbGEuY29tL2NybC9wa2lDbGFzczJGaXJtYVRyaWJ1
+        dGFyaWEvZW5kdXNlci5jcmwwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsG
+        AQUFBwMCBggrBgEFBQcDBDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzMDIw
+        NjYyLUswIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5OTU1MTc0MC1LMA0GCSqG
+        SIb3DQEBCwUAA4IBAQBqGiz6Qy2U8e1sA+yh64J+ikzqsXTZQ/SvyiF2WXGmlto0
+        kTii8FpPKvcQK2XMpe21lVYvld8R7xxczuaHXGNyjgfhBvgc41Dt7u71PaLpnqNP
+        H5oiMKL4tkqKZ+9neFWhstgq/4kJ1D0LOj2rptsM/RBBTdril0xDOQlHDDyffiXd
+        U+6QW0JEvKqv5LiJ8sUaNYTRGTwsDJ1oyDh5FGLYwKfenuEVpvlhZPURzUR4tf7Y
+        7xifMFFfZsdqmh+yLAMTXUvXq5lWTU371WEZcWdtqq1ynXBU0rD6wNa4rubhCD19
+        3mNa0weH92D9QBTUUHiuTzSZk9dE6qGJ7fsWKCpY
+      </X509Certificate>
+    </X509Data>
+  </KeyInfo>
+</Signature>
+
+
+</DTE>
+<DTE version="1.0" >
+  <Documento ID="F39925885T33">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>39925885</Folio>
+        <FchEmis>2026-03-03</FchEmis>
+        <FmaPago>2</FmaPago>
+        <TermPagoDias>14</TermPagoDias>
+        <FchVenc>2026-03-17</FchVenc>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>91004000-6</RUTEmisor>
+        <RznSoc>PRODUCTOS FERNANDEZ S.A.</RznSoc>
+        <GiroEmis>INDUSTRIA ALIMENTICIA</GiroEmis>
+        <Acteco>151140</Acteco>
+        <DirOrigen>AVDA. 11 ORIENTE 1470</DirOrigen>
+        <CmnaOrigen>TALCA</CmnaOrigen>
+        <CiudadOrigen>TALCA</CiudadOrigen>
+        <CdgVendedor>99</CdgVendedor>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>18799561-2</RUTRecep>
+        <CdgIntRecep>693169</CdgIntRecep>
+        <RznSocRecep>CATALAN SANDOVAL MAXIMILIANO ANTONIO</RznSocRecep>
+        <GiroRecep>ABARROTES-LACTEOS</GiroRecep>
+        <DirRecep>3 NORTE N?60</DirRecep>
+        <CmnaRecep>VI?A DEL MAR</CmnaRecep>
+        <CiudadRecep>VI?A DEL MAR</CiudadRecep>
+        <DirPostal>VI?A DEL MAR</DirPostal>
+        <CmnaPostal>VI?A DEL MAR</CmnaPostal>
+      </Receptor>
+      <Transporte>
+        <DirDest>3 NORTE N?60 ;VI?A DEL MAR ;VI?A DEL MAR</DirDest>
+        <CmnaDest>VI?A DEL MAR</CmnaDest>
+        <CiudadDest>VI?A DEL MAR</CiudadDest>
+      </Transporte>
+      <Totales>
+        <MntNeto>6600</MntNeto>
+        <MntExe>0</MntExe>
+        <TasaIVA>19.00</TasaIVA>
+        <IVA>1254</IVA>
+        <MntTotal>7854</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>EAN13</TpoCodigo>
+        <VlrCodigo>PS000</VlrCodigo>
+      </CdgItem>
+      <CdgItem>
+        <TpoCodigo>DUN14</TpoCodigo>
+        <VlrCodigo>26320</VlrCodigo>
+      </CdgItem>
+      <NmbItem>PATE SABOR TERNERA PF (16x125g)</NmbItem>
+      <DscItem>|1|CAJ|2|KGS</DscItem>
+      <QtyRef>1.000000</QtyRef>
+      <UnmdRef>CAJ</UnmdRef>
+      <QtyItem>2.000000</QtyItem>
+      <UnmdItem>KGS</UnmdItem>
+      <PrcItem>3300.000000</PrcItem>
+      <MontoItem>6600</MontoItem>
+    </Detalle>
+    <TED version="1.0">
+      <DD>
+        <RE>91004000-6</RE>
+        <TD>33</TD>
+        <F>39925885</F>
+        <FE>2026-03-03</FE>
+        <RR>18799561-2</RR>
+        <RSR>CATALAN SANDOVAL MAXIMILIANO ANTONIO</RSR>
+        <MNT>7854</MNT>
+        <IT1>PATE SABOR TERNERA PF (16x125g)</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>91004000-6</RE>
+            <RS>PRODUCTOS FERNANDEZ SA</RS>
+            <TD>33</TD>
+            <RNG>
+              <D>39384948</D>
+              <H>40084947</H>
+            </RNG>
+            <FA>2025-12-01</FA>
+            <RSAPK>
+              <M>0DEvTOvcullscWsIomf426rNe3oW0xQjVqtkDb8oyhG728XcWRsopuqhnQGqyD0ZRFZ2n7gI7pN08rrx90J8Mw==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>300</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">WNE9iSfMkudRf5V+B2B3XEGjXY35gn/341Yi2LhuqM4qnSgypGBLs5X16L5eqt5P4o2V2HV4zc1ayEI7eLh5AQ==</FRMA>
+        </CAF>
+        <TSTED>2026-03-03T20:15:59</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">C3/ofqAKuxL9EoYAWFubxODIc44PS6RW9UzR+EhPx75Q74OcwH65ulYWeRCdOue0m/vq8jfLT2mmSbQ1IYU5Ng==</FRMT>
+    </TED>
+    <TmstFirma>2026-03-03T20:15:59</TmstFirma>
+  </Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#F39925885T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>ywEW8W3UUVOMHF0B8n1ID5mpgoo=</DigestValue></Reference></SignedInfo><SignatureValue>XpXap9jZUf3j4ISuie/9P6Ro2Tu0qaj836Lu/hkxV/DCxtk2s+PQ2pdb9nSvte57ObkKYA7YXmUR
+G7JGIJ2liIF+7kt6uhfnemolPHmt2UZiPHFbdohHzVvK8P8gLhJ5yqV6bwLf7wN5tzTYDQGR+nEI
+QlunASPVzmg0+6IEsgiweNYXw7Lk5YUseKmjkZj920rmm4FbYLBbwfroyfoR9IRR2qtt7FK22OSD
+l4ix+s2EChqjlQky01D/CM78uf4J+c1p3KX/kw2EwIEFxQyUDLvjx0zrcV3fzi/H2Bv6piB6tgzn
+isOWdaWRNxA8qsdBe5ds/PZQHHEx08L5Wov9wg==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>osWtreQQaHDhIe+vU7ReMSh97If16RlhGwdKlJYd+qlULAmM8sT5RIxaqCTWiGb3ncaQ7/bCI/Cm
+wsIWMbAT0PyLvvj/6wlY0rEzxNgqbSRdJKeslwAXe2TvWfi4q555JTiGYG74HznRIyMw5IgCTGXU
+UrXWqFIuJYpZ8KMFsxf1Cki4dRYNV7jNKNgvneV0KN/qYhFCy73/gfCZhbODRm7MGPJmz4AWpoSY
+2yTVy07C3T7LyvSPgegiMzrixNkULsnHShxQNOm2BqrHOTYkpcrUeLLubtS77lgKpCpsfVlmtsET
+MfxqEH2LHCzxo7RGPPu2TbE6osDbcAgL/qkz1w==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIHsTCCBZmgAwIBAgIKYdFohwABAAh0sjANBgkqhkiG9w0BAQsFADCBvzELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQD
+ExVFLUNFUlRDSElMRSBDQSBGRVMgMDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNo
+aWxlLmNsMB4XDTIzMTIyMjE0NDU1OFoXDTI2MTIyMTE0NDU1OFowga0xCzAJBgNVBAYTAkNMMQ4w
+DAYDVQQIEwVNQVVMRTEOMAwGA1UEBxMFVEFMQ0ExIDAeBgNVBAoTF1BST0RVQ1RPUyBGRVJOQU5E
+RVogUy5BMQowCAYDVQQLDAEqMSYwJAYDVQQDEx1GQUJJQU4gQU5EUkVTIEdPTlpBTEVaICBPU1NF
+UzEoMCYGCSqGSIb3DQEJARYZUk9KQVNOSUNPTEFTNzY5QEdNQUlMLkNPTTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAKLFra3kEGhw4SHvr1O0XjEofeyH9ekZYRsHSpSWHfqpVCwJjPLE
++USMWqgk1ohm953GkO/2wiPwpsLCFjGwE9D8i774/+sJWNKxM8TYKm0kXSSnrJcAF3tk71n4uKue
+eSU4hmBu+B850SMjMOSIAkxl1FK11qhSLiWKWfCjBbMX9QpIuHUWDVe4zSjYL53ldCjf6mIRQsu9
+/4HwmYWzg0ZuzBjyZs+AFqaEmNsk1ctOwt0+y8r0j4HoIjM64sTZFC7Jx0ocUDTptgaqxzk2JKXK
+1Hiy7m7Uu+5YCqQqbH1ZZrbBEzH8ahB9ixws8aO0Rjz7tk2xOqLA23AIC/6pM9cCAwEAAaOCAr0w
+ggK5MIIBXwYDVR0gBIIBVjCCAVIwggFOBggrBgEEAcNSBTCCAUAwPQYIKwYBBQUHAgEWMWh0dHBz
+Oi8vd3d3LmUtY2VydGNoaWxlLmNsL3BvbGl0aWNhcy15LXByYWN0aWNhcy8wgf4GCCsGAQUFBwIC
+MIHxHoHuAEUAbAAgAHIAZQBzAHAAbwBuAGQAZQByACAAZQBzAHQAZQAgAGYAbwByAG0AdQBsAGEA
+cgBpAG8AIABlAHMAIAB1AG4AIAByAGUAcQB1AGkAcwBpAHQAbwAgAGkAbgBkAGkAcwBwAGUAbgBz
+AGEAYgBsAGUAIABwAGEAcgBhACAAZABhAHIAIABpAG4AaQBjAGkAbwAgAGEAbAAgAHAAcgBvAGMA
+ZQBzAG8AIABkAGUAIABjAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBuAC4AIABQAG8AcwB0AGUAcgBp
+AG8AcgBtAGUAbgB0AGUALDAdBgNVHQ4EFgQUbM26ZOtp+tWg1GuZXsQPyn7H7RAwCwYDVR0PBAQD
+AgTwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDk2MzY2MDctODAfBgNVHSMEGDAWgBR01iGz
+9FroLXy7WQZjQ+9ptDqTBDBABgNVHR8EOTA3MDWgM6Axhi9odHRwOi8vY3JsLmVjZXJ0Y2hpbGUu
+Y2wvRS1DRVJUQ0hJTEVDQUZFUzAyLmNybDA9BggrBgEFBQcBAQQxMC8wLQYIKwYBBQUHMAGGIWh0
+dHA6Ly9vY3NwZmVzLmVjZXJ0Y2hpbGUuY2wvb2NzcDA8BgkrBgEEAYI3FQcELzAtBiUrBgEEAYI3
+FQiB3dJNl9Q6homdBoeIzm+Dr8xgRYbS7AiGx8p9AgFkAgEHMCMGA1UdEgQcMBqgGAYIKwYBBAHB
+AQKgDBYKOTY5MjgxODAtNTANBgkqhkiG9w0BAQsFAAOCAgEAayCDsy0G0XV5Rw+JxvsneXPPkAPe
+RRYBgZnCWQVD2Q+n2j44nbpREd77nn8adnLz/QX6etaEVH3JHucU2c36LZ5YCRS4+Wfw6Y/g5drk
+TdmceMuEFZvy/pusn+5vRSjNEnNPd5b89c0pntoAnsdH+Fj0K8wfBnsJX9VicOHFelYtWub1ZZNx
+4NN170CZGc5rz7KKTn6wKHiLaKEWeDYl8jGRdth5D6eb8mTpiBcsQ644kFUaUabqiMfOyK7e6NXV
+dClOENvblC93Osmvr+32PqkKOoh2ITq2lj2qZQpZj6UGnf72nzATrBN5CCVvFedjbWNbmoW3SPmq
+fdrGRNF2RwUv8UcxiMYZGAlhPnHf1YTo4orHIDCtbnevKOo4W/NBEhE9bCwQv1pWBTdGtQ+Y7Mfo
+5BQxi66MlOP7NXWOsFgPSCRQj7xa0hQr5jFuB2xYqxJYKcMEPcMg0Eu8NWAn29youi6J/nM+vNBU
+AYIsOCHz2aTGTVqzec4dVrg/9aldDAlQ9iv9ezoybJwuEcMJxTfd8SExFscI2XMUpDSq8YPHRbiE
+II6l5FJrka9r24p77/wEJ3Y8J4vvXeKA12ZJTnlW48zxSItGG+aWVPJtx1dyXn/qpDt/AAHHq7aO
+bTxl5U8YG/IapMku+3CLwYLkRhWKzYlIVJgmZjdFqKCKswo=</X509Certificate></X509Data></KeyInfo></Signature></DTE>
+<DTE version="1.0" >
+  <Documento ID="F39925886T33">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>39925886</Folio>
+        <FchEmis>2026-03-03</FchEmis>
+        <FmaPago>2</FmaPago>
+        <TermPagoDias>14</TermPagoDias>
+        <FchVenc>2026-03-17</FchVenc>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>91004000-6</RUTEmisor>
+        <RznSoc>PRODUCTOS FERNANDEZ S.A.</RznSoc>
+        <GiroEmis>INDUSTRIA ALIMENTICIA</GiroEmis>
+        <Acteco>151140</Acteco>
+        <DirOrigen>AVDA. 11 ORIENTE 1470</DirOrigen>
+        <CmnaOrigen>TALCA</CmnaOrigen>
+        <CiudadOrigen>TALCA</CiudadOrigen>
+        <CdgVendedor>99</CdgVendedor>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>18799561-2</RUTRecep>
+        <CdgIntRecep>693169</CdgIntRecep>
+        <RznSocRecep>CATALAN SANDOVAL MAXIMILIANO ANTONIO</RznSocRecep>
+        <GiroRecep>ABARROTES-LACTEOS</GiroRecep>
+        <DirRecep>3 NORTE N?60</DirRecep>
+        <CmnaRecep>VI?A DEL MAR</CmnaRecep>
+        <CiudadRecep>VI?A DEL MAR</CiudadRecep>
+        <DirPostal>VI?A DEL MAR</DirPostal>
+        <CmnaPostal>VI?A DEL MAR</CmnaPostal>
+      </Receptor>
+      <Transporte>
+        <DirDest>3 NORTE N?60 ;VI?A DEL MAR ;VI?A DEL MAR</DirDest>
+        <CmnaDest>VI?A DEL MAR</CmnaDest>
+        <CiudadDest>VI?A DEL MAR</CiudadDest>
+      </Transporte>
+      <Totales>
+        <MntNeto>57754</MntNeto>
+        <MntExe>0</MntExe>
+        <TasaIVA>19.00</TasaIVA>
+        <IVA>10974</IVA>
+        <MntTotal>68728</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>EAN13</TpoCodigo>
+        <VlrCodigo>S6000</VlrCodigo>
+      </CdgItem>
+      <CdgItem>
+        <TpoCodigo>DUN14</TpoCodigo>
+        <VlrCodigo>26310</VlrCodigo>
+      </CdgItem>
+      <NmbItem>SALCHICHAS SURENAS PF (24x250g)</NmbItem>
+      <DscItem>|1|CAJ|6|KGS</DscItem>
+      <QtyRef>1.000000</QtyRef>
+      <UnmdRef>CAJ</UnmdRef>
+      <QtyItem>6.000000</QtyItem>
+      <UnmdItem>KGS</UnmdItem>
+      <PrcItem>3330.330000</PrcItem>
+      <MontoItem>19982</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>EAN13</TpoCodigo>
+        <VlrCodigo>CJP16</VlrCodigo>
+      </CdgItem>
+      <CdgItem>
+        <TpoCodigo>DUN14</TpoCodigo>
+        <VlrCodigo>1215569</VlrCodigo>
+      </CdgItem>
+      <NmbItem>JAMON PIER. ACAR. PF (15x200gr)</NmbItem>
+      <DscItem>|1|CAJ|3|KGS</DscItem>
+      <QtyRef>1.000000</QtyRef>
+      <UnmdRef>CAJ</UnmdRef>
+      <QtyItem>3.000000</QtyItem>
+      <UnmdItem>KGS</UnmdItem>
+      <PrcItem>8207.330000</PrcItem>
+      <MontoItem>24622</MontoItem>
+    </Detalle>
+    <Detalle>
+      <NroLinDet>3</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>EAN13</TpoCodigo>
+        <VlrCodigo>CSP01</VlrCodigo>
+      </CdgItem>
+      <CdgItem>
+        <TpoCodigo>DUN14</TpoCodigo>
+        <VlrCodigo>1133561</VlrCodigo>
+      </CdgItem>
+      <NmbItem>SALAME T. ITALIANO PF (12x100gr)</NmbItem>
+      <DscItem>|1|CAJ|1,2|KGS</DscItem>
+      <QtyRef>1.000000</QtyRef>
+      <UnmdRef>CAJ</UnmdRef>
+      <QtyItem>1.200000</QtyItem>
+      <UnmdItem>KGS</UnmdItem>
+      <PrcItem>10958.330000</PrcItem>
+      <MontoItem>13150</MontoItem>
+    </Detalle>
+    <TED version="1.0">
+      <DD>
+        <RE>91004000-6</RE>
+        <TD>33</TD>
+        <F>39925886</F>
+        <FE>2026-03-03</FE>
+        <RR>18799561-2</RR>
+        <RSR>CATALAN SANDOVAL MAXIMILIANO ANTONIO</RSR>
+        <MNT>68728</MNT>
+        <IT1>SALCHICHAS SURENAS PF (24x250g)</IT1>
+        <CAF version="1.0">
+          <DA>
+            <RE>91004000-6</RE>
+            <RS>PRODUCTOS FERNANDEZ SA</RS>
+            <TD>33</TD>
+            <RNG>
+              <D>39384948</D>
+              <H>40084947</H>
+            </RNG>
+            <FA>2025-12-01</FA>
+            <RSAPK>
+              <M>0DEvTOvcullscWsIomf426rNe3oW0xQjVqtkDb8oyhG728XcWRsopuqhnQGqyD0ZRFZ2n7gI7pN08rrx90J8Mw==</M>
+              <E>Aw==</E>
+            </RSAPK>
+            <IDK>300</IDK>
+          </DA>
+          <FRMA algoritmo="SHA1withRSA">WNE9iSfMkudRf5V+B2B3XEGjXY35gn/341Yi2LhuqM4qnSgypGBLs5X16L5eqt5P4o2V2HV4zc1ayEI7eLh5AQ==</FRMA>
+        </CAF>
+        <TSTED>2026-03-03T20:15:59</TSTED>
+      </DD>
+      <FRMT algoritmo="SHA1withRSA">u6EtyvrtLQ1tIzD/YFwXUY+lFbx140ZCR72xIDAyVbOJg96hOhXu5Sf+h/BfyrrfxWc0t3p8Bv4yaBDdAsZhwg==</FRMT>
+    </TED>
+    <TmstFirma>2026-03-03T20:15:59</TmstFirma>
+  </Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#F39925886T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>W0diLlcZM0RijAxn50bWgciAp+M=</DigestValue></Reference></SignedInfo><SignatureValue>KaqAg9qawO3SzgLPZfxFS0IFauAwtuQL39A5lM4kfgPsnvglAagDpPQeG7V4sUjcSPY7ZH7rO9l1
+odDTiKmryr3TtqZA8dj3Sjw0nWLQM641ydw8g76iAc/JMzLNwz9aunajMyMYOm3HneSMO6F9kBA2
+XD2sA46iKrqRByEyY91eedChcEWoD7GG3KkMI3gcCYUDPMOtqvW33ow8sDvGt/9/4S0jSqvNn9s8
+R8qRLYGU8EKksu5zPyxCBsig4AE/guTX9sl+7L2m29I7GB2M9kpVbkFUXRYBDCb0aFYzZe6h6wIA
+5sxoM3aoKBNTUNpWwvFpmYv5oRnQscu977OOvQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>osWtreQQaHDhIe+vU7ReMSh97If16RlhGwdKlJYd+qlULAmM8sT5RIxaqCTWiGb3ncaQ7/bCI/Cm
+wsIWMbAT0PyLvvj/6wlY0rEzxNgqbSRdJKeslwAXe2TvWfi4q555JTiGYG74HznRIyMw5IgCTGXU
+UrXWqFIuJYpZ8KMFsxf1Cki4dRYNV7jNKNgvneV0KN/qYhFCy73/gfCZhbODRm7MGPJmz4AWpoSY
+2yTVy07C3T7LyvSPgegiMzrixNkULsnHShxQNOm2BqrHOTYkpcrUeLLubtS77lgKpCpsfVlmtsET
+MfxqEH2LHCzxo7RGPPu2TbE6osDbcAgL/qkz1w==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIHsTCCBZmgAwIBAgIKYdFohwABAAh0sjANBgkqhkiG9w0BAQsFADCBvzELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQD
+ExVFLUNFUlRDSElMRSBDQSBGRVMgMDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNo
+aWxlLmNsMB4XDTIzMTIyMjE0NDU1OFoXDTI2MTIyMTE0NDU1OFowga0xCzAJBgNVBAYTAkNMMQ4w
+DAYDVQQIEwVNQVVMRTEOMAwGA1UEBxMFVEFMQ0ExIDAeBgNVBAoTF1BST0RVQ1RPUyBGRVJOQU5E
+RVogUy5BMQowCAYDVQQLDAEqMSYwJAYDVQQDEx1GQUJJQU4gQU5EUkVTIEdPTlpBTEVaICBPU1NF
+UzEoMCYGCSqGSIb3DQEJARYZUk9KQVNOSUNPTEFTNzY5QEdNQUlMLkNPTTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAKLFra3kEGhw4SHvr1O0XjEofeyH9ekZYRsHSpSWHfqpVCwJjPLE
++USMWqgk1ohm953GkO/2wiPwpsLCFjGwE9D8i774/+sJWNKxM8TYKm0kXSSnrJcAF3tk71n4uKue
+eSU4hmBu+B850SMjMOSIAkxl1FK11qhSLiWKWfCjBbMX9QpIuHUWDVe4zSjYL53ldCjf6mIRQsu9
+/4HwmYWzg0ZuzBjyZs+AFqaEmNsk1ctOwt0+y8r0j4HoIjM64sTZFC7Jx0ocUDTptgaqxzk2JKXK
+1Hiy7m7Uu+5YCqQqbH1ZZrbBEzH8ahB9ixws8aO0Rjz7tk2xOqLA23AIC/6pM9cCAwEAAaOCAr0w
+ggK5MIIBXwYDVR0gBIIBVjCCAVIwggFOBggrBgEEAcNSBTCCAUAwPQYIKwYBBQUHAgEWMWh0dHBz
+Oi8vd3d3LmUtY2VydGNoaWxlLmNsL3BvbGl0aWNhcy15LXByYWN0aWNhcy8wgf4GCCsGAQUFBwIC
+MIHxHoHuAEUAbAAgAHIAZQBzAHAAbwBuAGQAZQByACAAZQBzAHQAZQAgAGYAbwByAG0AdQBsAGEA
+cgBpAG8AIABlAHMAIAB1AG4AIAByAGUAcQB1AGkAcwBpAHQAbwAgAGkAbgBkAGkAcwBwAGUAbgBz
+AGEAYgBsAGUAIABwAGEAcgBhACAAZABhAHIAIABpAG4AaQBjAGkAbwAgAGEAbAAgAHAAcgBvAGMA
+ZQBzAG8AIABkAGUAIABjAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBuAC4AIABQAG8AcwB0AGUAcgBp
+AG8AcgBtAGUAbgB0AGUALDAdBgNVHQ4EFgQUbM26ZOtp+tWg1GuZXsQPyn7H7RAwCwYDVR0PBAQD
+AgTwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMDk2MzY2MDctODAfBgNVHSMEGDAWgBR01iGz
+9FroLXy7WQZjQ+9ptDqTBDBABgNVHR8EOTA3MDWgM6Axhi9odHRwOi8vY3JsLmVjZXJ0Y2hpbGUu
+Y2wvRS1DRVJUQ0hJTEVDQUZFUzAyLmNybDA9BggrBgEFBQcBAQQxMC8wLQYIKwYBBQUHMAGGIWh0
+dHA6Ly9vY3NwZmVzLmVjZXJ0Y2hpbGUuY2wvb2NzcDA8BgkrBgEEAYI3FQcELzAtBiUrBgEEAYI3
+FQiB3dJNl9Q6homdBoeIzm+Dr8xgRYbS7AiGx8p9AgFkAgEHMCMGA1UdEgQcMBqgGAYIKwYBBAHB
+AQKgDBYKOTY5MjgxODAtNTANBgkqhkiG9w0BAQsFAAOCAgEAayCDsy0G0XV5Rw+JxvsneXPPkAPe
+RRYBgZnCWQVD2Q+n2j44nbpREd77nn8adnLz/QX6etaEVH3JHucU2c36LZ5YCRS4+Wfw6Y/g5drk
+TdmceMuEFZvy/pusn+5vRSjNEnNPd5b89c0pntoAnsdH+Fj0K8wfBnsJX9VicOHFelYtWub1ZZNx
+4NN170CZGc5rz7KKTn6wKHiLaKEWeDYl8jGRdth5D6eb8mTpiBcsQ644kFUaUabqiMfOyK7e6NXV
+dClOENvblC93Osmvr+32PqkKOoh2ITq2lj2qZQpZj6UGnf72nzATrBN5CCVvFedjbWNbmoW3SPmq
+fdrGRNF2RwUv8UcxiMYZGAlhPnHf1YTo4orHIDCtbnevKOo4W/NBEhE9bCwQv1pWBTdGtQ+Y7Mfo
+5BQxi66MlOP7NXWOsFgPSCRQj7xa0hQr5jFuB2xYqxJYKcMEPcMg0Eu8NWAn29youi6J/nM+vNBU
+AYIsOCHz2aTGTVqzec4dVrg/9aldDAlQ9iv9ezoybJwuEcMJxTfd8SExFscI2XMUpDSq8YPHRbiE
+II6l5FJrka9r24p77/wEJ3Y8J4vvXeKA12ZJTnlW48zxSItGG+aWVPJtx1dyXn/qpDt/AAHHq7aO
+bTxl5U8YG/IapMku+3CLwYLkRhWKzYlIVJgmZjdFqKCKswo=</X509Certificate></X509Data></KeyInfo></Signature></DTE>
+<DTE version="1.0" >
+      <Documento ID="F21992360T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>21992360</Folio>
+            <FchEmis>2026-03-03</FchEmis>
+            <TipoDespacho>2</TipoDespacho>
+            <IndServicio>1</IndServicio>
+            <FmaPago>2</FmaPago>
+            <PeriodoDesde>2026-03-03</PeriodoDesde>
+            <PeriodoHasta>2026-03-03</PeriodoHasta>
+            <FchVenc>2026-03-03</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>93178000-K</RUTEmisor>
+            <RznSoc>IMPORTADORA CAFE DO BRASIL S A</RznSoc>
+            <GiroEmis>Venta al por mayor de huevos, l?cteos, abarrotes y de otros alimentos</GiroEmis>
+            <Acteco>462010</Acteco>
+            <Sucursal>CASA MATRIZ</Sucursal>
+            <DirOrigen>Caupolic?n 9401</DirOrigen>
+            <CmnaOrigen>Quilicura</CmnaOrigen>
+            <CiudadOrigen>Santiago</CiudadOrigen>
+            <CdgVendedor>837</CdgVendedor>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>18799561-2</RUTRecep>
+            <CdgIntRecep>93178000-K</CdgIntRecep>
+            <RznSocRecep>MAXIMILIANO ANTONIO CATALAN SA</RznSocRecep>
+            <GiroRecep>Alm.Med;Superm;Minim</GiroRecep>
+            <CorreoRecep />
+            <DirRecep>3 Norte N 60, L3, VINA DEL MAR, V - Valparaiso</DirRecep>
+            <CmnaRecep>VINA DEL MAR</CmnaRecep>
+            <CiudadRecep>VINA DEL MAR</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>23439</MntNeto>
+            <TasaIVA>19</TasaIVA>
+            <IVA>4454</IVA>
+            <MntTotal>27893</MntTotal>
+            <MontoPeriodo>27893</MontoPeriodo>
+            <VlrPagar>27893</VlrPagar>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>EAN13</TpoCodigo>
+            <VlrCodigo>7702367012889</VlrCodigo>
+          </CdgItem>
+          <NmbItem>102100020 ATUN ACEITE 142G VAN CAMPS</NmbItem>
+          <DscItem>ATUN ACEITE 142G VAN CAMPS</DscItem>
+          <QtyItem>5</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>1192</PrcItem>
+          <MontoItem>5960</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>EAN13</TpoCodigo>
+            <VlrCodigo>7802420004636</VlrCodigo>
+          </CdgItem>
+          <NmbItem>101310039 ALINO COMPLETO EDRA 15 g RR</NmbItem>
+          <DscItem>ALINO COMPLETO EDRA 15 g RR</DscItem>
+          <QtyItem>5</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>184</PrcItem>
+          <MontoItem>920</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>EAN13</TpoCodigo>
+            <VlrCodigo>7802420009518</VlrCodigo>
+          </CdgItem>
+          <NmbItem>201700459 MANI SALADO 150G MP1</NmbItem>
+          <DscItem>MANI SALADO 150G MP1</DscItem>
+          <QtyItem>5</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>779</PrcItem>
+          <MontoItem>3895</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>EAN13</TpoCodigo>
+            <VlrCodigo>7802420010323</VlrCodigo>
+          </CdgItem>
+          <NmbItem>201700513 CRUNCHIS MANI 200G MP1</NmbItem>
+          <DscItem>CRUNCHIS MANI 200G MP1</DscItem>
+          <QtyItem>2</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>1262</PrcItem>
+          <MontoItem>2524</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>5</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>EAN13</TpoCodigo>
+            <VlrCodigo>7802420151477</VlrCodigo>
+          </CdgItem>
+          <NmbItem>201700506 PF CORTE AMERICANO 200G MP1</NmbItem>
+          <DscItem>PF CORTE AMERICANO 200G MP1</DscItem>
+          <QtyItem>3</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>1270</PrcItem>
+          <MontoItem>3810</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>6</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>EAN13</TpoCodigo>
+            <VlrCodigo>7891962064055</VlrCodigo>
+          </CdgItem>
+          <NmbItem>105100182 PAN INTEGRAL 390G BAUDUCCO</NmbItem>
+          <DscItem>PAN INTEGRAL 390G BAUDUCCO</DscItem>
+          <QtyItem>5</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>1266</PrcItem>
+          <MontoItem>6330</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>93178000-K</RE>
+            <TD>33</TD>
+            <F>21992360</F>
+            <FE>2026-03-03</FE>
+            <RR>18799561-2</RR>
+            <RSR>MAXIMILIANO ANTONIO CATALAN SA</RSR>
+            <MNT>27893</MNT>
+            <IT1>102100020 ATUN ACEITE 142G VAN CAMPS</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>93178000-K</RE>
+                <RS>ICB S.A.</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>21756641</D>
+                  <H>22056640</H>
+                </RNG>
+                <FA>2025-12-16</FA>
+                <RSAPK>
+                  <M>7yt/EnS50em+IIhvlMGYSVzBSfffRFdIK5F1eO4axowzkwrHuOUDHIyFXKdT2cFSgDAAj18PS4fV8I0TFkUQdw==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">Es88FT/KEd2bMXM6WJVStmtq877PAgdlzgkst2H0BsWpJluvK33bo2qHPUMF+bA+U2Kjxa41f/OybEBOf15W7g==</FRMA>
+            </CAF>
+            <TSTED>2026-03-03T17:00:01</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">sMXENjPj9ehxkLVuBGolTuay7ILLC7oDa37JLk9n1xeaM8JUwaI6+w3jHWsorcfKELCc6XeaIFyamtow6JVt3g==</FRMT>
+        </TED>
+        <TmstFirma>2026-03-03T14:00:03</TmstFirma>
+      </Documento><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#F21992360T33"><Transforms><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Frz15jGWZTxqFqMf7ObThtFpFJ8=</DigestValue></Reference></SignedInfo><SignatureValue>
+TmaRXItnkn0ZoC6T7lScD2M9sYGrll8xwnubXNUmkftzndcGi0QY4GUl2ST2DRGb
+svZmEsm/2SlYJOxBXPvDpNmi/F1p9v3IUEQoxQQhGTss4zwRyvwb3bJ0DUUFjJWu
+MYSDzdTV0kJQVm0RvWTKp6XIUo0UwYz2lAuxMA2EvpwpzS0X3Ax4skB4+mKgOIan
+kIgyeYQ87VPhGCkPHkAF3LLGwhv9airCCbsnpW0CwzHlrQKsrrUQm1RZu2cF7ZGD
+zqMsmCpxl2dyH5TGy2FVkL0+MlmnL/ilxi0meprtWd/tp9UZ82Nmr5DJO9CZLNSi
+OL8Y2cM6ClH7usSIVfgKSQ==
+</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>
+xp3igQYOOw6sZ52SPiJ3Qp1/wQixhRk7Ec/hZ+NLT2LBbrCJQ2LpfU00RmxND3+N
+cEgA6f1Q3TgTeyOvxGf6ULHlMqQdGbPs984Ax/3o3MNqD8771rCRNtBcYppyPwuI
+ZfbuRc5KxPnPNr6ispTgns1hAXkfXrrqOko5n29Qw0ejrvvEqAslb31uxjYvNtgl
+MDX8UC9hXQ/n47t1rmvXc3nrUaAcQ+mYTWeNhaRmeny1RJy8xRFuHEYr3Wmtkqg0
+KnLUVKXK6bm+AsCVNYY2Y6rcNftBIaYwTd2ZULVwJIppiQnTKI4GypC9RNGaSfCK
+OkYpKYkQOOTSZiivqTCnSQ==
+</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>
+MIIHuzCCBaOgAwIBAgIKJlf46gABAAi6lzANBgkqhkiG9w0BAQsFADCBvzELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQDExVFLUNFUlRDSElMRSBDQSBGRVMg
+MDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNoaWxlLmNsMB4XDTI0
+MDExNjEwNTg1MVoXDTI3MDExNTEwNTg1MVowgbcxCzAJBgNVBAYTAkNMMSIwIAYD
+VQQIExlNRVRST1BPTElUQU5BIERFIFNBTlRJQUdPMREwDwYDVQQHEwhTQU5USUFH
+TzERMA8GA1UEChMISUNCIFMuQS4xCjAIBgNVBAsMASoxMjAwBgNVBAMTKU1BUklP
+IEVNTUFOVUVMIFZJVFRPUklPIFNJR05PUklPIExBUlpBQkFMMR4wHAYJKoZIhvcN
+AQkBFg9GUVVJSkFEQUBJQ0IuQ0wwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQDGneKBBg47DqxnnZI+IndCnX/BCLGFGTsRz+Fn40tPYsFusIlDYul9TTRG
+bE0Pf41wSADp/VDdOBN7I6/EZ/pQseUypB0Zs+z3zgDH/ejcw2oPzvvWsJE20Fxi
+mnI/C4hl9u5FzkrE+c82vqKylOCezWEBeR9euuo6Sjmfb1DDR6Ou+8SoCyVvfW7G
+Ni822CUwNfxQL2FdD+fju3Wua9dzeetRoBxD6ZhNZ42FpGZ6fLVEnLzFEW4cRivd
+aa2SqDQqctRUpcrpub4CwJU1hjZjqtw1+0EhpjBN3ZlQtXAkimmJCdMojgbKkL1E
+0ZpJ8Io6RikpiRA45NJmKK+pMKdJAgMBAAGjggK9MIICuTCCAV8GA1UdIASCAVYw
+ggFSMIIBTgYIKwYBBAHDUgUwggFAMD0GCCsGAQUFBwIBFjFodHRwczovL3d3dy5l
+LWNlcnRjaGlsZS5jbC9wb2xpdGljYXMteS1wcmFjdGljYXMvMIH+BggrBgEFBQcC
+AjCB8R6B7gBFAGwAIAByAGUAcwBwAG8AbgBkAGUAcgAgAGUAcwB0AGUAIABmAG8A
+cgBtAHUAbABhAHIAaQBvACAAZQBzACAAdQBuACAAcgBlAHEAdQBpAHMAaQB0AG8A
+IABpAG4AZABpAHMAcABlAG4AcwBhAGIAbABlACAAcABhAHIAYQAgAGQAYQByACAA
+aQBuAGkAYwBpAG8AIABhAGwAIABwAHIAbwBjAGUAcwBvACAAZABlACAAYwBlAHIA
+dABpAGYAaQBjAGEAYwBpAPMAbgAuACAAUABvAHMAdABlAHIAaQBvAHIAbQBlAG4A
+dABlACwwHQYDVR0OBBYEFKQzCec+vFrwyl2ev+/yC4zByEsXMAsGA1UdDwQEAwIE
+8DAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjA1ODk5NzM2LTYwHwYDVR0jBBgw
+FoAUdNYhs/Ra6C18u1kGY0PvabQ6kwQwQAYDVR0fBDkwNzA1oDOgMYYvaHR0cDov
+L2NybC5lY2VydGNoaWxlLmNsL0UtQ0VSVENISUxFQ0FGRVMwMi5jcmwwPQYIKwYB
+BQUHAQEEMTAvMC0GCCsGAQUFBzABhiFodHRwOi8vb2NzcGZlcy5lY2VydGNoaWxl
+LmNsL29jc3AwPAYJKwYBBAGCNxUHBC8wLQYlKwYBBAGCNxUIgd3STZfUOoaJnQaH
+iM5vg6/MYEWG0uwIhsfKfQIBZAIBBzAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwW
+Cjk2OTI4MTgwLTUwDQYJKoZIhvcNAQELBQADggIBAKcgkYjUF3BT/m3593qD2cXH
+cITawJ0Ig2qnieWnk3EM3Z+8cBMSMGlP5N9OOkMlGvSh8XNRGrNqwrOthDPvIUdf
+NCWhXiM02bC8G7o1rUmuQQ4k1SxSYK1FZA897MtxnMJ+x32KXhKfxd0SwJEDhQZZ
+Cz5K4FNTzZP+F9bT9hjIcPCviIZoFKPxDhipfFI3lfueMOGIOocwSp/5QRPVrzc2
+sJE9US/Y9JE/xDQKwkVhfLVvYA9X2QkAX9Fn/tfUPQYd07EyRo50rnW2KhdsBa9L
+0EyOy7lhh5aeO2c2YCI/rASQ0f86mxNrcIJQOHciTfrK7LwfKz7kdZ2PeTCeaNtl
+/PKF68ZeZYn758lrcB3k8aaTRh7sh6l08f3wZh8FihShuqK8yNXtqxnPEcohHdAB
+dlYnKOp7IgY7L3M8x4TuEJorlmeYQWoj+S43rXQWhplUia2mOjgvDbshMX7NWtk8
+jE1gt5ODaYOvLmA96uJz/yaBIdJh1kTTwZoSbGrvtTw/V8hachwq/u9CGoUH4kGT
+iFlmGHIOTgmuw6lBM0Z/IlvDg9gLNGF7zNGcEZdvMdWAnbjZhYrJlpOvXtK2y48N
+TITjkgGzoh+5YUmjLZUAj9QGU9PAE7VZ89lOzqiEdRHxB6O7jBokHLu4/Di72ccW
+uNPeJGRKw4mJa4nnMFRF
+</X509Certificate></X509Data></KeyInfo></Signature>
+    </DTE>
+<DTE version="1.0" >
+      <Documento ID="T33F102284463">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>102284463</Folio>
+            <FchEmis>2026-03-03</FchEmis>
+            <TipoDespacho>1</TipoDespacho>
+            <FmaPago>1</FmaPago>
+            <TermPagoCdg>FEF</TermPagoCdg>
+            <FchVenc>2026-03-03</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>93281000-K</RUTEmisor>
+            <RznSoc>Coca Cola Embonor S.A.</RznSoc>
+            <GiroEmis>Ind.Beb.Analcoholicas y Dis.Licor.Cervez</GiroEmis>
+            <Acteco>55410</Acteco>
+            <Sucursal>Coca Cola Embonor S.</Sucursal>
+            <CdgSIISucur>66451971</CdgSIISucur>
+            <DirOrigen>CAMINO INTERNACIONAL 13255 CONCON</DirOrigen>
+            <CmnaOrigen>CONCON</CmnaOrigen>
+            <CiudadOrigen>CONCON</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>18799561-2</RUTRecep>
+            <CdgIntRecep>0001845860</CdgIntRecep>
+            <RznSocRecep>MAXIMILIANO CATALAN SANDOVAL</RznSocRecep>
+            <GiroRecep>ABG</GiroRecep>
+            <DirRecep>3 NORTE 60-3</DirRecep>
+            <CmnaRecep>VINA DEL MAR</CmnaRecep>
+            <CiudadRecep>VINA PONIENTE</CiudadRecep>
+            <CiudadPostal>VINA PONIENTE</CiudadPostal>
+          </Receptor>
+          <Transporte>
+            <DirDest>VINA PONIENTE</DirDest>
+            <CmnaDest>VINA DEL MAR</CmnaDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>78789</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>14970</IVA>
+            <ImptoReten>
+              <TipoImp>271</TipoImp>
+              <TasaImp>18.00</TasaImp>
+              <MontoImp>3774</MontoImp>
+            </ImptoReten>
+            <ImptoReten>
+              <TipoImp>27</TipoImp>
+              <TasaImp>10.00</TasaImp>
+              <MontoImp>3087</MontoImp>
+            </ImptoReten>
+            <MntTotal>100620</MntTotal>
+            <VlrPagar>100620</VlrPagar>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>0166</VlrCodigo>
+          </CdgItem>
+          <NmbItem>COCA COLA X24 VIDRIO 237 CC</NmbItem>
+          <DscItem>0000001662|0000001107|0000000749|0000007681</DscItem>
+          <UnmdRef>0024</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>9992.000000</PrcItem>
+          <DescuentoPct>58.34</DescuentoPct>
+          <DescuentoMonto>5829</DescuentoMonto>
+          <CodImpAdic>271</CodImpAdic>
+          <MontoItem>4163</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>0262</VlrCodigo>
+          </CdgItem>
+          <NmbItem>COCA COCA X05 VIDRIO 1.000 CC</NmbItem>
+          <DscItem>0000000831|0000000601|0000000420|0000004184</DscItem>
+          <UnmdRef>0005</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>2680.000000</PrcItem>
+          <DescuentoPct>12.99</DescuentoPct>
+          <DescuentoMonto>348</DescuentoMonto>
+          <CodImpAdic>271</CodImpAdic>
+          <MontoItem>2332</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>1963</VlrCodigo>
+          </CdgItem>
+          <NmbItem>MONSTER ENERGY X06 473 CC</NmbItem>
+          <DscItem>0000002858|0000002376|0000001737|0000016617</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>4823.000000</PrcItem>
+          <CodImpAdic>271</CodImpAdic>
+          <MontoItem>9646</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>1966</VlrCodigo>
+          </CdgItem>
+          <NmbItem>MONSTER ULTRA X06 473 CC</NmbItem>
+          <DscItem>0000001429|0000001245|0000000512|0000008308</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>5122.000000</PrcItem>
+          <CodImpAdic>27</CodImpAdic>
+          <MontoItem>5122</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>5</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>1978</VlrCodigo>
+          </CdgItem>
+          <NmbItem>MONSTER MANGO LOCO X06 LATA 473CC</NmbItem>
+          <DscItem>0000001429|0000001245|0000000512|0000008308</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>5122.000000</PrcItem>
+          <CodImpAdic>27</CodImpAdic>
+          <MontoItem>5122</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>6</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>1988</VlrCodigo>
+          </CdgItem>
+          <NmbItem>MONSTER RIPPER NON JUICE X06 LAT 473</NmbItem>
+          <DscItem>0000001429|0000001188|0000000868|0000008308</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>4823.000000</PrcItem>
+          <CodImpAdic>271</CodImpAdic>
+          <MontoItem>4823</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>7</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>1989</VlrCodigo>
+          </CdgItem>
+          <NmbItem>MONSTER ZERO SUGAR GREEN X06 LAT 473</NmbItem>
+          <DscItem>0000002858|0000002489|0000001025|0000016616</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>5122.000000</PrcItem>
+          <CodImpAdic>27</CodImpAdic>
+          <MontoItem>10244</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>8</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>2508</VlrCodigo>
+          </CdgItem>
+          <NmbItem>BENEDICTINO SIN GAS X06 PET 500 CC</NmbItem>
+          <DscItem>0000002492|0000001552|0000000000|0000009721</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>4.000000</QtyItem>
+          <PrcItem>2368.000000</PrcItem>
+          <DescuentoPct>40.07</DescuentoPct>
+          <DescuentoMonto>3795</DescuentoMonto>
+          <MontoItem>5677</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>9</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>2509</VlrCodigo>
+          </CdgItem>
+          <NmbItem>BENEDICTINO CON GAS X06 PET 500 CC</NmbItem>
+          <DscItem>0000001246|0000000776|0000000000|0000004860</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>2.000000</QtyItem>
+          <PrcItem>2368.000000</PrcItem>
+          <DescuentoPct>40.07</DescuentoPct>
+          <DescuentoMonto>1898</DescuentoMonto>
+          <MontoItem>2838</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>10</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>4269</VlrCodigo>
+          </CdgItem>
+          <NmbItem>FANTA NAR ZERO X06 PET 591 CC</NmbItem>
+          <DscItem>0000000736|0000000797|0000000346|0000005339</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>4051.000000</PrcItem>
+          <DescuentoPct>14.59</DescuentoPct>
+          <DescuentoMonto>591</DescuentoMonto>
+          <CodImpAdic>27</CodImpAdic>
+          <MontoItem>3460</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>11</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>0742</VlrCodigo>
+          </CdgItem>
+          <NmbItem>SPRITE X06 PET 591 CC</NmbItem>
+          <DscItem>0000000736|0000000797|0000000346|0000005339</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>4051.000000</PrcItem>
+          <DescuentoPct>14.59</DescuentoPct>
+          <DescuentoMonto>591</DescuentoMonto>
+          <CodImpAdic>27</CodImpAdic>
+          <MontoItem>3460</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>12</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>0688</VlrCodigo>
+          </CdgItem>
+          <NmbItem>SPRITE ZERO X06 PET 591 CC</NmbItem>
+          <DscItem>0000000736|0000000797|0000000346|0000005339</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>4051.000000</PrcItem>
+          <DescuentoPct>14.59</DescuentoPct>
+          <DescuentoMonto>591</DescuentoMonto>
+          <CodImpAdic>27</CodImpAdic>
+          <MontoItem>3460</MontoItem>
+        </Detalle>
+        <DscRcgGlobal>
+          <NroLinDR>1</NroLinDR>
+          <TpoMov>R</TpoMov>
+          <GlosaDR>TOTAL FLETES</GlosaDR>
+          <TpoValor>$</TpoValor>
+          <ValorDR>18442.00</ValorDR>
+        </DscRcgGlobal>
+        <TED version="1.0">
+          <DD>
+            <RE>93281000-K</RE>
+            <TD>33</TD>
+            <F>102284463</F>
+            <FE>2026-03-03</FE>
+            <RR>18799561-2</RR>
+            <RSR>MAXIMILIANO CATALAN SANDOVAL</RSR>
+            <MNT>100620</MNT>
+            <IT1>COCA COLA X24 VIDRIO 237 CC</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>93281000-K</RE>
+                <RS>COCA COLA EMBONOR S A</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>101797656</D>
+                  <H>102497655</H>
+                </RNG>
+                <FA>2025-12-27</FA>
+                <RSAPK>
+                  <M>0NEvdz0t0sUZj3PX7kwoBwkE4PTGjKYzkuznvh5kBhETBcgibjLE/V9fwBrW5VlyNKGexLD5YeIyleUN8bWy7Q==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">C7EijkV9hFurlY+ieN+IB3n2IuLN3z31x5vxQpWnAVLjdXE9BxYJu5YHQl1zWszdqVFjEpZ8kUfFC4MWRq4Org==</FRMA>
+            </CAF>
+            <TSTED>2026-03-03T02:59:19</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">BRcA2Q1O/qMeu+C95JKRkTerfmIA0On+1o55ynQCWGxFtap9URA7FA2j0t3xWbnbcG4u02jFkBDU
+UGKx6VQH1Q==</FRMT>
+        </TED>
+        <TmstFirma>2026-03-03T02:59:19</TmstFirma>
+      </Documento>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<SignedInfo>
+		<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+		<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+		<Reference URI="#T33F102284463">
+			<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+			<DigestValue>859g1IBtJLk0dZ7plt7zfUFvodA=</DigestValue>
+		</Reference>
+	</SignedInfo>
+	<SignatureValue>Dz7M+HaxH1htypZjfMeGBpaVuXnCBXKoMKMqL2qa7D7LpTHNZ5+hoOUUt07kV8PlujCw8N5e4Swt
+t+dfYeVBO0A2wrlON/e2BAVG2m/7GtBYyJwHt1+1Z/Awus0Iz8OkZOvQwUOy3hzInVsc7TOmIOgb
+2FS/l65fK7Yw30KDEbkLiJrC+7v2CQxN03DhVfkpZ7RqauqiK9kJ5IwH5ECwdAjgQ3wzhvEcuK2n
+GkFrzfhxphKCbmlB4V2RdVyQhPIAQxA+DhqnDBCysfgsvX/JKJ5VnTOQ8EofNqYDzzsW3Ya7L5N4
+yWulXqmZVRPdbIziBqDSOx1Nugmo2qS3Ij/cQg==</SignatureValue>
+	<KeyInfo>
+		<KeyValue>
+			<RSAKeyValue>
+				<Modulus>u2AqfTnK0UuBnaqwwxkQsYxah53Vva2YN7zT90jFvHTGoharlctzSINBuCjAsQEDfzT2HYVeVizD
+JLibE118NTFtNnuvSWgoCqr/XHBaoWDFlruYXio1nwdroVncDJT7umgrg6n0VCrnSh8LhddVLB1r
+bkxWlydD85a+VXlCLUH4zucmGENyIBhaNi0R4J7rii+osq28Bog+l5ZZNI+8RlO1jYtdZe6sXq6p
+WL9ObtJsO2zXRxoTsLT4CiRHgrfMQXib7I7g/Mu8IOyJlVd1Vx6AAKDWZhgpffRhDRLWd+MHioEt
+K1PZmjEHwJCBH2M+mAD2mUIZG0jaX19iB9MFjQ==</Modulus>
+				<Exponent>AQAB</Exponent>
+			</RSAKeyValue>
+		</KeyValue>
+		<X509Data>
+			<X509Certificate>MIIGazCCBVOgAwIBAgIDBnKNMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yNTA2MTcxNjQ5MjhaFw0yODA2MTcx
+NjQ5MjhaMIGFMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSUwIwYDVQQD
+ExxWSUNUT1IgRlJBTkNJU0NPIFZJREFMIE9MSVZBMSAwHgYJKoZIhvcNAQkBFhF2dmlkYWxAZW1i
+b25vci5jbDETMBEGA1UEBRMKMTM1NzM1MzgtODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBALtgKn05ytFLgZ2qsMMZELGMWoed1b2tmDe80/dIxbx0xqIWq5XLc0iDQbgowLEBA3809h2F
+XlYswyS4mxNdfDUxbTZ7r0loKAqq/1xwWqFgxZa7mF4qNZ8Ha6FZ3AyU+7poK4Op9FQq50ofC4XX
+VSwda25MVpcnQ/OWvlV5Qi1B+M7nJhhDciAYWjYtEeCe64ovqLKtvAaIPpeWWTSPvEZTtY2LXWXu
+rF6uqVi/Tm7SbDts10caE7C0+AokR4K3zEF4m+yO4PzLvCDsiZVXdVcegACg1mYYKX30YQ0S1nfj
+B4qBLStT2ZoxB8CQgR9jPpgA9plCGRtI2l9fYgfTBY0CAwEAAaOCAr8wggK7MB8GA1UdIwQYMBaA
+FGWlqz4/yLZRbRF+X8MKB+ZDoAi2MB0GA1UdDgQWBBSd4mLcQZni1PzBD4/qIse/ie2XpzALBgNV
+HQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQEAwIF
+oDCB9QYDVR0gBIHtMIHqMIHnBggrBgEEAbVrAjCB2jAxBggrBgEFBQcCARYlaHR0cHM6Ly9hY2c0
+LmFjZXB0YS5jb20vQ1BTLUFjZXB0YWNvbTCBpAYIKwYBBQUHAgIwgZcwFhYPQWNlcHRhLmNvbSBT
+LkEuMAMCAQkafUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxpZGFkbyBlbiBmb3JtYSBvbmxpbmUsIHF1
+ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1c28gdHJpYnV0YXJpbywgcGFn
+b3MsIGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYKOTY5MTkwNTAt
+OKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9pbmZvQGFjZXB0YS5jb20w
+XAYDVR0RBFUwU6AYBggrBgEEAcEBAaAMFgoxMzU3MzUzOC04oCQGCCsGAQUFBwgDoBgwFgwKMTM1
+NzM1MzgtOAYIKwYBBAHBAQKBEXZ2aWRhbEBlbWJvbm9yLmNsMEcGCCsGAQUFBwEBBDswOTA3Bggr
+BgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9vY3NwL0NsYXNlMi1HNDA/BgNV
+HR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2NybC9DbGFzZTItRzQu
+Y3JsMA0GCSqGSIb3DQEBCwUAA4IBAQA/4uztdSv7Z7aLN3DFvjb28slpMuD/ISB3XgtbpYv/QMI+
+9Z/nmnMJ0zFKV3AdHiVk3rxXanoMRG6ezw/hTnATPAiKpwi/iw59E8KKOS4dA+lEdzJ2mlnbXFT3
+OyaB2UiLmUoO5ROA8LR/zCU8IIGgn7WncpOu2gDTMeYbV0vWAGBX1e1p8u4xI9b+Gq7MYy993EEk
++Mqh5a+/jWx4bHfxZs0l2GEz0UeeS1SissI32BulOQPmKkEqyBhnX2XW59ENWcZaJ4rWAFNGDeJv
+7nyBZvaIxyY8+aXtRh+lSjWq2R8mnazmZfGMLve1DpuBPvJZbw+wpubEHpTO9ide/3bo</X509Certificate>
+		</X509Data>
+	</KeyInfo>
+</Signature>
+    </DTE>
+<DTE version="1.0" >
+      <Documento ID="T33F102284464">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>102284464</Folio>
+            <FchEmis>2026-03-03</FchEmis>
+            <TipoDespacho>1</TipoDespacho>
+            <FmaPago>1</FmaPago>
+            <TermPagoCdg>FEF</TermPagoCdg>
+            <FchVenc>2026-03-03</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>93281000-K</RUTEmisor>
+            <RznSoc>Coca Cola Embonor S.A.</RznSoc>
+            <GiroEmis>Ind.Beb.Analcoholicas y Dis.Licor.Cervez</GiroEmis>
+            <Acteco>55410</Acteco>
+            <Sucursal>Coca Cola Embonor S.</Sucursal>
+            <CdgSIISucur>66451971</CdgSIISucur>
+            <DirOrigen>CAMINO INTERNACIONAL 13255 CONCON</DirOrigen>
+            <CmnaOrigen>CONCON</CmnaOrigen>
+            <CiudadOrigen>CONCON</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>18799561-2</RUTRecep>
+            <CdgIntRecep>0001845860</CdgIntRecep>
+            <RznSocRecep>MAXIMILIANO CATALAN SANDOVAL</RznSocRecep>
+            <GiroRecep>ABG</GiroRecep>
+            <DirRecep>3 NORTE 60-3</DirRecep>
+            <CmnaRecep>VINA DEL MAR</CmnaRecep>
+            <CiudadRecep>VINA PONIENTE</CiudadRecep>
+            <CiudadPostal>VINA PONIENTE</CiudadPostal>
+          </Receptor>
+          <Transporte>
+            <DirDest>VINA PONIENTE</DirDest>
+            <CmnaDest>VINA DEL MAR</CmnaDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>50730</MntNeto>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>9639</IVA>
+            <ImptoReten>
+              <TipoImp>271</TipoImp>
+              <TasaImp>18.00</TasaImp>
+              <MontoImp>1751</MontoImp>
+            </ImptoReten>
+            <ImptoReten>
+              <TipoImp>27</TipoImp>
+              <TasaImp>10.00</TasaImp>
+              <MontoImp>1374</MontoImp>
+            </ImptoReten>
+            <MntTotal>63494</MntTotal>
+            <VlrPagar>63494</VlrPagar>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>2118</VlrCodigo>
+          </CdgItem>
+          <NmbItem>VITAL SIN GAS X12 PET 600</NmbItem>
+          <DscItem>0000001495|0000000873|0000000000|0000005466</DscItem>
+          <UnmdRef>0012</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>6197.000000</PrcItem>
+          <DescuentoPct>50.00</DescuentoPct>
+          <DescuentoMonto>3099</DescuentoMonto>
+          <MontoItem>3098</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>0694</VlrCodigo>
+          </CdgItem>
+          <NmbItem>SPRITE ZERO X06 PET 1500 CC</NmbItem>
+          <DscItem>0000000997|0000001495|0000000687|0000010049</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>6963.000000</PrcItem>
+          <DescuentoPct>1.33</DescuentoPct>
+          <DescuentoMonto>93</DescuentoMonto>
+          <CodImpAdic>27</CodImpAdic>
+          <MontoItem>6870</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>2004</VlrCodigo>
+          </CdgItem>
+          <NmbItem>INCA KOLA ZERO X06 PET 1500 CC</NmbItem>
+          <DscItem>0000000997|0000001495|0000000687|0000010049</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>6963.000000</PrcItem>
+          <DescuentoPct>1.33</DescuentoPct>
+          <DescuentoMonto>93</DescuentoMonto>
+          <CodImpAdic>27</CodImpAdic>
+          <MontoItem>6870</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>4</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>2503</VlrCodigo>
+          </CdgItem>
+          <NmbItem>BENEDICTINO SIN GAS X06 PET 1500 CC</NmbItem>
+          <DscItem>0000003988|0000002331|0000000000|0000014603</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>4.000000</QtyItem>
+          <PrcItem>2848.000000</PrcItem>
+          <DescuentoPct>27.28</DescuentoPct>
+          <DescuentoMonto>3108</DescuentoMonto>
+          <MontoItem>8284</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>5</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>2504</VlrCodigo>
+          </CdgItem>
+          <NmbItem>BENEDICTINO CON GAS X06 PET 1500 CC</NmbItem>
+          <DscItem>0000000997|0000000583|0000000000|0000003651</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>2848.000000</PrcItem>
+          <DescuentoPct>27.28</DescuentoPct>
+          <DescuentoMonto>777</DescuentoMonto>
+          <MontoItem>2071</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>6</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>2133</VlrCodigo>
+          </CdgItem>
+          <NmbItem>VITAL SIN GAS X06 PET 1.600</NmbItem>
+          <DscItem>0000000986|0000000684|0000000000|0000004286</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>3714.000000</PrcItem>
+          <DescuentoPct>29.57</DescuentoPct>
+          <DescuentoMonto>1098</DescuentoMonto>
+          <MontoItem>2616</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>7</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>0923</VlrCodigo>
+          </CdgItem>
+          <NmbItem>FANTA NAR FULLSUGAR X06 PET 591 CC</NmbItem>
+          <DscItem>0000000736|0000000759|0000000586|0000005339</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>3815.000000</PrcItem>
+          <DescuentoPct>14.59</DescuentoPct>
+          <DescuentoMonto>557</DescuentoMonto>
+          <CodImpAdic>271</CodImpAdic>
+          <MontoItem>3258</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>8</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT1</TpoCodigo>
+            <VlrCodigo>0925</VlrCodigo>
+          </CdgItem>
+          <NmbItem>FANTA NAR FULLSUGAR X06 PET 1500 CC</NmbItem>
+          <DscItem>0000000997|0000001419|0000001165|0000010051</DscItem>
+          <UnmdRef>0006</UnmdRef>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>6557.000000</PrcItem>
+          <DescuentoPct>1.33</DescuentoPct>
+          <DescuentoMonto>87</DescuentoMonto>
+          <CodImpAdic>271</CodImpAdic>
+          <MontoItem>6470</MontoItem>
+        </Detalle>
+        <DscRcgGlobal>
+          <NroLinDR>1</NroLinDR>
+          <TpoMov>R</TpoMov>
+          <GlosaDR>TOTAL FLETES</GlosaDR>
+          <TpoValor>$</TpoValor>
+          <ValorDR>11193.00</ValorDR>
+        </DscRcgGlobal>
+        <TED version="1.0">
+          <DD>
+            <RE>93281000-K</RE>
+            <TD>33</TD>
+            <F>102284464</F>
+            <FE>2026-03-03</FE>
+            <RR>18799561-2</RR>
+            <RSR>MAXIMILIANO CATALAN SANDOVAL</RSR>
+            <MNT>63494</MNT>
+            <IT1>VITAL SIN GAS X12 PET 600</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>93281000-K</RE>
+                <RS>COCA COLA EMBONOR S A</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>101797656</D>
+                  <H>102497655</H>
+                </RNG>
+                <FA>2025-12-27</FA>
+                <RSAPK>
+                  <M>0NEvdz0t0sUZj3PX7kwoBwkE4PTGjKYzkuznvh5kBhETBcgibjLE/V9fwBrW5VlyNKGexLD5YeIyleUN8bWy7Q==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">C7EijkV9hFurlY+ieN+IB3n2IuLN3z31x5vxQpWnAVLjdXE9BxYJu5YHQl1zWszdqVFjEpZ8kUfFC4MWRq4Org==</FRMA>
+            </CAF>
+            <TSTED>2026-03-03T02:59:19</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">IjNAlKG8ivRj605cCkyItfZ7VAmVYd+ibKTOw+dZF2Dp9zGUd7G330yVn/m9Xq8qdmfSvtBnVMlZ
+bIi+8IJ8+w==</FRMT>
+        </TED>
+        <TmstFirma>2026-03-03T02:59:19</TmstFirma>
+      </Documento>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<SignedInfo>
+		<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+		<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+		<Reference URI="#T33F102284464">
+			<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+			<DigestValue>CAgour8RfXg0UJaD1bDdUXv4OS0=</DigestValue>
+		</Reference>
+	</SignedInfo>
+	<SignatureValue>UehcgrX6CWVlKwFdAdYykRA0xJHDlAvNFbhNaY1KAzJAkT0Bf6w0NWkl9roeb5Zhv8e7KkLLZ9so
+HZAL9MgEhF9YH2f4SerqMUGnwWMi2QDR1kBUBJ/PPs9DmyCAeyJDNhf57JECMSw244iC3k+7bR8g
+m5qsfvwmtnI52B8A2oafmqYkL+BbwLcqRjLMzm3qtFJHPrig5vxTPqeaNRlEvRrhM6JBQowgoXtY
+HyJMqHSdIDj1Qb+BEEsgwPNlxij39Mi9w7Mt+qI2ACrfC+i6CfvE7I+/ggADQs6I6QbwqEaStwyw
+p4myzRwgTHYExLkrsFNn6r9nhnqjyT4Nzozxsg==</SignatureValue>
+	<KeyInfo>
+		<KeyValue>
+			<RSAKeyValue>
+				<Modulus>u2AqfTnK0UuBnaqwwxkQsYxah53Vva2YN7zT90jFvHTGoharlctzSINBuCjAsQEDfzT2HYVeVizD
+JLibE118NTFtNnuvSWgoCqr/XHBaoWDFlruYXio1nwdroVncDJT7umgrg6n0VCrnSh8LhddVLB1r
+bkxWlydD85a+VXlCLUH4zucmGENyIBhaNi0R4J7rii+osq28Bog+l5ZZNI+8RlO1jYtdZe6sXq6p
+WL9ObtJsO2zXRxoTsLT4CiRHgrfMQXib7I7g/Mu8IOyJlVd1Vx6AAKDWZhgpffRhDRLWd+MHioEt
+K1PZmjEHwJCBH2M+mAD2mUIZG0jaX19iB9MFjQ==</Modulus>
+				<Exponent>AQAB</Exponent>
+			</RSAKeyValue>
+		</KeyValue>
+		<X509Data>
+			<X509Certificate>MIIGazCCBVOgAwIBAgIDBnKNMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yNTA2MTcxNjQ5MjhaFw0yODA2MTcx
+NjQ5MjhaMIGFMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSUwIwYDVQQD
+ExxWSUNUT1IgRlJBTkNJU0NPIFZJREFMIE9MSVZBMSAwHgYJKoZIhvcNAQkBFhF2dmlkYWxAZW1i
+b25vci5jbDETMBEGA1UEBRMKMTM1NzM1MzgtODCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBALtgKn05ytFLgZ2qsMMZELGMWoed1b2tmDe80/dIxbx0xqIWq5XLc0iDQbgowLEBA3809h2F
+XlYswyS4mxNdfDUxbTZ7r0loKAqq/1xwWqFgxZa7mF4qNZ8Ha6FZ3AyU+7poK4Op9FQq50ofC4XX
+VSwda25MVpcnQ/OWvlV5Qi1B+M7nJhhDciAYWjYtEeCe64ovqLKtvAaIPpeWWTSPvEZTtY2LXWXu
+rF6uqVi/Tm7SbDts10caE7C0+AokR4K3zEF4m+yO4PzLvCDsiZVXdVcegACg1mYYKX30YQ0S1nfj
+B4qBLStT2ZoxB8CQgR9jPpgA9plCGRtI2l9fYgfTBY0CAwEAAaOCAr8wggK7MB8GA1UdIwQYMBaA
+FGWlqz4/yLZRbRF+X8MKB+ZDoAi2MB0GA1UdDgQWBBSd4mLcQZni1PzBD4/qIse/ie2XpzALBgNV
+HQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQEAwIF
+oDCB9QYDVR0gBIHtMIHqMIHnBggrBgEEAbVrAjCB2jAxBggrBgEFBQcCARYlaHR0cHM6Ly9hY2c0
+LmFjZXB0YS5jb20vQ1BTLUFjZXB0YWNvbTCBpAYIKwYBBQUHAgIwgZcwFhYPQWNlcHRhLmNvbSBT
+LkEuMAMCAQkafUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxpZGFkbyBlbiBmb3JtYSBvbmxpbmUsIHF1
+ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1c28gdHJpYnV0YXJpbywgcGFn
+b3MsIGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYKOTY5MTkwNTAt
+OKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9pbmZvQGFjZXB0YS5jb20w
+XAYDVR0RBFUwU6AYBggrBgEEAcEBAaAMFgoxMzU3MzUzOC04oCQGCCsGAQUFBwgDoBgwFgwKMTM1
+NzM1MzgtOAYIKwYBBAHBAQKBEXZ2aWRhbEBlbWJvbm9yLmNsMEcGCCsGAQUFBwEBBDswOTA3Bggr
+BgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9vY3NwL0NsYXNlMi1HNDA/BgNV
+HR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2NybC9DbGFzZTItRzQu
+Y3JsMA0GCSqGSIb3DQEBCwUAA4IBAQA/4uztdSv7Z7aLN3DFvjb28slpMuD/ISB3XgtbpYv/QMI+
+9Z/nmnMJ0zFKV3AdHiVk3rxXanoMRG6ezw/hTnATPAiKpwi/iw59E8KKOS4dA+lEdzJ2mlnbXFT3
+OyaB2UiLmUoO5ROA8LR/zCU8IIGgn7WncpOu2gDTMeYbV0vWAGBX1e1p8u4xI9b+Gq7MYy993EEk
++Mqh5a+/jWx4bHfxZs0l2GEz0UeeS1SissI32BulOQPmKkEqyBhnX2XW59ENWcZaJ4rWAFNGDeJv
+7nyBZvaIxyY8+aXtRh+lSjWq2R8mnazmZfGMLve1DpuBPvJZbw+wpubEHpTO9ide/3bo</X509Certificate>
+		</X509Data>
+	</KeyInfo>
+</Signature>
+    </DTE>
+<DTE version="1.0" >
+<Documento ID="T33F29734995">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>29734995</Folio>
+<FchEmis>2026-03-03</FchEmis>
+<FmaPago>1</FmaPago>
+<TermPagoGlosa>Contra entrega efectivo</TermPagoGlosa>
+<FchVenc>2026-03-03</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>81094100-6</RUTEmisor>
+<RznSoc>COOPERATIVA AGRICOLA Y LECHERA          DE LA UNION LTDA.</RznSoc>
+<GiroEmis>FABR. Y DIST.PROD.LACTEOS VTAS. INSAGRIC</GiroEmis>
+<Acteco>105000</Acteco>
+<CdgSIISucur>74892259</CdgSIISucur>
+<DirOrigen>ESMERALDA 641</DirOrigen>
+<CmnaOrigen>LA UNION</CmnaOrigen>
+<CiudadOrigen>LA UNION</CiudadOrigen>
+<CdgVendedor />
+</Emisor>
+<Receptor>
+<RUTRecep>18799561-2</RUTRecep>
+<RznSocRecep>CATALAN SANDOVAL MAXIMILIANO</RznSocRecep>
+<GiroRecep>VENTA AL POR MENOR D</GiroRecep>
+<Contacto />
+<DirRecep>3 NORTE, LOCAL 3 60</DirRecep>
+<CmnaRecep>VI?A DEL MAR</CmnaRecep>
+<CiudadRecep>VI?A DEL MAR</CiudadRecep>
+</Receptor>
+<Totales>
+<MntNeto>82401</MntNeto>
+<MntExe>0</MntExe>
+<TasaIVA>19</TasaIVA>
+<IVA>15656</IVA>
+<MntTotal>98057</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT1</TpoCodigo>
+<VlrCodigo>2801037</VlrCodigo>
+</CdgItem>
+<NmbItem>Q.MANT RB LAM SEMIRIG 150GR</NmbItem>
+<DscItem>QUESO MANTECOSO RIO BUENO LAMINADO 150 G SEMIRIGIDO</DscItem>
+<QtyItem>2.400</QtyItem>
+<UnmdItem>KG</UnmdItem>
+<PrcItem>9440.833333</PrcItem>
+<MontoItem>22658</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT1</TpoCodigo>
+<VlrCodigo>2801038</VlrCodigo>
+</CdgItem>
+<NmbItem>Q.MANT RB LAM SEMIRIG 250GR</NmbItem>
+<DscItem>QUESO MANTECOSO RIO BUENO LAMINADO 250 G SEMIRIGIDO</DscItem>
+<QtyItem>3.000</QtyItem>
+<UnmdItem>KG</UnmdItem>
+<PrcItem>9387</PrcItem>
+<MontoItem>28161</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>3</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT1</TpoCodigo>
+<VlrCodigo>2225220</VlrCodigo>
+</CdgItem>
+<NmbItem>UHT COLUN ENTERA</NmbItem>
+<DscItem>LECHE ENTERA COLUN - 1 L MID</DscItem>
+<QtyItem>12.000</QtyItem>
+<UnmdItem>KG</UnmdItem>
+<PrcItem>965</PrcItem>
+<MontoItem>11580</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>4</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT1</TpoCodigo>
+<VlrCodigo>2225247</VlrCodigo>
+</CdgItem>
+<NmbItem>UHT COLUN ENT 200</NmbItem>
+<DscItem>LECHE ENTERA COLUN - 200 ML</DscItem>
+<QtyItem>2.400</QtyItem>
+<UnmdItem>KG</UnmdItem>
+<PrcItem>1685</PrcItem>
+<MontoItem>4044</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>5</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT1</TpoCodigo>
+<VlrCodigo>2225425</VlrCodigo>
+</CdgItem>
+<NmbItem>UHT COLUN 200 CHOCOLATE</NmbItem>
+<DscItem>LECHE CHOCOLATE COLUN - 200 ML</DscItem>
+<QtyItem>2.400</QtyItem>
+<UnmdItem>KG</UnmdItem>
+<PrcItem>1824.166667</PrcItem>
+<MontoItem>4378</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>6</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT1</TpoCodigo>
+<VlrCodigo>2225085</VlrCodigo>
+</CdgItem>
+<NmbItem>UHT COLUN SEMIDESCREMADA</NmbItem>
+<DscItem>LECHE SEMIDESCREMADA COLUN - 1 L MID</DscItem>
+<QtyItem>12.000</QtyItem>
+<UnmdItem>KG</UnmdItem>
+<PrcItem>965</PrcItem>
+<MontoItem>11580</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>801</TpoDocRef>
+<FolioRef>20260302164403</FolioRef>
+<FchRef>2026-03-02</FchRef>
+<RazonRef />
+</Referencia>
+<Referencia>
+<NroLinRef>2</NroLinRef>
+<TpoDocRef>802</TpoDocRef>
+<FolioRef>318727973</FolioRef>
+<FchRef>2026-03-02</FchRef>
+<RazonRef />
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>81094100-6</RE>
+<TD>33</TD>
+<F>29734995</F>
+<FE>2026-03-03</FE>
+<RR>18799561-2</RR>
+<RSR>CATALAN SANDOVAL MAXIMILIANO</RSR>
+<MNT>98057</MNT>
+<IT1>Q.MANT RB LAM SEMIRIG 150GR</IT1>
+<CAF version="1.0">
+<DA>
+<RE>81094100-6</RE>
+<RS>COOP AGRICOLA Y LECHERA DE LA UNION LTDA</RS>
+<TD>33</TD>
+<RNG>
+<D>29698541</D>
+<H>29749000</H>
+</RNG>
+<FA>2025-12-16</FA>
+<RSAPK>
+<M>5LhI9OLmZ1konpprVLGvdHjKTj0RLxFvNZygu2I2LudvL7TY9yOKK/bDY5HcU38KOrZOc/2WW6i/CxNJCg8cOQ==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">hmzrtXIYix3DrruZcP4YHt0RGI9YCdOgW3AgChwGH9XGBLdmOArmQndHWcxDBGoQ8HFDcjxQmflxxtis/OGZsA==</FRMA>
+</CAF>
+<TSTED>2026-03-03T02:20:47</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">tCyyBPTTLg6Z9LrsB6L+YjN27TOs1pX3vA1P84rtKNrFPLmQUmQ2f+Vf43KRjWuvvY8OAx288mcNIkW9ftYSoQ==</FRMT>
+</TED>
+<TmstFirma>2026-03-03T02:20:47</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#T33F29734995"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>oKTQLE+TRQrNHXfjJq33nmlL5nc=</DigestValue></Reference></SignedInfo><SignatureValue>HC1yGPXg549isTA+dmJkaLIuaxXq0W4k49gAjtUqEFYuBBtLmakuYqD9PcnhSv/5d/revDICesli
+2xT3TLuKxHDTzGkl8zkc8QiQYhhJAh2tgrFKvCvgOJ5cd2RO30vQCW8CBDZ2mOZtWFZicmN11gsN
+u39YXnA83bAFNGP+AFs37iw8gHBqHJvf4SwgsyeY1pQQkl5alMeJAvmEJs0EJO5PH4O1gPz718LF
+WG/+oJytLcZ2eBm/iTTKdJKS+jsnpil+j5V6FDzVZoVfhIy+k0+y2YB3y6vFzl4Jb/Op0sXWDvLx
+HqohUO9Y21M4LDkQg4KohzAMJ3TuhjHZ+MQYgQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8PrDhhR5Ey3jkef9hbUn1gw6dYRwJOKjcXLn7bMcGnko1vPmFdkpyWG1zaDR3fhzl/mQJpzYEkZp
++3uil/RdT+cFJn/7eNhBqjomDdjff7Fh8DJFKjk5N7v8dOCROGeYlKatxpi3zEMgbVk+ObBrF/qB
+33AQLcVvzVmBXeIdph5rJz4WID022wK/8yZRNxuQ4Ctq7ShtF71vPcbIRLyemuN8PQ4VPurrihZc
+52NCTN0AegnsrXQhYTaiyJc9fD+S9b85d7laMwwCtCifnHEXCAxHpAnauXn8DDuF5HuiAjmhsofe
+FkQN0scvmZ++piqiF62/DsdD3U9RjTlSZ1xqJQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIHkzCCBXugAwIBAgIKeLZtTAABAAbahTANBgkqhkiG9w0BAQsFADCBvzELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQD
+ExVFLUNFUlRDSElMRSBDQSBGRVMgMDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNo
+aWxlLmNsMB4XDTIzMDgwMTE0MjMyMFoXDTI2MDczMTE0MjMyMFowgY8xCzAJBgNVBAYTAkNMMRIw
+EAYDVQQIDAlMT1MgUsONT1MxDjAMBgNVBAcTBVJBTkNPMRMwEQYDVQQKEwpDT0xVTiBMVERBMQow
+CAYDVQQLDAEqMRwwGgYDVQQDExNEQU5JRUwgU09UTyBISUdVRVJBMR0wGwYJKoZIhvcNAQkBFg5E
+U09UT0BDT0xVTi5DTDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPD6w4YUeRMt45Hn
+/YW1J9YMOnWEcCTio3Fy5+2zHBp5KNbz5hXZKclhtc2g0d34c5f5kCac2BJGaft7opf0XU/nBSZ/
++3jYQao6Jg3Y33+xYfAyRSo5OTe7/HTgkThnmJSmrcaYt8xDIG1ZPjmwaxf6gd9wEC3Fb81ZgV3i
+HaYeayc+FiA9NtsCv/MmUTcbkOArau0obRe9bz3GyES8nprjfD0OFT7q64oWXOdjQkzdAHoJ7K10
+IWE2osiXPXw/kvW/OXe5WjMMArQon5xxFwgMR6QJ2rl5/Aw7heR7ogI5obKH3hZEDdLHL5mfvqYq
+ohetvw7HQ91PUY05UmdcaiUCAwEAAaOCAr0wggK5MIIBXwYDVR0gBIIBVjCCAVIwggFOBggrBgEE
+AcNSBTCCAUAwPQYIKwYBBQUHAgEWMWh0dHBzOi8vd3d3LmUtY2VydGNoaWxlLmNsL3BvbGl0aWNh
+cy15LXByYWN0aWNhcy8wgf4GCCsGAQUFBwICMIHxHoHuAEUAbAAgAHIAZQBzAHAAbwBuAGQAZQBy
+ACAAZQBzAHQAZQAgAGYAbwByAG0AdQBsAGEAcgBpAG8AIABlAHMAIAB1AG4AIAByAGUAcQB1AGkA
+cwBpAHQAbwAgAGkAbgBkAGkAcwBwAGUAbgBzAGEAYgBsAGUAIABwAGEAcgBhACAAZABhAHIAIABp
+AG4AaQBjAGkAbwAgAGEAbAAgAHAAcgBvAGMAZQBzAG8AIABkAGUAIABjAGUAcgB0AGkAZgBpAGMA
+YQBjAGkA8wBuAC4AIABQAG8AcwB0AGUAcgBpAG8AcgBtAGUAbgB0AGUALDAdBgNVHQ4EFgQUMBXK
+Y45smymyG5jGwWid9s07YJYwCwYDVR0PBAQDAgTwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYK
+MTE0MjkxMTctSzAfBgNVHSMEGDAWgBR01iGz9FroLXy7WQZjQ+9ptDqTBDBABgNVHR8EOTA3MDWg
+M6Axhi9odHRwOi8vY3JsLmVjZXJ0Y2hpbGUuY2wvRS1DRVJUQ0hJTEVDQUZFUzAyLmNybDA9Bggr
+BgEFBQcBAQQxMC8wLQYIKwYBBQUHMAGGIWh0dHA6Ly9vY3NwZmVzLmVjZXJ0Y2hpbGUuY2wvb2Nz
+cDA8BgkrBgEEAYI3FQcELzAtBiUrBgEEAYI3FQiB3dJNl9Q6homdBoeIzm+Dr8xgRYbS7AiGx8p9
+AgFkAgEHMCMGA1UdEgQcMBqgGAYIKwYBBAHBAQKgDBYKOTY5MjgxODAtNTANBgkqhkiG9w0BAQsF
+AAOCAgEAL6cJmTq64PxF92x9wy6E1KPrPOzZB1HcH5xrcO9cGHzPGWVMGOkLu8Fc+fXTkfTadwpn
+J6le6L5kFYsM2epe9PQXBMBT0NCZovwdlAgqJ13zqUTz1G1VMLt6AMUrQn4t8+gqQH/7jDhh15sp
+q5gpgAPQ7Jh9vomUPSNIrUrZVMsVFY5NZrA8zdJx05gcp+6AT8FNQ/R58j5akODVm1OPBrOYPDYU
+gqE5UgvcR6sKCjms/URpOeQzV6XLtUl0253LbDRIIRzPUu6FG/wIzwyw4IzoubsIDH09JPOgM3F1
+W50QEuRcWwWtyclSqAcbZPtdNLYYMOewVp06AAxoMhkqcU50smrKCiKKZU6cC0mtKZtJMz1PPp7e
++m5a3U1te605v6OclY3Koh24hqyt40+QPNxKzO11Ct/3lCt5NgRy+aH+tfRFtOIlj/Ny6DnwB1d4
+XOpnPT/2lCLKGbd7URO3CH64crI2jzIFiaYuENGKWQJEofXYwrBW2pVXWPR5wmoriEnQgjKIxQ+V
+6buPzHs4WfY8X8ZhUmkgtuOWSDk78rDsDHuwwWTRMUiHN8sCzZEv/fqO6B96Zn7fcc6GOs1Ss1TX
+EClakWBL8ORU7o6+EUxeay2nNz0mknkKcXof5ZeJIR40V8hjnjKOjQDfSsZiNGTKD6DiLXPV90KJ
+8SMzaPg=</X509Certificate></X509Data></KeyInfo></Signature></DTE>
+<DTE version="1.0" >
+	<Documento ID="DOCT33F6310043P9">
+		<Encabezado>
+			<IdDoc>
+				<TipoDTE>33</TipoDTE>
+				<Folio>6310043</Folio>
+				<FchEmis>2026-03-02</FchEmis>
+				<FchVenc>2026-03-02</FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUTEmisor>76232647-7</RUTEmisor>
+				<RznSoc>WALMART CHILE MAYORISTA LIMITADA</RznSoc>
+				<GiroEmis>IMPORT. - EXPORT. PROD. ALIM., ARTS HOGAR,PERFUM.,ARR. COMPRA/VTA MAQ./HERRAM.</GiroEmis>
+				<Acteco>521</Acteco>
+				<Sucursal>959</Sucursal>
+				<DirOrigen>Av. Lib. Bdo. O higgins #1280</DirOrigen>
+				<CmnaOrigen>Rancagua</CmnaOrigen>
+				<CiudadOrigen>Rancagua</CiudadOrigen>
+				<CdgVendedor>56</CdgVendedor>
+			</Emisor>
+			<Receptor>
+				<RUTRecep>18799561-2</RUTRecep>
+				<CdgIntRecep>001879956102</CdgIntRecep>
+				<RznSocRecep>SANDOVAL CATALAN MAXIMILIANO ANTONIO</RznSocRecep>
+				<Extranjero>
+					<NumId>0</NumId>
+				</Extranjero>
+				<GiroRecep>MINIMARKET</GiroRecep>
+				<DirRecep>3 NORTE60 LOCAL 3 PLAN</DirRecep>
+				<CmnaRecep>Vina del Mar</CmnaRecep>
+				<CiudadRecep>Valparaiso</CiudadRecep>
+			</Receptor>
+			<Totales>
+				<MntNeto>43249</MntNeto>
+				<MntExe>0</MntExe>
+				<TasaIVA>19.0</TasaIVA>
+				<IVA>8217</IVA>
+				<IVATerc>8217</IVATerc>
+		<ImptoReten>
+			<TipoImp>271</TipoImp>
+			<TasaImp>18.0</TasaImp>
+			<MontoImp>1908</MontoImp>
+		</ImptoReten>
+		<ImptoReten>
+			<TipoImp>27</TipoImp>
+			<TasaImp>10.0</TasaImp>
+			<MontoImp>1126</MontoImp>
+		</ImptoReten>
+				<MntTotal>54500</MntTotal>
+				<VlrPagar>0</VlrPagar>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07801610323236</VlrCodigo>
+			</CdgItem>
+			<NmbItem>GAS COLA 3LT</NmbItem>
+			<DscItem>UN 0000</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>1766.423</PrcItem>
+			<CodImpAdic>271</CodImpAdic>
+			<MontoItem>10599</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>2</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07801610305560</VlrCodigo>
+			</CdgItem>
+			<NmbItem>COCAZERO 3LT</NmbItem>
+			<DscItem>UN 0000</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>1875.969</PrcItem>
+			<CodImpAdic>27</CodImpAdic>
+			<MontoItem>11256</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>3</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07501072209788</VlrCodigo>
+			</CdgItem>
+			<NmbItem>POUCH CARNE</NmbItem>
+			<DscItem>UN 0000</DscItem>
+			<QtyItem>6.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>571.429</PrcItem>
+			<MontoItem>3429</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>4</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07891000240588</VlrCodigo>
+			</CdgItem>
+			<NmbItem>FE GT PE 85G</NmbItem>
+			<DscItem>UN 0000@@Precio Antes Ahora#D#462</DscItem>
+			<QtyItem>5.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>571.429</PrcItem>
+			<MontoItem>2857</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>5</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>07613035671621</VlrCodigo>
+			</CdgItem>
+			<NmbItem>DSP STICK CA</NmbItem>
+			<DscItem>UN 0000</DscItem>
+			<QtyItem>1.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>9319.328</PrcItem>
+			<MontoItem>9319</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>6</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>EAN13</TpoCodigo>
+				<VlrCodigo>00400007268081</VlrCodigo>
+			</CdgItem>
+			<NmbItem>BOLSA 70X90</NmbItem>
+			<DscItem>UN 0000</DscItem>
+			<QtyItem>12.0</QtyItem>
+			<UnmdItem>Und</UnmdItem>
+			<PrcItem>521.008</PrcItem>
+			<MontoItem>6252</MontoItem>
+		</Detalle>
+		<DscRcgGlobal>
+			<NroLinDR>1</NroLinDR>
+			<TpoMov>D</TpoMov>
+			<GlosaDR>@@Descuento Global</GlosaDR>
+			<TpoValor>$</TpoValor>
+			<ValorDR>462</ValorDR>
+		</DscRcgGlobal>
+		<TED version="1.0"><DD><RE>76232647-7</RE><TD>33</TD><F>6310043</F><FE>2026-03-02</FE><RR>18799561-2</RR><RSR>SANDOVAL CATALAN MAXIMILIANO ANTONIO</RSR><MNT>54500</MNT><IT1>GAS COLA 3LT</IT1><CAF version="1.0"><DA><RE>76232647-7</RE><RS>WALMART CHILE MAYORISTA LIMITADA</RS><TD>33</TD><RNG><D>6306443</D><H>6356442</H></RNG><FA>2026-02-13</FA><RSAPK><M>st73cszPN0ZxlhQlD1aG3SomIYOedoicJcjCLEPrIOE4LfiQsb4rgfF2T/v3z/xHmBMtcYPbJwTRSXoO6DGWlQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">li2goXCLiw/mXA83PfgRlsvuJIUVOMFLdDNX4bwDLTyc8iGqWAf0kRBcUcj6QxfvO2dc6wWDxTE71mfSUrChyg==</FRMA></CAF><TSTED>2026-03-02T12:12:58</TSTED></DD><FRMT algoritmo="SHA1withRSA">W0/0ZRG8T6ui+kIaV0Oy5AgEJgnWs2Sg+zGW/PsZz5+x5oF9c56wVwgQowyFTtgxjtGyA+MYdLWY
+dvFQrOcq7g==</FRMT></TED>
+		<TmstFirma>2026-03-02T12:12:58</TmstFirma>
+	</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#DOCT33F6310043P9"><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>zWqEoz8ZYFC3Dw3VkZGx+e0fLIA=</DigestValue></Reference></SignedInfo><SignatureValue>DrOMwXoS2s5f3hgwxVpagv9reELIlKsN5i0KM8bqffguhfIqUQ9nkHtFo6k/OtDqlWvRizpXbq/R
+C7I2Y8Zr8BkfuwARTvKjaCbQyHiNoM6/1YzJk9gMftATQNecuJMaNa+WoKX6lMyxT1HsH4JMTQGU
+2nwgeVskRsOOgWtQ2s5hOQRL0VMZvsA1djHXCTJsirW2J9u+DqAn555IYL4SZ6MbM5zKBPnka0kH
++VEtT2ISz4TWp1iOWVIPnxhAoxzsnudxYFvU/75qjYJhMBxY6yI9cI8Zm0tdYze9k+xHvczi0ZhA
+UZ1P+otlJPnSxb92JVMqeOkeOzLLGTS6S+wyQw==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ruWRusq1JUldhC5oocl9h9P0sRA7qeVh+JRpmm7ZM881Wo/EiWh6596VPudXNsHGAAU9ub1M95Jq
+vlXhkWlDaq1a/DEPZvVJscBGg/7KUP2muSZYo9Wr66/52yf5NuJ6Sgs27V9Ga9shmnhsh+c/Ejaq
+PGyrUHoWTlcjy3GMtBwltzU09fUY0+KDHnutrrY7peaTy4o0tzSVw2lgxAVUbkS6gpotiIsgofW3
+V7L9BIK3W77iN1CiOwjkaiTN2HN5NpZd28lMG/Kcdb/NhBnRNhdWcARBenwIv2OMaOONwo74Gmu2
+wHOAA0epjwytGfW9AIn8uipW2+7tG26lW2iLdQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIHyzCCBbOgAwIBAgIKMB5phQABAA9j1DANBgkqhkiG9w0BAQsFADCBvzELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMR4wHAYDVQQD
+ExVFLUNFUlRDSElMRSBDQSBGRVMgMDIxJjAkBgkqhkiG9w0BCQEWF3NjbGllbnRlQGUtY2VydGNo
+aWxlLmNsMB4XDTI1MDgxMzE3NDAxNloXDTI4MDgxMjE3NDAxNlowgccxCzAJBgNVBAYTAkNMMSIw
+IAYDVQQIExlNRVRST1BPTElUQU5BIERFIFNBTlRJQUdPMREwDwYDVQQHEwhTQU5USUFHTzEbMBkG
+A1UEChMSV0FMTUFSVCBDSElMRSBTLkEuMQowCAYDVQQLDAEqMSswKQYDVQQDEyJDQVJMT1MgQUxG
+T05TTyBTRVBVTFZFREEgQUxNRU5EUkFTMSswKQYJKoZIhvcNAQkBFhxDQVJMT1MuU0VQVUxWRURB
+QFdBTE1BUlQuQ09NMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAruWRusq1JUldhC5o
+ocl9h9P0sRA7qeVh+JRpmm7ZM881Wo/EiWh6596VPudXNsHGAAU9ub1M95JqvlXhkWlDaq1a/DEP
+ZvVJscBGg/7KUP2muSZYo9Wr66/52yf5NuJ6Sgs27V9Ga9shmnhsh+c/EjaqPGyrUHoWTlcjy3GM
+tBwltzU09fUY0+KDHnutrrY7peaTy4o0tzSVw2lgxAVUbkS6gpotiIsgofW3V7L9BIK3W77iN1Ci
+OwjkaiTN2HN5NpZd28lMG/Kcdb/NhBnRNhdWcARBenwIv2OMaOONwo74Gmu2wHOAA0epjwytGfW9
+AIn8uipW2+7tG26lW2iLdQIDAQABo4ICvTCCArkwggFfBgNVHSAEggFWMIIBUjCCAU4GCCsGAQQB
+w1IFMIIBQDA9BggrBgEFBQcCARYxaHR0cHM6Ly93d3cuZS1jZXJ0Y2hpbGUuY2wvcG9saXRpY2Fz
+LXktcHJhY3RpY2FzLzCB/gYIKwYBBQUHAgIwgfEege4ARQBsACAAcgBlAHMAcABvAG4AZABlAHIA
+IABlAHMAdABlACAAZgBvAHIAbQB1AGwAYQByAGkAbwAgAGUAcwAgAHUAbgAgAHIAZQBxAHUAaQBz
+AGkAdABvACAAaQBuAGQAaQBzAHAAZQBuAHMAYQBiAGwAZQAgAHAAYQByAGEAIABkAGEAcgAgAGkA
+bgBpAGMAaQBvACAAYQBsACAAcAByAG8AYwBlAHMAbwAgAGQAZQAgAGMAZQByAHQAaQBmAGkAYwBh
+AGMAaQDzAG4ALgAgAFAAbwBzAHQAZQByAGkAbwByAG0AZQBuAHQAZQAsMB0GA1UdDgQWBBQpY6HO
+9mtBp66ZPjAScxg3PAASzjALBgNVHQ8EBAMCBPAwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgox
+MjQ2MTczOC0zMB8GA1UdIwQYMBaAFHTWIbP0WugtfLtZBmND72m0OpMEMEAGA1UdHwQ5MDcwNaAz
+oDGGL2h0dHA6Ly9jcmwuZWNlcnRjaGlsZS5jbC9FLUNFUlRDSElMRUNBRkVTMDIuY3JsMD0GCCsG
+AQUFBwEBBDEwLzAtBggrBgEFBQcwAYYhaHR0cDovL29jc3BmZXMuZWNlcnRjaGlsZS5jbC9vY3Nw
+MDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIHd0k2X1DqGiZ0Gh4jOb4OvzGBFhtLsCIbHyn0C
+AWQCAQcwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MA0GCSqGSIb3DQEBCwUA
+A4ICAQCYloxRjnjb0HKBcFRPAYotYTCoMrKttSa9Az+0p4bwNnMrq1W49HjI7El9Aq9mcE/0NVqB
+Y6NOEAS5UbyJyovhHEgVJ7KuCANBuzBpZnKXKD2BuH7sCY091UCmhuLocTogW5gMqgY8piwSHY1g
+PKeAglpSPpKtzE2UFXE+gALg0S6JRm/ToDky4El4c0RQHE/HM6a4t/FTUbH/Ad7/5cuNxK3i5hog
+TkNwzWJGeiYo826qzc5X0zNWhnuv+0vqY1vA1B1kAq4XLbCFw9wWwcX74lXv34fzN1Lhocg+Rg3A
+omo+PJwUpEKKp7DJ05tthdYfFMK+qRx7zEaANtCMxVCqxFFXPxshGKZlXqFTmFFlbVNouajKvUwp
+3+7df0oiyCG+il6ny05dMxEM8UiaIYEw4ESUka/OWrpsn2sKrXM3YtU5wr/xEUZCnEK0iwNGFY5D
+xc1SRaZkItFosQUusUVwKYEr8iCzhHQv8ounUgkiqya70EJh1y4zxeiWCTY5Lz5my8JtVcKOw+La
+YwkySN1J5HESN2Njls9UgdSUoMVmXnSwkWCX4DaUq0AWi1TZQnIZ+jYIh2zHs412DwO9WuVRO8Bn
+N9XJtrdsSl+1G0VgM5umr1SF3c/kFBuA0R949ZW3vy6Ec9mYdskKx4SQVOi8lw5nLUODvfadzoWm
+P87h7g==</X509Certificate></X509Data></KeyInfo></Signature>
+	
+
+</DTE>
+</SetDTE>
