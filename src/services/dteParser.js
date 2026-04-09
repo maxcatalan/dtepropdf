@@ -103,6 +103,21 @@ function extractDocumentMetadata(documento) {
     if (monto) imptoRetenEntries[label] = monto;
   });
 
+  // Global surcharges and discounts (e.g. freight, global discounts)
+  const dscRcgEls = Array.from(documento.getElementsByTagName('DscRcgGlobal'));
+  const dscRcgEntries = {};
+  dscRcgEls.forEach(el => {
+    const tpoMov  = getElementText(el, 'TpoMov');   // 'R' = recargo, 'D' = descuento
+    const glosa   = getElementText(el, 'GlosaDR').replace(/^@@/, '').trim();
+    const tpoVal  = getElementText(el, 'TpoValor');
+    const valor   = getElementText(el, 'ValorDR');
+    if (!valor || tpoVal !== '$') return; // skip percentage-based for now
+    const prefix  = tpoMov === 'D' ? 'descuento' : 'recargo';
+    const key     = `${prefix} (${glosa})`;
+    // Accumulate in case multiple lines share the same glosa
+    dscRcgEntries[key] = String((parseFloat(dscRcgEntries[key] || 0) + parseFloat(valor)));
+  });
+
   return {
     tipoDTE:             idDoc ? getElementText(idDoc, 'TipoDTE') : '',
     folio:               idDoc ? getElementText(idDoc, 'Folio')   : '',
@@ -119,6 +134,7 @@ function extractDocumentMetadata(documento) {
     ivaTerc:     totales ? getElementText(totales, 'IVATerc')  : '',
     montoTotal:  totales ? getElementText(totales, 'MntTotal') : '',
     ...imptoRetenEntries,
+    ...dscRcgEntries,
   };
 }
 

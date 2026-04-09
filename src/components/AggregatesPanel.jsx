@@ -8,16 +8,20 @@ const LABEL_MAP = {
 
 function formatLabel(key) {
   if (LABEL_MAP[key]) return LABEL_MAP[key];
-  // imptoReten keys come pre-formatted like "imptoReten (Tipo 27 | Tasa 10%)"
-  return key.replace('imptoReten', 'Impuesto Retenido');
+  if (key.startsWith('imptoReten')) return key.replace('imptoReten', 'Impuesto Retenido');
+  if (key.startsWith('recargo'))   return key.replace('recargo', 'Recargo');
+  if (key.startsWith('descuento')) return key.replace('descuento', 'Descuento');
+  return key;
 }
 
 export default function AggregatesPanel({ aggregates }) {
-  // Monto Total always goes last
+  // Fixed order: neto → iva → impuestos → recargos → descuentos → total
   const ORDER = ['montoNeto', 'montoExento', 'iva', 'ivaTerc'];
   const sorted = [
     ...ORDER.filter(k => k in aggregates).map(k => [k, aggregates[k]]),
     ...Object.entries(aggregates).filter(([k]) => k.startsWith('imptoReten')),
+    ...Object.entries(aggregates).filter(([k]) => k.startsWith('recargo')),
+    ...Object.entries(aggregates).filter(([k]) => k.startsWith('descuento')),
     ...Object.entries(aggregates).filter(([k]) => k === 'montoTotal'),
   ];
   const entries = sorted;

@@ -55,10 +55,10 @@ function App() {
         }
       }
 
-      // Also aggregate all imptoReten entries (taxes)
+      // Also aggregate imptoReten, recargo, and descuento entries
       for (const [key, value] of Object.entries(invoice.metadata)) {
-        if (key.startsWith('imptoReten')) {
-          const numVal = parseInt(value);
+        if (key.startsWith('imptoReten') || key.startsWith('recargo') || key.startsWith('descuento')) {
+          const numVal = parseFloat(value);
           if (!isNaN(numVal) && numVal > 0) {
             aggregates[key] = (aggregates[key] || 0) + numVal;
           }
@@ -265,7 +265,11 @@ function App() {
       {/* Table View - All Invoices */}
       {viewMode === 'table' && (() => {
         const taxKeys = [...new Set(
-          invoices.flatMap(inv => Object.keys(inv.metadata).filter(k => k.startsWith('imptoReten')))
+          invoices.flatMap(inv =>
+            Object.keys(inv.metadata).filter(k =>
+              k.startsWith('imptoReten') || k.startsWith('recargo') || k.startsWith('descuento')
+            )
+          )
         )];
 
         // Sort helper
