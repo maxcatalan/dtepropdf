@@ -6,6 +6,8 @@ function App() {
   const [invoices, setInvoices] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [selectedIdx, setSelectedIdx] = useState(0);
+  const [showAggregates, setShowAggregates] = useState(true);
 
   const handleFilesSelected = async (files) => {
     setError('');
@@ -13,13 +15,12 @@ function App() {
 
     try {
       const allInvoices = [];
-
       for (const file of files) {
         const parsed = await parseSIISetDTE(file);
         allInvoices.push(...parsed);
       }
-
       setInvoices(allInvoices);
+      setSelectedIdx(0);
     } catch (err) {
       setError(err.message);
       setInvoices([]);
@@ -28,19 +29,33 @@ function App() {
     }
   };
 
+  const calculateAggregates = () => {
+    const aggregates = {};
+
+    for (const invoice of invoices) {
+      for (const [key, value] of Object.entries(invoice.metadata)) {
+        if (!value || value === '') continue;
+
+        // Only aggregate numeric fields (exclude RUT, names, etc)
+        const numVal = parseInt(value);
+        if (!isNaN(numVal) && numVal > 0) {
+          aggregates[key] = (aggregates[key] || 0) + numVal;
+        }
+      }
+    }
+
+    return aggregates;
+  };
+
   const downloadCSV = () => {
     if (invoices.length === 0) return;
 
-    // Flatten all invoices and items into rows
     const rows = [];
     rows.push(['Folio', 'Vendor', 'Vendor RUT', 'Date', 'Net Amount', 'IVA', 'Total', 'Item Name', 'Quantity', 'Unit Price', 'Item Total']);
 
     for (const invoice of invoices) {
       const meta = invoice.metadata;
-      const itemCount = invoice.items.length;
-
-      for (let i = 0; i < itemCount; i++) {
-        const item = invoice.items[i];
+      for (const item of invoice.items) {
         rows.push([
           meta.folio || '',
           meta.razonSocialEmisor || '',
@@ -57,10 +72,8 @@ function App() {
       }
     }
 
-    // Convert to CSV
     const csv = rows.map(row =>
       row.map(cell => {
-        // Escape quotes and wrap in quotes if needed
         const str = String(cell || '');
         if (str.includes(',') || str.includes('"') || str.includes('\n')) {
           return `"${str.replace(/"/g, '""')}"`;
@@ -69,7 +82,6 @@ function App() {
       }).join(',')
     ).join('\n');
 
-    // Download
     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
     const link = document.createElement('a');
     const url = URL.createObjectURL(blob);
@@ -81,59 +93,150 @@ function App() {
     document.body.removeChild(link);
   };
 
-  return (
-    <div className="app">
-      <h1>DTE Parser</h1>
+  if (invoices.length === 0) {
+    return (
+      <div className="page-container">
+        <h1>DTE Parser</h1>
+        <UploadZone onFilesSelected={handleFilesSelected} disabled={loading} />
+        {loading && <p className="loading">Parsing files...</p>}
+        {error && <p className="error">❌ {error}</p>}
+      </div>
+    );
+  }
 
-      {invoices.length === 0 ? (
-        <div className="upload-section">
-          <UploadZone onFilesSelected={handleFilesSelected} disabled={loading} />
-          {loading && <p className="loading">Parsing files...</p>}
-          {error && <p className="error">❌ {error}</p>}
+  const current = invoices[selectedIdx];
+
+  return (
+    <div className="page-container">
+      {/* Batch Progress Bar */}
+      <div className="batch-progress-bar">
+        <span className="batch-progress-label">Batch invoice {selectedIdx + 1} of {invoices.length}</span>
+        <div className="batch-nav-arrows">
+          <button
+            className="batch-arrow-btn"
+            onClick={() => setSelectedIdx(Math.max(0, selectedIdx - 1))}
+            disabled={selectedIdx === 0}
+          >
+            ←
+          </button>
+          <button
+            className="batch-arrow-btn"
+            onClick={() => setSelectedIdx(Math.min(invoices.length - 1, selectedIdx + 1))}
+            disabled={selectedIdx === invoices.length - 1}
+          >
+            →
+          </button>
         </div>
-      ) : (
-        <div className="results-section">
-          <div className="results-header">
-            <h2>✓ Parsed {invoices.length} invoice(s)</h2>
-            <button onClick={() => setInvoices([])} className="btn-reset">Reset</button>
-            <button onClick={downloadCSV} className="btn-download">Download CSV</button>
+        <button onClick={downloadCSV} className="btn-primary">⬇ Download CSV</button>
+        <button onClick={() => setInvoices([])} className="btn-secondary">Reset</button>
+      </div>
+
+      {/* Two-column layout */}
+      <div className="content-layout">
+        {/* Left sidebar - Metadata */}
+        <div className="sidebar">
+          {/* Aggregates Section */}
+          <div className="sidebar-section">
+            <div className="sidebar-section-header">
+              <h3>Totals</h3>
+              <button
+                className="toggle-btn"
+                onClick={() => setShowAggregates(!showAggregates)}
+                title={showAggregates ? 'Hide' : 'Show'}
+              >
+                {showAggregates ? '−' : '+'}
+              </button>
+            </div>
+            {showAggregates && (
+              <div className="metadata-list">
+                {Object.entries(calculateAggregates()).map(([key, value]) => {
+                  const label = key
+                    .replace(/([A-Z])/g, ' $1')
+                    .replace(/^./, str => str.toUpperCase())
+                    .trim();
+
+                  return (
+                    <div key={key} className="metadata-row aggregate">
+                      <span className="meta-label">{label}</span>
+                      <span className="meta-value">{value.toLocaleString()}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
           </div>
 
-          {invoices.map((invoice, idx) => (
-            <div key={idx} className="invoice-card">
-              <h3>{invoice.name}</h3>
-              <div className="metadata-grid">
-                <div><strong>Type:</strong> {invoice.metadata.tipoDTE || '—'}</div>
-                <div><strong>Date:</strong> {invoice.metadata.fechaEmision || '—'}</div>
-                <div><strong>Net:</strong> ${parseInt(invoice.metadata.montoNeto || 0).toLocaleString()}</div>
-                <div><strong>IVA:</strong> ${parseInt(invoice.metadata.iva || 0).toLocaleString()}</div>
-                <div><strong>Total:</strong> <strong>${parseInt(invoice.metadata.montoTotal || 0).toLocaleString()}</strong></div>
-              </div>
-
-              <table className="items-table">
-                <thead>
-                  <tr>
-                    <th>Item Name</th>
-                    <th>Qty</th>
-                    <th>Unit Price</th>
-                    <th>Item Total</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {invoice.items.map((item, i) => (
-                    <tr key={i}>
-                      <td>{item.NmbItem || '—'}</td>
-                      <td>{item.QtyItem || '—'}</td>
-                      <td>${parseInt(item.PrcItem || 0).toLocaleString()}</td>
-                      <td>${parseInt(item.MontoItem || 0).toLocaleString()}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+          {/* Invoice Metadata Section */}
+          <div className="sidebar-section">
+            <div className="sidebar-section-header">
+              <h3>Document Info</h3>
             </div>
-          ))}
+            <div className="metadata-list" style={{ maxHeight: '400px' }}>
+              {Object.entries(current.metadata).map(([key, value]) => {
+                if (!value || value === '') return null;
+
+                // Format the label nicely
+                const label = key
+                  .replace(/([A-Z])/g, ' $1')
+                  .replace(/^./, str => str.toUpperCase())
+                  .trim();
+
+                // Format the value
+                let displayValue = value;
+                if (typeof value === 'string' && value.match(/^\d+$/)) {
+                  const num = parseInt(value);
+                  if (num > 100) {
+                    displayValue = num.toLocaleString();
+                  } else {
+                    displayValue = value;
+                  }
+                }
+
+                const isHighlight = key === 'montoTotal';
+
+                return (
+                  <div key={key} className={`metadata-row ${isHighlight ? 'highlight' : ''}`}>
+                    <span className="meta-label">{label}</span>
+                    <span className="meta-value">{displayValue}</span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
-      )}
+
+        {/* Right main - Table */}
+        <div className="main-content">
+          <div className="table-wrapper">
+            <table className="data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Item Code</th>
+                  <th>Item Name</th>
+                  <th>Qty</th>
+                  <th>Unit</th>
+                  <th>Unit Price</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                {current.items.map((item, i) => (
+                  <tr key={i}>
+                    <td>{i + 1}</td>
+                    <td>{item.CdgItem_VlrCodigo || '—'}</td>
+                    <td>{item.NmbItem || '—'}</td>
+                    <td>{item.QtyItem || '—'}</td>
+                    <td>{item.UnmdItem || '—'}</td>
+                    <td>${parseInt(item.PrcItem || 0).toLocaleString()}</td>
+                    <td>${parseInt(item.MontoItem || 0).toLocaleString()}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
@@ -141,37 +244,17 @@ function App() {
 function UploadZone({ onFilesSelected, disabled }) {
   const [isDragging, setIsDragging] = useState(false);
 
-  const handleDragOver = (e) => {
-    e.preventDefault();
-    setIsDragging(true);
-  };
-
-  const handleDragLeave = () => {
-    setIsDragging(false);
-  };
-
-  const handleDrop = (e) => {
-    e.preventDefault();
-    setIsDragging(false);
-    const files = Array.from(e.dataTransfer.files).filter(f => f.name.endsWith('.xml'));
-    if (files.length > 0) {
-      onFilesSelected(files);
-    }
-  };
-
-  const handleInputChange = (e) => {
-    const files = Array.from(e.target.files);
-    if (files.length > 0) {
-      onFilesSelected(files);
-    }
-  };
-
   return (
     <div
       className={`upload-zone ${isDragging ? 'dragging' : ''}`}
-      onDragOver={handleDragOver}
-      onDragLeave={handleDragLeave}
-      onDrop={handleDrop}
+      onDragOver={(e) => { e.preventDefault(); setIsDragging(true); }}
+      onDragLeave={() => setIsDragging(false)}
+      onDrop={(e) => {
+        e.preventDefault();
+        setIsDragging(false);
+        const files = Array.from(e.dataTransfer.files).filter(f => f.name.endsWith('.xml'));
+        if (files.length > 0) onFilesSelected(files);
+      }}
     >
       <p>📄 Drag and drop DTE XML files here</p>
       <p className="small">or</p>
@@ -180,7 +263,7 @@ function UploadZone({ onFilesSelected, disabled }) {
           type="file"
           multiple
           accept=".xml"
-          onChange={handleInputChange}
+          onChange={(e) => { if (e.target.files.length > 0) onFilesSelected(Array.from(e.target.files)); }}
           disabled={disabled}
           style={{ display: 'none' }}
         />
