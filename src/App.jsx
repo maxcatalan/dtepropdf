@@ -9,6 +9,8 @@ function App() {
   const [error, setError] = useState('');
   const [selectedIdx, setSelectedIdx] = useState(0);
   const [viewMode, setViewMode] = useState('detail'); // 'detail', 'table', or 'totals'
+  const [tableSort, setTableSort] = useState({ col: null, dir: 'asc' });
+  const [groupByVendor, setGroupByVendor] = useState(false);
 
   const handleFilesSelected = async (files) => {
     setError('');
@@ -262,52 +264,187 @@ function App() {
 
       {/* Table View - All Invoices */}
       {viewMode === 'table' && (() => {
-        // Collect all unique imptoReten keys across all invoices (preserving first-seen order)
         const taxKeys = [...new Set(
           invoices.flatMap(inv => Object.keys(inv.metadata).filter(k => k.startsWith('imptoReten')))
         )];
 
-        return (
-        <div className="table-view-wrapper">
-          <div className="table-wrapper">
-            <table className="data-table full-width">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Folio</th>
-                  <th>Fecha</th>
-                  <th>Proveedor</th>
-                  <th>RUT</th>
-                  <th>Neto</th>
-                  <th>IVA</th>
-                  {taxKeys.map(k => (
-                    <th key={k}>{k.replace('imptoReten ', '')}</th>
-                  ))}
-                  <th>Total</th>
-                  <th>Ítems</th>
-                </tr>
-              </thead>
-              <tbody>
-                {invoices.map((inv, idx) => (
-                  <tr key={idx} onClick={() => { setViewMode('detail'); setSelectedIdx(idx); }} style={{ cursor: 'pointer' }}>
-                    <td>{idx + 1}</td>
-                    <td>{inv.metadata.folio || '—'}</td>
-                    <td>{inv.metadata.fechaEmision || '—'}</td>
-                    <td>{(inv.metadata.razonSocialEmisor || '—').substring(0, 30)}</td>
-                    <td>{inv.metadata.rutEmisor || '—'}</td>
-                    <td>${parseInt(inv.metadata.montoNeto || 0).toLocaleString()}</td>
-                    <td>${parseInt(inv.metadata.iva || 0).toLocaleString()}</td>
-                    {taxKeys.map(k => (
-                      <td key={k}>{inv.metadata[k] ? '$' + parseInt(inv.metadata[k]).toLocaleString() : '—'}</td>
+        // Sort helper
+        const applySort = (rows) => {
+          if (!tableSort.col) return rows;
+          return [...rows].sort((a, b) => {
+            const av = a._sort[tableSort.col] ?? '';
+            const bv = b._sort[tableSort.col] ?? '';
+            const cmp = typeof av === 'number' ? av - bv : String(av).localeCompare(String(bv));
+            return tableSort.dir === 'asc' ? cmp : -cmp;
+          });
+        };
+
+        const setSort = (col) => {
+          setTableSort(prev =>
+            prev.col === col
+              ? { col, dir: prev.dir === 'asc' ? 'desc' : 'asc' }
+              : { col, dir: 'asc' }
+          );
+        };
+
+        const SortTh = ({ col, children, right }) => (
+          <th style={{ whiteSpace: 'nowrap', textAlign: right ? 'right' : 'left' }}>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '2px' }}>
+              {children}
+              <span style={{ display: 'inline-flex', flexDirection: 'column', lineHeight: 1 }}>
+                <button className="sort-btn" onClick={() => setSort(col)}
+                  style={{ opacity: tableSort.col === col && tableSort.dir === 'asc' ? 1 : 0.3 }}>▲</button>
+                <button className="sort-btn" onClick={() => { setSort(col); setTableSort(p => ({ ...p, dir: 'desc' })); }}
+                  style={{ opacity: tableSort.col === col && tableSort.dir === 'desc' ? 1 : 0.3 }}>▼</button>
+              </span>
+            </span>
+          </th>
+        );
+
+        let rows;
+
+        if (groupByVendor) {
+          const grouped = {};
+          for (const inv of invoices) {
+            const rut = inv.metadata.rutEmisor || '?';
+            if (!grouped[rut]) {
+              grouped[rut] = {
+                rut,
+                proveedor: inv.metadata.razonSocialEmisor || '—',
+                neto: 0, iva: 0, total: 0, facturas: 0, items: 0,
+                taxes: {},
+              };
+            }
+            const g = grouped[rut];
+            g.neto     += parseInt(inv.metadata.montoNeto  || 0);
+            g.iva      += parseInt(inv.metadata.iva        || 0);
+            g.total    += parseInt(inv.metadata.montoTotal || 0);
+            g.facturas += 1;
+            g.items    += inv.items.length;
+            for (const k of taxKeys) {
+              g.taxes[k] = (g.taxes[k] || 0) + parseInt(inv.metadata[k] || 0);
+            }
+          }
+          rows = Object.values(grouped).map(g => ({
+            ...g,
+            _sort: { proveedor: g.proveedor, rut: g.rut, neto: g.neto, iva: g.iva, total: g.total, facturas: g.facturas, items: g.items,
+              ...Object.fromEntries(taxKeys.map(k => [k, g.taxes[k] || 0])) },
+          }));
+          rows = applySort(rows);
+
+          return (
+            <div className="table-view-wrapper">
+              <div className="table-toolbar">
+                <button className={`btn-secondary ${groupByVendor ? 'active' : ''}`} onClick={() => setGroupByVendor(false)}>
+                  Por factura
+                </button>
+                <button className={`btn-secondary ${!groupByVendor ? '' : 'active'}`} onClick={() => setGroupByVendor(false)}>
+                  Por proveedor
+                </button>
+              </div>
+              <div className="table-wrapper">
+                <table className="data-table full-width">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <SortTh col="proveedor">Proveedor</SortTh>
+                      <SortTh col="rut">RUT</SortTh>
+                      <SortTh col="neto" right>Neto</SortTh>
+                      <SortTh col="iva" right>IVA</SortTh>
+                      {taxKeys.map(k => <SortTh key={k} col={k} right>{k.replace('imptoReten ', '')}</SortTh>)}
+                      <SortTh col="total" right>Total</SortTh>
+                      <SortTh col="facturas" right>Facturas</SortTh>
+                      <SortTh col="items" right>Ítems</SortTh>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {rows.map((g, i) => (
+                      <tr key={g.rut}>
+                        <td>{i + 1}</td>
+                        <td>{g.proveedor.substring(0, 35)}</td>
+                        <td>{g.rut}</td>
+                        <td style={{ textAlign: 'right' }}>${g.neto.toLocaleString()}</td>
+                        <td style={{ textAlign: 'right' }}>${g.iva.toLocaleString()}</td>
+                        {taxKeys.map(k => (
+                          <td key={k} style={{ textAlign: 'right' }}>{g.taxes[k] ? '$' + g.taxes[k].toLocaleString() : '—'}</td>
+                        ))}
+                        <td style={{ textAlign: 'right', fontWeight: 600 }}>${g.total.toLocaleString()}</td>
+                        <td style={{ textAlign: 'right' }}>{g.facturas}</td>
+                        <td style={{ textAlign: 'right' }}>{g.items}</td>
+                      </tr>
                     ))}
-                    <td style={{ fontWeight: 600 }}>${parseInt(inv.metadata.montoTotal || 0).toLocaleString()}</td>
-                    <td>{inv.items.length}</td>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          );
+        }
+
+        // Per-invoice rows
+        rows = invoices.map((inv, idx) => ({
+          idx,
+          _sort: {
+            folio:     inv.metadata.folio || '',
+            fecha:     inv.metadata.fechaEmision || '',
+            proveedor: inv.metadata.razonSocialEmisor || '',
+            rut:       inv.metadata.rutEmisor || '',
+            neto:      parseInt(inv.metadata.montoNeto  || 0),
+            iva:       parseInt(inv.metadata.iva        || 0),
+            total:     parseInt(inv.metadata.montoTotal || 0),
+            items:     inv.items.length,
+            ...Object.fromEntries(taxKeys.map(k => [k, parseInt(inv.metadata[k] || 0)])),
+          },
+          inv,
+        }));
+        rows = applySort(rows);
+
+        return (
+          <div className="table-view-wrapper">
+            <div className="table-toolbar">
+              <button className={`btn-secondary ${!groupByVendor ? 'active' : ''}`} onClick={() => setGroupByVendor(false)}>
+                Por factura
+              </button>
+              <button className={`btn-secondary ${groupByVendor ? 'active' : ''}`} onClick={() => setGroupByVendor(true)}>
+                Por proveedor
+              </button>
+            </div>
+            <div className="table-wrapper">
+              <table className="data-table full-width">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <SortTh col="folio">Folio</SortTh>
+                    <SortTh col="fecha">Fecha</SortTh>
+                    <SortTh col="proveedor">Proveedor</SortTh>
+                    <SortTh col="rut">RUT</SortTh>
+                    <SortTh col="neto" right>Neto</SortTh>
+                    <SortTh col="iva" right>IVA</SortTh>
+                    {taxKeys.map(k => <SortTh key={k} col={k} right>{k.replace('imptoReten ', '')}</SortTh>)}
+                    <SortTh col="total" right>Total</SortTh>
+                    <SortTh col="items" right>Ítems</SortTh>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {rows.map(({ idx, inv }, i) => (
+                    <tr key={idx} onClick={() => { setViewMode('detail'); setSelectedIdx(idx); }} style={{ cursor: 'pointer' }}>
+                      <td>{i + 1}</td>
+                      <td>{inv.metadata.folio || '—'}</td>
+                      <td>{inv.metadata.fechaEmision || '—'}</td>
+                      <td>{(inv.metadata.razonSocialEmisor || '—').substring(0, 30)}</td>
+                      <td>{inv.metadata.rutEmisor || '—'}</td>
+                      <td style={{ textAlign: 'right' }}>${parseInt(inv.metadata.montoNeto || 0).toLocaleString()}</td>
+                      <td style={{ textAlign: 'right' }}>${parseInt(inv.metadata.iva || 0).toLocaleString()}</td>
+                      {taxKeys.map(k => (
+                        <td key={k} style={{ textAlign: 'right' }}>{inv.metadata[k] ? '$' + parseInt(inv.metadata[k]).toLocaleString() : '—'}</td>
+                      ))}
+                      <td style={{ textAlign: 'right', fontWeight: 600 }}>${parseInt(inv.metadata.montoTotal || 0).toLocaleString()}</td>
+                      <td style={{ textAlign: 'right' }}>{inv.items.length}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
-        </div>
         );
       })()}
     </div>

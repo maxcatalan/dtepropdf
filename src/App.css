@@ -296,6 +296,35 @@ h1 {
   font-weight: 500;
 }
 
+/* Table toolbar */
+.table-toolbar {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.5rem 0;
+  margin-bottom: 0.4rem;
+}
+
+.table-toolbar .btn-secondary.active {
+  background: var(--accent);
+  color: white;
+}
+
+/* Sort buttons */
+.sort-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 0.55rem;
+  line-height: 1;
+  display: block;
+  color: inherit;
+}
+
+.sort-btn:hover {
+  color: var(--accent);
+}
+
 /* Aggregates Panel */
 .aggregates-panel {
   border: 1px solid var(--border);
