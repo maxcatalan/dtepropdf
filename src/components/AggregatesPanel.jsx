@@ -1,19 +1,8 @@
-export default function AggregatesPanel({ aggregates, showAggregates, onToggle }) {
-  if (!showAggregates) {
-    return null;
-  }
-
+export default function AggregatesPanel({ aggregates }) {
   return (
     <div className="aggregates-panel">
       <div className="aggregates-header">
-        <h3>Totals</h3>
-        <button
-          className="toggle-btn"
-          onClick={onToggle}
-          title="Hide"
-        >
-          −
-        </button>
+        <h3>Totals across {Object.keys(aggregates).length > 0 ? 'all invoices' : '—'}</h3>
       </div>
       <div className="aggregates-grid">
         {Object.entries(aggregates).map(([key, value]) => {

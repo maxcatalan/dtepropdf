@@ -8,8 +8,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [selectedIdx, setSelectedIdx] = useState(0);
-  const [showAggregates, setShowAggregates] = useState(true);
-  const [viewMode, setViewMode] = useState('detail'); // 'detail' or 'table'
+  const [viewMode, setViewMode] = useState('detail'); // 'detail', 'table', or 'totals'
 
   const handleFilesSelected = async (files) => {
     setError('');
@@ -143,18 +142,22 @@ function App() {
         >
           Table
         </button>
+        <button
+          className={`view-tab ${viewMode === 'totals' ? 'active' : ''}`}
+          onClick={() => setViewMode('totals')}
+        >
+          Totals
+        </button>
         <div className="tab-actions">
           <button onClick={downloadCSV} className="btn-primary">⬇ CSV</button>
           <button onClick={() => setInvoices([])} className="btn-secondary">Reset</button>
         </div>
       </div>
 
-      {/* Aggregates Panel - Shows across both views */}
-      <AggregatesPanel
-        aggregates={calculateAggregates()}
-        showAggregates={showAggregates}
-        onToggle={() => setShowAggregates(!showAggregates)}
-      />
+      {/* Totals View */}
+      {viewMode === 'totals' && (
+        <AggregatesPanel aggregates={calculateAggregates()} />
+      )}
 
       {/* Batch Progress Bar (Detail View Only) */}
       {viewMode === 'detail' && (
