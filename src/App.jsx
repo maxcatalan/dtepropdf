@@ -378,7 +378,7 @@ function App() {
   const [selectedIdx, setSelectedIdx] = useState(0);
   const [viewMode, setViewMode] = useState('detail'); // 'detail', 'table', 'pdf', or 'totals'
   const [tableSort, setTableSort] = useState({ col: null, dir: 'asc' });
-  const [tableMode, setTableMode] = useState('invoice');
+  const [tableMode, setTableMode] = useState('totales');
   const [hiddenProductCols, setHiddenProductCols] = useState(new Set());
   const [productPickerOpen, setProductPickerOpen] = useState(false);
   const [hiddenLineCols, setHiddenLineCols] = useState(() => new Set(DEFAULT_HIDDEN_LINE_COLS));
@@ -619,12 +619,6 @@ function App() {
             >
               PDF
             </button>
-            <button
-              className={`view-tab ${viewMode === 'totals' ? 'active' : ''}`}
-              onClick={() => setViewMode('totals')}
-            >
-              Totales
-            </button>
             <div className="tab-actions">
               <div className="download-wrapper">
                 <button
@@ -689,11 +683,6 @@ function App() {
               <button onClick={resetWorkspace} className="btn-secondary">Reiniciar</button>
             </div>
           </div>
-
-          {/* Totals View */}
-          {viewMode === 'totals' && (
-            <AggregatesPanel aggregates={calculateAggregates()} />
-          )}
 
           {/* Batch Progress Bar (Detail/PDF View Only) */}
           {(viewMode === 'detail' || viewMode === 'pdf') && (
@@ -871,17 +860,20 @@ function App() {
 
         const renderToolbar = () => (
           <div className="table-toolbar">
-            <button className={`btn-secondary ${tableMode === 'invoice' ? 'active' : ''}`} onClick={() => setTableMode('invoice')}>
-              Por factura
+            <button className={`btn-secondary ${tableMode === 'totales' ? 'active' : ''}`} onClick={() => setTableMode('totales')}>
+              Totales
             </button>
             <button className={`btn-secondary ${tableMode === 'vendor' ? 'active' : ''}`} onClick={() => setTableMode('vendor')}>
-              Por proveedor
+              Por Proveedor
+            </button>
+            <button className={`btn-secondary ${tableMode === 'invoice' ? 'active' : ''}`} onClick={() => setTableMode('invoice')}>
+              Por Factura
             </button>
             <button className={`btn-secondary ${tableMode === 'product' ? 'active' : ''}`} onClick={() => setTableMode('product')}>
-              Por producto
+              Por Producto
             </button>
             <button className={`btn-secondary ${tableMode === 'line' ? 'active' : ''}`} onClick={() => setTableMode('line')}>
-              Por línea
+              Por Línea
             </button>
           </div>
         );
@@ -915,6 +907,17 @@ function App() {
             </div>
           );
         };
+
+        if (tableMode === 'totales') {
+          return (
+            <div className="table-view-wrapper">
+              <div className="table-toolbar-row">
+                {renderToolbar()}
+              </div>
+              <AggregatesPanel aggregates={calculateAggregates()} />
+            </div>
+          );
+        }
 
         if (tableMode === 'vendor') {
           const rows = applySort(buildVendorRows(invoices, taxKeys));
