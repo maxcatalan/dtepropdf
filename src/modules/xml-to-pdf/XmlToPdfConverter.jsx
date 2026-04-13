@@ -455,6 +455,10 @@ export default function XmlToPdfConverter({
               </div>
             </div>
 
+            <p className="print-size-note">
+              ⚠ Este formato está optimizado para <strong>papel A4</strong>. Al imprimir, verifica que el tamaño de papel sea A4 en el diálogo de impresión — usar Carta u Oficio puede cortar el contenido o generar páginas adicionales.
+            </p>
+
             <div className="preview-shell">
               <div className="preview-scroll">
                 <InvoicePreview invoice={currentInvoice} pages={currentInvoiceData?.pages || []} mode="screen" />
