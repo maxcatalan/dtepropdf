@@ -461,7 +461,13 @@ export default function XmlToPdfConverter({
 
             <div className="preview-shell">
               <div className="preview-scroll">
-                <InvoicePreview invoice={currentInvoice} pages={currentInvoiceData?.pages || []} mode="screen" />
+                {currentInvoiceData?.measured ? (
+                  <InvoicePreview invoice={currentInvoice} pages={currentInvoiceData?.pages || []} mode="screen" />
+                ) : (
+                  <div className="preview-measuring">
+                    <span>Calculando paginación...</span>
+                  </div>
+                )}
               </div>
             </div>
           </main>

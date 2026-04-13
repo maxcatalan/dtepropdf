@@ -371,6 +371,15 @@
   color: var(--ink);
 }
 
+.preview-measuring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
 .print-size-note {
   padding: 0.5rem 0.85rem;
   border: 1px solid #fde68a;
@@ -397,8 +406,11 @@
 }
 
 .invoice-sheet--screen {
-  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.15) !important;
+  height: 1123px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.2) !important;
   border-radius: 0 !important;
+  flex-shrink: 0;
 }
 
 .preview-scroll {
@@ -408,7 +420,8 @@
 .invoice-document {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 2rem;
+  align-items: center;
 }
 
 /* Invoice sheet — keep white/black (this is a print document) */
