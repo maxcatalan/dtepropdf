@@ -557,7 +557,7 @@ function App() {
       <div className="app-shell">
         <header className="app-shell__header">
           <div className="app-shell__brand">
-            <span className="app-shell__eyebrow">DTE Workspace</span>
+            <span className="app-shell__eyebrow">Área de trabajo DTE</span>
             <h1>Herramientas XML del SII</h1>
           </div>
         </header>
@@ -605,7 +605,7 @@ function App() {
               className={`view-tab ${viewMode === 'detail' ? 'active' : ''}`}
               onClick={() => setViewMode('detail')}
             >
-              Detail
+              Detalle
             </button>
             <button
               className={`view-tab ${viewMode === 'table' ? 'active' : ''}`}
@@ -623,7 +623,7 @@ function App() {
               className={`view-tab ${viewMode === 'totals' ? 'active' : ''}`}
               onClick={() => setViewMode('totals')}
             >
-              Totals
+              Totales
             </button>
             <div className="tab-actions">
               <div className="download-wrapper">
@@ -686,7 +686,7 @@ function App() {
                   </>
                 )}
               </div>
-              <button onClick={resetWorkspace} className="btn-secondary">Reset</button>
+              <button onClick={resetWorkspace} className="btn-secondary">Reiniciar</button>
             </div>
           </div>
 
@@ -698,7 +698,7 @@ function App() {
           {/* Batch Progress Bar (Detail/PDF View Only) */}
           {(viewMode === 'detail' || viewMode === 'pdf') && (
             <div className="batch-progress-bar">
-              <span className="batch-progress-label">Invoice {selectedIdx + 1} of {invoices.length}</span>
+              <span className="batch-progress-label">Factura {selectedIdx + 1} de {invoices.length}</span>
               <div className="batch-nav-arrows">
                 <button
                   className="batch-arrow-btn"

@@ -532,6 +532,32 @@ h1 {
   }
 }
 
+@media print {
+  .app-shell__header,
+  .view-mode-tabs,
+  .batch-progress-bar,
+  .module-title-row,
+  .upload-zone,
+  .table-toolbar,
+  .table-toolbar-row,
+  .aggregates-panel,
+  .content-layout .sidebar,
+  .table-summary,
+  .tab-actions {
+    display: none !important;
+  }
+
+  .app-shell {
+    padding: 0;
+    gap: 0;
+  }
+
+  .page-container {
+    padding: 0;
+    gap: 0;
+  }
+}
+
 /* ── Collapse controls ─────────────────────────────────── */
 .collapse-controls {
   display: flex;
