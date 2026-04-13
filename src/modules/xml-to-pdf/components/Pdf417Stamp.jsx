@@ -21,8 +21,8 @@ export default function Pdf417Stamp({ text }) {
           bcid: 'pdf417',
           text,
           scale: 2,
-          height: 12,
-          columns: 7,
+          height: 5,
+          columns: 14,
           padding: 0,
           backgroundcolor: 'FFFFFF',
         });

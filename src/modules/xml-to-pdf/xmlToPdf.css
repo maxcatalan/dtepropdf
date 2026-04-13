@@ -596,8 +596,10 @@
 }
 
 .stamp-canvas {
+  display: block;
   width: 100%;
-  max-width: 320px;
+  max-width: 280px;
+  height: auto;
   border: 0;
 }
 
