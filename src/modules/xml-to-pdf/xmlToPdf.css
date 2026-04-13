@@ -372,7 +372,16 @@
 }
 
 .preview-shell {
-  padding: 1.25rem;
+  padding: 2rem 1.5rem;
+  background: #d1d5db !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.invoice-sheet--screen {
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.15) !important;
+  border-radius: 0 !important;
 }
 
 .preview-scroll {
@@ -749,7 +758,7 @@
   font-variant-numeric: tabular-nums;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .landing,
   .workspace {
     grid-template-columns: 1fr;
@@ -764,7 +773,7 @@
   }
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   .xml2pdf-app {
     padding: 1rem;
   }
