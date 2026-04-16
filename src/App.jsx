@@ -3,6 +3,10 @@ import { parseSIISetDTE } from './services/dteParser';
 import AggregatesPanel from './components/AggregatesPanel';
 import { parseDteFiles } from './modules/xml-to-pdf/services/parseDteXml';
 import XmlToPdfConverter from './modules/xml-to-pdf';
+import OcrModule from './modules/ocr/OcrModule';
+import CustomOcrModule from './modules/ocr/CustomOcrModule';
+import AuthPage from './pages/AuthPage';
+import { useAuth } from './context/AuthContext';
 import './App.css';
 
 // Known SII Detalle fields in preferred display order
@@ -371,6 +375,8 @@ const DOWNLOAD_VIEWS = [
 // ────────────────────────────────────────────────────────────────────────────
 
 function App() {
+  const { user, loading: authLoading, credits, signOut } = useAuth();
+  const [activeModule, setActiveModule] = useState('xml'); // 'xml' | 'ocr' | 'custom'
   const [invoices, setInvoices] = useState([]);
   const [pdfInvoices, setPdfInvoices] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -552,6 +558,99 @@ function App() {
     }
   };
 
+  const moduleNav = (
+    <nav className="module-nav">
+      <button
+        className={`module-nav-btn ${activeModule === 'xml' ? 'active' : ''}`}
+        onClick={() => setActiveModule('xml')}
+      >
+        XML DTE
+      </button>
+      <button
+        className={`module-nav-btn ${activeModule === 'ocr' ? 'active' : ''}`}
+        onClick={() => setActiveModule('ocr')}
+      >
+        OCR Facturas
+      </button>
+      <button
+        className={`module-nav-btn ${activeModule === 'custom' ? 'active' : ''}`}
+        onClick={() => setActiveModule('custom')}
+      >
+        OCR Personalizado
+      </button>
+    </nav>
+  );
+
+  // Auth gate
+  if (authLoading) return (
+    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg)' }}>
+      <div className="ocr-spinner" style={{ width: 36, height: 36 }} />
+    </div>
+  );
+  if (!user) return <AuthPage />;
+
+  const userBar = (
+    <div className="app-user-bar">
+      <span className="app-user-bar__credits" title="Créditos disponibles">
+        {credits.ocr} OCR · {credits.xml} XML
+      </span>
+      <span className="app-user-bar__email">{user.email}</span>
+      <button className="app-user-bar__signout" onClick={signOut}>Salir</button>
+    </div>
+  );
+
+  if (activeModule === 'custom') {
+    return (
+      <div className="app-shell">
+        <header className="app-shell__header">
+          <div className="app-shell__brand">
+            <span className="app-shell__eyebrow">Área de trabajo DTE</span>
+            <h1>Herramientas XML del SII</h1>
+          </div>
+          {moduleNav}
+          {userBar}
+        </header>
+        <main className="app-shell__content">
+          <div className="page-container">
+            <div className="module-title-row">
+              <div>
+                <h1>OCR Personalizado</h1>
+                <p className="module-subtitle">Define los campos que quieres extraer y sube cualquier documento — facturas, guías, contratos, etc.</p>
+              </div>
+            </div>
+            <CustomOcrModule />
+          </div>
+        </main>
+      </div>
+    );
+  }
+
+  if (activeModule === 'ocr') {
+    return (
+      <div className="app-shell">
+        <header className="app-shell__header">
+          <div className="app-shell__brand">
+            <span className="app-shell__eyebrow">Área de trabajo DTE</span>
+            <h1>Herramientas XML del SII</h1>
+          </div>
+          {moduleNav}
+          {userBar}
+        </header>
+        <main className="app-shell__content">
+          <div className="page-container">
+            <div className="module-title-row">
+              <div>
+                <h1>OCR — Extracción de tabla</h1>
+                <p className="module-subtitle">Sube una imagen o PDF de cualquier factura y extrae la tabla principal para descargar en Excel o CSV.</p>
+              </div>
+            </div>
+            <OcrModule />
+          </div>
+        </main>
+      </div>
+    );
+  }
+
   if (invoices.length === 0) {
     return (
       <div className="app-shell">
@@ -560,6 +659,8 @@ function App() {
             <span className="app-shell__eyebrow">Área de trabajo DTE</span>
             <h1>Herramientas XML del SII</h1>
           </div>
+          {moduleNav}
+          {userBar}
         </header>
 
         <main className="app-shell__content">
@@ -592,9 +693,10 @@ function App() {
     <div className="app-shell">
       <header className="app-shell__header">
         <div className="app-shell__brand">
-          <span className="app-shell__eyebrow">DTE Workspace</span>
+          <span className="app-shell__eyebrow">Área de trabajo DTE</span>
           <h1>Herramientas XML del SII</h1>
         </div>
+        {moduleNav}
       </header>
 
       <main className="app-shell__content">

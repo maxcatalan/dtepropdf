@@ -59,6 +59,53 @@ h1 {
   font-weight: 600;
 }
 
+/* Module Nav */
+.module-nav {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+  margin-left: auto;
+}
+
+.module-nav-btn {
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: transparent;
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 120ms;
+}
+
+.module-nav-btn:hover {
+  background: var(--accent-bg);
+  color: var(--ink);
+  border-color: var(--accent-border);
+}
+
+.module-nav-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+  font-weight: 600;
+}
+
+/* Module title row */
+.module-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.module-subtitle {
+  margin: 0.2rem 0 0;
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+}
+
 /* Batch Progress Bar */
 .batch-progress-bar {
   display: flex;
@@ -758,4 +805,48 @@ h1 {
   width: 100%;
   padding: 0.45rem 0;
   font-size: 0.82rem;
+}
+
+/* ── User bar ─────────────────────────────────────────────────────────────── */
+.app-user-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: auto;
+}
+
+.app-user-bar__credits {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--brand-strong);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: 4px;
+  padding: 0.2rem 0.55rem;
+  white-space: nowrap;
+}
+
+.app-user-bar__email {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.app-user-bar__signout {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.25rem 0.6rem;
+  font: inherit;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: border-color 120ms, color 120ms;
+}
+.app-user-bar__signout:hover {
+  border-color: var(--ink-soft);
+  color: var(--ink);
 }
