@@ -33,8 +33,25 @@ function fmtDate(iso) {
   return new Date(iso).toLocaleDateString('es-CL', { day: '2-digit', month: 'short', year: 'numeric' });
 }
 
+async function fetchApiMode(session) {
+  const r = await fetch('/api/user-settings', {
+    headers: { Authorization: `Bearer ${session?.access_token ?? ''}` },
+  });
+  if (!r.ok) return API_MODE.AUTO;
+  const d = await r.json();
+  return d.api_mode ?? API_MODE.AUTO;
+}
+
+async function saveApiMode(session, mode) {
+  await fetch('/api/user-settings', {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${session?.access_token ?? ''}` },
+    body: JSON.stringify({ api_mode: mode }),
+  });
+}
+
 export default function OcrApiPanel({ savedConfigs, session, userId, onBack }) {
-  const [apiMode, setApiMode]             = useState(API_MODE.QUICK);
+  const [apiMode, setApiMode]             = useState(API_MODE.AUTO);
   const [selectedConfig, setSelectedConfig] = useState(null);
   const [keys, setKeys]                   = useState([]);
   const [loadingKeys, setLoadingKeys]     = useState(true);
@@ -55,6 +72,17 @@ export default function OcrApiPanel({ savedConfigs, session, userId, onBack }) {
       .catch(e => setKeyError(e.message))
       .finally(() => setLoadingKeys(false));
   }, [userId]);
+
+  useEffect(() => {
+    if (!session) return;
+    fetchApiMode(session).then(setApiMode);
+  }, [session]);
+
+  const handleModeChange = (m) => {
+    setApiMode(m);
+    setSelectedConfig(null);
+    saveApiMode(session, m);
+  };
 
   const handleCreateKey = async () => {
     if (!newKeyName.trim()) return;
@@ -184,7 +212,7 @@ export default function OcrApiPanel({ savedConfigs, session, userId, onBack }) {
                 key={m}
                 type="button"
                 disabled={disabled}
-                onClick={() => { setApiMode(m); setSelectedConfig(null); }}
+                onClick={() => handleModeChange(m)}
                 style={{
                   display: 'flex', flexDirection: 'column', alignItems: 'flex-start',
                   gap: '0.2rem', padding: '0.7rem 0.9rem', textAlign: 'left',

@@ -72,12 +72,10 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'A file is required. Send multipart/form-data with a "file" field, or JSON with "fileData" + "mimeType".' });
   }
 
-  // mode: 'quick' | 'auto' | 'manual' (default: 'auto' when configs exist, else 'quick')
-  const mode = (
-    contentType.includes('multipart/form-data')
-      ? parsed?.fields?.mode
-      : req.body?.mode
-  ) ?? 'auto';
+  // mode: 'quick' | 'auto' | 'manual' — request param overrides saved preference
+  const requestMode = contentType.includes('multipart/form-data')
+    ? parsed?.fields?.mode
+    : req.body?.mode;
 
   // ── File size check ───────────────────────────────────────────────────────
   const MAX_FILE_BYTES = 10 * 1024 * 1024; // 10 MB
@@ -96,6 +94,17 @@ export default async function handler(req, res) {
   });
   if (creditError) return res.status(500).json({ error: 'Error checking credits.' });
   if (!consumed)   return res.status(402).json({ error: 'No OCR credits available.' });
+
+  // ── Resolve effective mode (request param > saved preference > 'auto') ────
+  let mode = requestMode;
+  if (!mode) {
+    const { data: credits } = await supabase
+      .from('user_credits')
+      .select('api_mode')
+      .eq('user_id', auth.userId)
+      .single();
+    mode = credits?.api_mode ?? 'auto';
+  }
 
   try {
     let config         = null;
