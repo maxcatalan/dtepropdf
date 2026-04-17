@@ -178,15 +178,19 @@ export default async function handler(req, res) {
 
 // ── Trigger matching (pure, no Gemini call) ───────────────────────────────────
 
+function normalizeKey(s) {
+  return (s ?? '').toLowerCase().replace(/[:\s]+$/, '').trim();
+}
+
 function matchTriggers(pairs, configs) {
   const extracted = {};
   for (const { campo, valor } of (pairs ?? [])) {
-    if (campo) extracted[campo.toLowerCase()] = (valor ?? '').toLowerCase();
+    if (campo) extracted[normalizeKey(campo)] = (valor ?? '').toLowerCase();
   }
 
   for (const config of configs) {
     const allMatch = config.triggers.every(({ field_name, field_value }) => {
-      const val = extracted[field_name?.toLowerCase()] ?? '';
+      const val = extracted[normalizeKey(field_name)] ?? '';
       return val.includes((field_value ?? '').toLowerCase());
     });
     if (allMatch) return config;
