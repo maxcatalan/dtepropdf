@@ -115,10 +115,10 @@ export default async function handler(req, res) {
 
       const withTriggers = (configs ?? []).filter(c => c.triggers?.length > 0);
 
-      if (withTriggers.length > 0) {
-        // Single generic extraction — used for trigger matching AND kept as fallback result
-        genericResult = await callGemini(fileData, mimeType, buildGenericPrompt(true));
-        config = matchTriggers(genericResult.campos ?? [], withTriggers);
+      // Single call: extract fields + let Gemini match config semantically
+      genericResult = await callGemini(fileData, mimeType, buildGenericPrompt(true, withTriggers));
+      if (genericResult.matched_config_id) {
+        config = withTriggers.find(c => c.id === genericResult.matched_config_id) ?? null;
       }
     }
 
@@ -176,25 +176,3 @@ export default async function handler(req, res) {
   }
 }
 
-// ── Trigger matching (pure, no Gemini call) ───────────────────────────────────
-
-function normalizeKey(s) {
-  return (s ?? '').toLowerCase().replace(/[:\s]+$/, '').trim();
-}
-
-function matchTriggers(pairs, configs) {
-  const extracted = {};
-  for (const { campo, valor } of (pairs ?? [])) {
-    if (campo) extracted[normalizeKey(campo)] = (valor ?? '').toLowerCase();
-  }
-
-  for (const config of configs) {
-    const allMatch = config.triggers.every(({ field_name, field_value }) => {
-      const val = extracted[normalizeKey(field_name)] ?? '';
-      return val.includes((field_value ?? '').toLowerCase());
-    });
-    if (allMatch) return config;
-  }
-
-  return null;
-}

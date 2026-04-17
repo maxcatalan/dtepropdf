@@ -19,14 +19,19 @@ Rules:
 - Use "" for any field not found in the document.
 - Return ONLY the JSON object. No explanation, no markdown code fences, nothing else.`;
 
-export function buildGenericPrompt(includeTable) {
+export function buildGenericPrompt(includeTable, configs = []) {
   const tableInstruction = includeTable
     ? '\n- "tabla": the main line-items table as a JSON array of objects, one object per row, where keys are the column headers exactly as shown. Empty array if no table found.'
     : '';
+
+  const configInstruction = configs.length > 0
+    ? `\n- "matched_config_id": look at the "campos" you extracted and compare them against these templates. Return the "id" of the first template whose triggers all match (semantically — ignore punctuation/case differences), or null if none match.\n\nTemplates:\n${JSON.stringify(configs.map(c => ({ id: c.id, name: c.name, triggers: c.triggers })))}`
+    : '\n- "matched_config_id": null';
+
   return `Analyze this business document and extract ALL labeled fields visible outside the main line-items table (e.g. folio, date, vendor name, RUT/RFC/tax ID, client name, address, subtotal, IVA/VAT, total, payment terms, due date, currency, order number, and any other labeled field).
 
 Return a JSON object with:
-- "campos": array where each element has exactly two keys: "campo" (field label as shown in the document) and "valor" (field value as shown). Use "" for missing values.${tableInstruction}
+- "campos": array where each element has exactly two keys: "campo" (field label as shown in the document) and "valor" (field value as shown). Use "" for missing values.${tableInstruction}${configInstruction}
 
 Return ONLY the JSON object, nothing else.`;
 }
