@@ -72,6 +72,13 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'A file is required. Send multipart/form-data with a "file" field, or JSON with "fileData" + "mimeType".' });
   }
 
+  // mode: 'quick' | 'auto' | 'manual' (default: 'auto' when configs exist, else 'quick')
+  const mode = (
+    contentType.includes('multipart/form-data')
+      ? parsed?.fields?.mode
+      : req.body?.mode
+  ) ?? 'auto';
+
   // ── File size check ───────────────────────────────────────────────────────
   const MAX_FILE_BYTES = 10 * 1024 * 1024; // 10 MB
   const fileSizeBytes  = Math.round((fileData.length * 3) / 4); // base64 → bytes approx
@@ -95,7 +102,13 @@ export default async function handler(req, res) {
     let genericResult  = null; // reused if auto-detect already ran a generic extraction
 
     // ── Resolve config ────────────────────────────────────────────────────────
-    if (configId) {
+    if (mode === 'quick') {
+      // Skip all config resolution — generic extraction only
+    } else if (configId || mode === 'manual') {
+      if (!configId) {
+        await refundOcrCredit(supabase, auth.userId).catch(() => {});
+        return res.status(400).json({ error: 'mode=manual requires a configId.' });
+      }
       const { data, error } = await supabase
         .from('extraction_configs')
         .select('*')
@@ -108,6 +121,7 @@ export default async function handler(req, res) {
       }
       config = data;
     } else {
+      // mode === 'auto' (default)
       const { data: configs } = await supabase
         .from('extraction_configs')
         .select('*')
@@ -115,10 +129,12 @@ export default async function handler(req, res) {
 
       const withTriggers = (configs ?? []).filter(c => c.triggers?.length > 0);
 
-      // Single call: extract fields + let Gemini match config semantically
-      genericResult = await callGemini(fileData, mimeType, buildGenericPrompt(true, withTriggers));
-      if (genericResult.matched_config_id) {
-        config = withTriggers.find(c => c.id === genericResult.matched_config_id) ?? null;
+      if (withTriggers.length > 0) {
+        // Single call: extract fields + let Gemini match config semantically
+        genericResult = await callGemini(fileData, mimeType, buildGenericPrompt(true, withTriggers));
+        if (genericResult.matched_config_id) {
+          config = withTriggers.find(c => c.id === genericResult.matched_config_id) ?? null;
+        }
       }
     }
 

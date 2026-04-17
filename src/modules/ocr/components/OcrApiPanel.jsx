@@ -91,13 +91,17 @@ export default function OcrApiPanel({ savedConfigs, session, userId, onBack }) {
   };
 
   // ── Example request based on current selection ────────────────────────────
+  const modeField = apiMode === API_MODE.QUICK ? '\nmode=quick'
+    : apiMode === API_MODE.AUTO ? ''  // auto is default, no need to send
+    : '';
   const configIdLine = apiMode === API_MODE.MANUAL && selectedConfig
     ? `\nconfigId=${selectedConfig.id}`
-    : '';
+    : modeField;
 
+  const jsonModeField = apiMode === API_MODE.QUICK ? ',\n  "mode": "quick"' : '';
   const jsonExample = apiMode === API_MODE.MANUAL && selectedConfig
     ? `{\n  "fileData": "<base64>",\n  "mimeType": "image/jpeg",\n  "configId": "${selectedConfig.id}"\n}`
-    : `{\n  "fileData": "<base64>",\n  "mimeType": "image/jpeg"\n}`;
+    : `{\n  "fileData": "<base64>",\n  "mimeType": "image/jpeg"${jsonModeField}\n}`;
 
   const warningOk =
     (apiMode === API_MODE.QUICK) ||
