@@ -33,6 +33,12 @@ Luego abre la URL que muestre Vite en la terminal.
 - `npm run test:watch`
   Deja las pruebas escuchando cambios mientras se desarrolla.
 
+- `npm run sii:backup`
+  Abre el automatizador del portal del SII para descargar respaldos en lote.
+
+- `npm run sii:backup:install-browser`
+  Instala Chromium para que el automatizador funcione en Playwright.
+
 ## Que significan "scripts" y "tests"
 
 - `scripts`
@@ -46,6 +52,10 @@ Luego abre la URL que muestre Vite en la terminal.
 - La app procesa archivos localmente en el navegador.
 - La vista PDF ya navega de forma lazy entre documentos para no renderizar todo el lote a la vez.
 - La exportacion masiva de PDF muestra progreso durante la conversion.
+
+## Respaldo masivo SII
+
+Si necesitas bajar DTE desde la pantalla de respaldo del SII sin hacerlo de a 20 manualmente, revisa la guia [docs/sii-respaldo-masivo.md](/Users/maxicatalan/Claude-Developments/Testing/Test-3/docs/sii-respaldo-masivo.md).
 
 ## Publicacion basica
 
