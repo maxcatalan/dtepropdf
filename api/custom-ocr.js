@@ -9,7 +9,6 @@ export default async function handler(req, res) {
   if (!user) return res.status(401).json({ error: 'No autorizado' });
 
   const { fileData, mimeType, filename, fieldLabels = [], includeTable = true, genericMeta = false, postPrompt = '' } = req.body ?? {};
-  console.log('[custom-ocr] genericMeta:', genericMeta, '| includeTable:', includeTable, '| fieldLabels.length:', fieldLabels.length);
   if (!fileData || !mimeType) {
     return res.status(400).json({ error: 'Faltan datos del archivo' });
   }

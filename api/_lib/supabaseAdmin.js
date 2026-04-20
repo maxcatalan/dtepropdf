@@ -19,22 +19,10 @@ export async function getUser(req) {
 }
 
 export async function refundOcrCredit(supabase, userId) {
-  const { data, error } = await supabase
-    .from('user_credits')
-    .select('ocr_credits')
-    .eq('user_id', userId)
-    .single();
+  const { error } = await supabase.rpc('refund_credit', {
+    p_user_id: userId,
+    p_credit_type: 'ocr',
+  });
 
   if (error) throw error;
-
-  const nextCredits = (data?.ocr_credits ?? 0) + 1;
-  const { error: updateError } = await supabase
-    .from('user_credits')
-    .update({
-      ocr_credits: nextCredits,
-      updated_at: new Date().toISOString(),
-    })
-    .eq('user_id', userId);
-
-  if (updateError) throw updateError;
 }

@@ -31,25 +31,45 @@ vi.mock('../../api/_lib/supabaseAdmin.js', () => ({
 
 vi.mock('../../api/_lib/gemini.js', () => ({
   callGemini: vi.fn(),
-  callGeminiWithSchema: vi.fn(),
   buildCustomPrompt: vi.fn(() => 'mock-prompt'),
   buildGenericPrompt: vi.fn(() => 'mock-generic-prompt'),
-  parseMarkdownTable: vi.fn(() => ({ headers: ['Col A', 'Col B'], rows: [['1', '2']] })),
+  tableArrayToResult: vi.fn(() => ({ headers: ['Col A', 'Col B'], rows: [['1', '2']] })),
   applyPostPrompt: vi.fn(async (result) => result),
 }));
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
-function makeSupabaseMock({ consumed = true, configData = null, configError = null } = {}) {
-  const mock = {
-    rpc: vi.fn(async () => ({ data: consumed, error: null })),
-    from: vi.fn(() => mock),
-    select: vi.fn(() => mock),
-    eq: vi.fn(() => mock),
-    single: vi.fn(async () => ({ data: configData, error: configError })),
-    insert: vi.fn(() => mock),
+function makeQuery(result) {
+  return {
+    select: vi.fn(() => makeQuery(result)),
+    eq: vi.fn(() => makeQuery(result)),
+    single: vi.fn(async () => result),
+    insert: vi.fn(() => makeQuery(result)),
   };
-  return mock;
+}
+
+function makeSupabaseMock({
+  consumed = true,
+  userCredits = { data: { api_mode: 'auto' }, error: null },
+  extractionConfigs = { data: [], error: null },
+} = {}) {
+  const usageLogQuery = makeQuery({ data: null, error: null });
+  const configListQuery = {
+    select: vi.fn(() => ({
+      eq: vi.fn(async () => extractionConfigs),
+    })),
+  };
+  const creditsQuery = makeQuery(userCredits);
+
+  return {
+    rpc: vi.fn(async () => ({ data: consumed, error: null })),
+    from: vi.fn((table) => {
+      if (table === 'user_credits') return creditsQuery;
+      if (table === 'extraction_configs') return configListQuery;
+      if (table === 'usage_log') return usageLogQuery;
+      return makeQuery({ data: null, error: null });
+    }),
+  };
 }
 
 // ── Tests ─────────────────────────────────────────────────────────────────────
@@ -114,22 +134,17 @@ describe('/api/extract — generic extraction (no configId)', () => {
 
     const { makeSupabaseAdmin } = await import('../../api/_lib/supabaseAdmin.js');
     const supabase = makeSupabaseMock({ consumed: true });
-    // listConfigs returns empty (no auto-detect configs)
-    supabase.from.mockReturnValue({
-      ...supabase,
-      select: vi.fn(() => ({ eq: vi.fn(async () => ({ data: [], error: null })) })),
-    });
     makeSupabaseAdmin.mockReturnValue(supabase);
 
-    const { callGeminiWithSchema } = await import('../../api/_lib/gemini.js');
-    callGeminiWithSchema.mockResolvedValue([
-      { campo: 'folio',   valor: 'F-001' },
-      { campo: 'total',   valor: '$100'  },
-      { campo: 'tabla',   valor: '| A | B |\n|---|---|\n| 1 | 2 |' },
-    ]);
-
-    const { parseMarkdownTable } = await import('../../api/_lib/gemini.js');
-    parseMarkdownTable.mockReturnValue({ headers: ['A', 'B'], rows: [['1', '2']] });
+    const { callGemini, tableArrayToResult } = await import('../../api/_lib/gemini.js');
+    callGemini.mockResolvedValue({
+      campos: [
+        { campo: 'folio', valor: 'F-001' },
+        { campo: 'total', valor: '$100' },
+      ],
+      tabla: [{ A: '1', B: '2' }],
+    });
+    tableArrayToResult.mockReturnValue({ headers: ['A', 'B'], rows: [['1', '2']] });
 
     const { default: handler } = await import('../../api/extract.js');
     const res = makeRes();

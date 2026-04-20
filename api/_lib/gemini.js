@@ -25,8 +25,8 @@ export function buildGenericPrompt(includeTable, configs = []) {
     : '';
 
   const configInstruction = configs.length > 0
-    ? `\n- "matched_config_id": look at the "campos" you extracted and compare them against these templates. Return the "id" of the first template whose triggers all match (semantically — ignore punctuation/case differences), or null if none match.\n\nTemplates:\n${JSON.stringify(configs.map(c => ({ id: c.id, name: c.name, triggers: c.triggers })))}`
-    : '\n- "matched_config_id": null';
+    ? `\n- "matched_config_id": look directly at the document content and compare it against these templates. Return the exact "id" of the first template whose triggers all match (semantically — ignore punctuation, case, and formatting differences). Return an empty string if no template matches.\n\nTemplates:\n${JSON.stringify(configs.map(c => ({ id: c.id, name: c.name, triggers: c.triggers })))}`
+    : '\n- "matched_config_id": ""';
 
   return `Analyze this business document and extract ALL labeled fields visible outside the main line-items table (e.g. folio, date, vendor name, RUT/RFC/tax ID, client name, address, subtotal, IVA/VAT, total, payment terms, due date, currency, order number, and any other labeled field).
 
@@ -87,7 +87,10 @@ ${includeTable ? '- For "tabla": include ONLY the main line-items table as a JSO
 - Return ONLY the JSON object. No explanation, no markdown code fences, nothing else.`;
 }
 
-export async function callGemini(fileData, mimeType, prompt) {
+export async function callGemini(fileData, mimeType, prompt, schema = null) {
+  const generationConfig = { temperature: 0, responseMimeType: 'application/json' };
+  if (schema) generationConfig.responseSchema = schema;
+
   const res = await fetch(`${API_URL}?key=${encodeURIComponent(process.env.GEMINI_API_KEY)}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -98,7 +101,7 @@ export async function callGemini(fileData, mimeType, prompt) {
           { text: prompt },
         ],
       }],
-      generationConfig: { temperature: 0, responseMimeType: 'application/json' },
+      generationConfig,
     }),
   });
 

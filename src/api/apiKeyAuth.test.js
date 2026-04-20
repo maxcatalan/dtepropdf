@@ -3,7 +3,7 @@
  * Tests the hashing, prefix format, and request parsing
  * without hitting the database.
  */
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import { createHash } from 'crypto';
 
 // ── Helpers replicated from api/_lib/apiKeyAuth.js ───────────────────────────
@@ -15,7 +15,10 @@ function hashKey(raw) {
 
 function generateRawKey() {
   // Deterministic for tests: fixed prefix + known suffix
-  return 'sk_live_' + Buffer.from('test-key-abc123').toString('base64url');
+  return 'sk_live_' + btoa('test-key-abc123')
+    .replace(/\+/g, '-')
+    .replace(/\//g, '_')
+    .replace(/=+$/g, '');
 }
 
 // ── Tests ─────────────────────────────────────────────────────────────────────

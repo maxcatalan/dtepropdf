@@ -1,13 +1,14 @@
-import { useState } from 'react';
+import { Suspense, lazy, useState } from 'react';
 import { parseSIISetDTE } from './services/dteParser';
 import AggregatesPanel from './components/AggregatesPanel';
 import { parseDteFiles } from './modules/xml-to-pdf/services/parseDteXml';
-import XmlToPdfConverter from './modules/xml-to-pdf';
-import OcrModule from './modules/ocr/OcrModule';
-import CustomOcrModule from './modules/ocr/CustomOcrModule';
 import AuthPage from './pages/AuthPage';
 import { useAuth } from './context/AuthContext';
 import './App.css';
+
+const XmlToPdfConverter = lazy(() => import('./modules/xml-to-pdf'));
+const OcrModule = lazy(() => import('./modules/ocr/OcrModule'));
+const CustomOcrModule = lazy(() => import('./modules/ocr/CustomOcrModule'));
 
 // Known SII Detalle fields in preferred display order
 const ITEM_COLUMN_ORDER = [
@@ -618,7 +619,9 @@ function App() {
                 <p className="module-subtitle">Define los campos que quieres extraer y sube cualquier documento — facturas, guías, contratos, etc.</p>
               </div>
             </div>
-            <CustomOcrModule />
+            <Suspense fallback={<p className="loading">Cargando módulo…</p>}>
+              <CustomOcrModule />
+            </Suspense>
           </div>
         </main>
       </div>
@@ -644,7 +647,9 @@ function App() {
                 <p className="module-subtitle">Sube una imagen o PDF de cualquier factura y extrae la tabla principal para descargar en Excel o CSV.</p>
               </div>
             </div>
-            <OcrModule />
+            <Suspense fallback={<p className="loading">Cargando módulo…</p>}>
+              <OcrModule />
+            </Suspense>
           </div>
         </main>
       </div>
@@ -898,11 +903,13 @@ function App() {
 
           {/* PDF View */}
           {viewMode === 'pdf' && currentPdfInvoice && (
-            <XmlToPdfConverter
-              embedded
-              controlledInvoices={pdfInvoices}
-              controlledSelectedId={currentPdfInvoice.id}
-            />
+            <Suspense fallback={<p className="loading">Cargando módulo PDF…</p>}>
+              <XmlToPdfConverter
+                embedded
+                controlledInvoices={pdfInvoices}
+                controlledSelectedId={currentPdfInvoice.id}
+              />
+            </Suspense>
           )}
 
           {/* Table View - All Invoices */}

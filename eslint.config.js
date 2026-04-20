@@ -5,7 +5,7 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-  globalIgnores(['dist']),
+  globalIgnores(['dist', '.playwright/**', '.claude/**']),
   {
     files: ['**/*.{js,jsx}'],
     extends: [
@@ -27,7 +27,7 @@ export default defineConfig([
     },
   },
   {
-    files: ['api/**/*.js', 'server.js'],
+    files: ['api/**/*.js', 'server.js', 'src/**/*.test.js', 'vite.config.js'],
     languageOptions: {
       globals: {
         ...globals.node,

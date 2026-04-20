@@ -42,23 +42,22 @@ export default async function handler(req, res) {
   if (!auth) return res.status(401).json({ error: 'Invalid or inactive API key.' });
 
   // ── Parse body — multipart or JSON ───────────────────────────────────────
-  let fileData, mimeType, filename, configId;
+  let fileData, mimeType, filename, configId, parsedMultipart;
   const contentType = req.headers['content-type'] || '';
 
   if (contentType.includes('multipart/form-data')) {
-    let parsed;
     try {
-      parsed = await parseMultipart(req);
-    } catch (e) {
+      parsedMultipart = await parseMultipart(req);
+    } catch {
       return res.status(400).json({ error: 'Could not parse multipart body.' });
     }
-    if (!parsed.file) {
+    if (!parsedMultipart.file) {
       return res.status(400).json({ error: 'No file found in multipart request. Use field name "file".' });
     }
-    fileData = parsed.file.data.toString('base64');
-    mimeType  = parsed.file.mimeType;
-    filename  = parsed.file.filename || '';
-    configId  = parsed.fields.configId || undefined;
+    fileData = parsedMultipart.file.data.toString('base64');
+    mimeType  = parsedMultipart.file.mimeType;
+    filename  = parsedMultipart.file.filename || '';
+    configId  = parsedMultipart.fields.configId || undefined;
   } else {
     // JSON — body already parsed by server.js shim or Vercel (for non-multipart)
     const body = req.body ?? {};
@@ -74,7 +73,7 @@ export default async function handler(req, res) {
 
   // mode: 'quick' | 'auto' | 'manual' — request param overrides saved preference
   const requestMode = contentType.includes('multipart/form-data')
-    ? parsed?.fields?.mode
+    ? parsedMultipart?.fields?.mode
     : req.body?.mode;
 
   // ── File size check ───────────────────────────────────────────────────────
@@ -139,8 +138,27 @@ export default async function handler(req, res) {
       const withTriggers = (configs ?? []).filter(c => c.triggers?.length > 0);
 
       if (withTriggers.length > 0) {
+        const autoSchema = {
+          type: 'OBJECT',
+          properties: {
+            campos: {
+              type: 'ARRAY',
+              items: {
+                type: 'OBJECT',
+                properties: {
+                  campo: { type: 'STRING' },
+                  valor: { type: 'STRING' },
+                },
+                required: ['campo', 'valor'],
+              },
+            },
+            tabla: { type: 'ARRAY', items: { type: 'OBJECT' } },
+            matched_config_id: { type: 'STRING' },
+          },
+          required: ['campos', 'matched_config_id'],
+        };
         // Single call: extract fields + let Gemini match config semantically
-        genericResult = await callGemini(fileData, mimeType, buildGenericPrompt(true, withTriggers));
+        genericResult = await callGemini(fileData, mimeType, buildGenericPrompt(true, withTriggers), autoSchema);
         if (genericResult.matched_config_id) {
           config = withTriggers.find(c => c.id === genericResult.matched_config_id) ?? null;
         }
@@ -200,4 +218,3 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: err.message });
   }
 }
-
